@@ -1,0 +1,6530 @@
+[
+  {
+    "team": "Czech Republic",
+    "folder": "捷克队",
+    "players": [
+      {
+        "number": "1",
+        "name": "Matěj Kovář",
+        "title": "Matěj Kovář"
+      },
+      {
+        "number": "2",
+        "name": "David Zima",
+        "title": "David Zima"
+      },
+      {
+        "number": "3",
+        "name": "Tomáš Holeš",
+        "title": "Tomáš Holeš"
+      },
+      {
+        "number": "4",
+        "name": "Robin Hranáč",
+        "title": "Robin Hranáč"
+      },
+      {
+        "number": "5",
+        "name": "Vladimír Coufal",
+        "title": "Vladimír Coufal"
+      },
+      {
+        "number": "6",
+        "name": "Štěpán Chaloupek",
+        "title": "Štěpán Chaloupek"
+      },
+      {
+        "number": "7",
+        "name": "Ladislav Krejčí ( captain )",
+        "title": "Ladislav Krejčí (footballer, born 1999)"
+      },
+      {
+        "number": "8",
+        "name": "Vladimír Darida",
+        "title": "Vladimír Darida"
+      },
+      {
+        "number": "9",
+        "name": "Adam Hložek",
+        "title": "Adam Hložek"
+      },
+      {
+        "number": "10",
+        "name": "Patrik Schick",
+        "title": "Patrik Schick"
+      },
+      {
+        "number": "11",
+        "name": "Jan Kuchta",
+        "title": "Jan Kuchta"
+      },
+      {
+        "number": "12",
+        "name": "Lukáš Červ",
+        "title": "Lukáš Červ"
+      },
+      {
+        "number": "13",
+        "name": "Mojmír Chytil",
+        "title": "Mojmír Chytil"
+      },
+      {
+        "number": "14",
+        "name": "David Jurásek",
+        "title": "David Jurásek"
+      },
+      {
+        "number": "15",
+        "name": "Pavel Šulc",
+        "title": "Pavel Šulc"
+      },
+      {
+        "number": "16",
+        "name": "Jindřich Staněk",
+        "title": "Jindřich Staněk"
+      },
+      {
+        "number": "17",
+        "name": "Lukáš Provod",
+        "title": "Lukáš Provod"
+      },
+      {
+        "number": "18",
+        "name": "Michal Sadílek",
+        "title": "Michal Sadílek"
+      },
+      {
+        "number": "19",
+        "name": "Tomáš Chorý",
+        "title": "Tomáš Chorý"
+      },
+      {
+        "number": "20",
+        "name": "Jaroslav Zelený",
+        "title": "Jaroslav Zelený"
+      },
+      {
+        "number": "21",
+        "name": "David Douděra",
+        "title": "David Douděra"
+      },
+      {
+        "number": "22",
+        "name": "Tomáš Souček",
+        "title": "Tomáš Souček"
+      },
+      {
+        "number": "23",
+        "name": "Lukáš Horníček",
+        "title": "Lukáš Horníček"
+      },
+      {
+        "number": "24",
+        "name": "Alexandr Sojka",
+        "title": "Alexandr Sojka"
+      },
+      {
+        "number": "25",
+        "name": "Hugo Sochůrek",
+        "title": "Hugo Sochůrek"
+      },
+      {
+        "number": "26",
+        "name": "Denis Višinský",
+        "title": "Denis Višinský"
+      }
+    ]
+  },
+  {
+    "team": "Mexico",
+    "folder": "墨西哥队",
+    "players": [
+      {
+        "number": "1",
+        "name": "Raúl Rangel",
+        "title": "Raúl Rangel (footballer)"
+      },
+      {
+        "number": "2",
+        "name": "Jorge Sánchez",
+        "title": "Jorge Sánchez (footballer, born 1997)"
+      },
+      {
+        "number": "3",
+        "name": "César Montes",
+        "title": "César Montes"
+      },
+      {
+        "number": "4",
+        "name": "Edson Álvarez ( captain )",
+        "title": "Edson Álvarez"
+      },
+      {
+        "number": "5",
+        "name": "Johan Vásquez",
+        "title": "Johan Vásquez (footballer, born 1998)"
+      },
+      {
+        "number": "6",
+        "name": "Érik Lira",
+        "title": "Érik Lira"
+      },
+      {
+        "number": "7",
+        "name": "Luis Romo",
+        "title": "Luis Romo"
+      },
+      {
+        "number": "8",
+        "name": "Álvaro Fidalgo",
+        "title": "Álvaro Fidalgo"
+      },
+      {
+        "number": "9",
+        "name": "Raúl Jiménez",
+        "title": "Raúl Jiménez"
+      },
+      {
+        "number": "10",
+        "name": "Alexis Vega",
+        "title": "Alexis Vega (Mexican footballer)"
+      },
+      {
+        "number": "11",
+        "name": "Santiago Giménez",
+        "title": "Santiago Giménez"
+      },
+      {
+        "number": "12",
+        "name": "Carlos Acevedo",
+        "title": "Carlos Acevedo"
+      },
+      {
+        "number": "13",
+        "name": "Guillermo Ochoa",
+        "title": "Guillermo Ochoa"
+      },
+      {
+        "number": "14",
+        "name": "Armando González",
+        "title": "Armando González (footballer, born 2003)"
+      },
+      {
+        "number": "15",
+        "name": "Israel Reyes",
+        "title": "Israel Reyes"
+      },
+      {
+        "number": "16",
+        "name": "Julián Quiñones",
+        "title": "Julián Quiñones"
+      },
+      {
+        "number": "17",
+        "name": "Orbelín Pineda",
+        "title": "Orbelín Pineda"
+      },
+      {
+        "number": "18",
+        "name": "Obed Vargas",
+        "title": "Obed Vargas"
+      },
+      {
+        "number": "19",
+        "name": "Gilberto Mora",
+        "title": "Gilberto Mora (footballer, born 2008)"
+      },
+      {
+        "number": "20",
+        "name": "Mateo Chávez",
+        "title": "Mateo Chávez"
+      },
+      {
+        "number": "21",
+        "name": "César Huerta",
+        "title": "César Huerta"
+      },
+      {
+        "number": "22",
+        "name": "Guillermo Martínez",
+        "title": "Guillermo Martínez (footballer)"
+      },
+      {
+        "number": "23",
+        "name": "Jesús Gallardo",
+        "title": "Jesús Gallardo"
+      },
+      {
+        "number": "24",
+        "name": "Luis Chávez",
+        "title": "Luis Chávez (footballer)"
+      },
+      {
+        "number": "25",
+        "name": "Roberto Alvarado",
+        "title": "Roberto Alvarado"
+      },
+      {
+        "number": "26",
+        "name": "Brian Gutiérrez",
+        "title": "Brian Gutiérrez"
+      }
+    ]
+  },
+  {
+    "team": "South Africa",
+    "folder": "南非队",
+    "players": [
+      {
+        "number": "1",
+        "name": "Ronwen Williams ( captain )",
+        "title": "Ronwen Williams"
+      },
+      {
+        "number": "2",
+        "name": "Thabang Matuludi",
+        "title": "Thabang Matuludi"
+      },
+      {
+        "number": "3",
+        "name": "Khulumani Ndamane",
+        "title": "Khulumani Ndamane"
+      },
+      {
+        "number": "4",
+        "name": "Teboho Mokoena",
+        "title": "Teboho Mokoena (soccer, born 1997)"
+      },
+      {
+        "number": "5",
+        "name": "Thalente Mbatha",
+        "title": "Thalente Mbatha"
+      },
+      {
+        "number": "6",
+        "name": "Aubrey Modiba",
+        "title": "Aubrey Modiba"
+      },
+      {
+        "number": "7",
+        "name": "Oswin Appollis",
+        "title": "Oswin Appollis"
+      },
+      {
+        "number": "8",
+        "name": "Tshepang Moremi",
+        "title": "Tshepang Moremi"
+      },
+      {
+        "number": "9",
+        "name": "Lyle Foster",
+        "title": "Lyle Foster"
+      },
+      {
+        "number": "10",
+        "name": "Relebohile Mofokeng",
+        "title": "Relebohile Mofokeng"
+      },
+      {
+        "number": "11",
+        "name": "Themba Zwane",
+        "title": "Themba Zwane"
+      },
+      {
+        "number": "12",
+        "name": "Thapelo Maseko",
+        "title": "Thapelo Maseko"
+      },
+      {
+        "number": "13",
+        "name": "Sphephelo Sithole",
+        "title": "Sphephelo Sithole"
+      },
+      {
+        "number": "14",
+        "name": "Mbekezeli Mbokazi",
+        "title": "Mbekezeli Mbokazi"
+      },
+      {
+        "number": "15",
+        "name": "Iqraam Rayners",
+        "title": "Iqraam Rayners"
+      },
+      {
+        "number": "16",
+        "name": "Sipho Chaine",
+        "title": "Sipho Chaine"
+      },
+      {
+        "number": "17",
+        "name": "Evidence Makgopa",
+        "title": "Evidence Makgopa"
+      },
+      {
+        "number": "18",
+        "name": "Samukele Kabini",
+        "title": "Samukele Kabini"
+      },
+      {
+        "number": "19",
+        "name": "Nkosinathi Sibisi",
+        "title": "Nkosinathi Sibisi"
+      },
+      {
+        "number": "20",
+        "name": "Khuliso Mudau",
+        "title": "Khuliso Mudau"
+      },
+      {
+        "number": "21",
+        "name": "Ime Okon",
+        "title": "Ime Okon"
+      },
+      {
+        "number": "22",
+        "name": "Ricardo Goss",
+        "title": "Ricardo Goss"
+      },
+      {
+        "number": "23",
+        "name": "Jayden Adams",
+        "title": "Jayden Adams"
+      },
+      {
+        "number": "24",
+        "name": "Olwethu Makhanya",
+        "title": "Olwethu Makhanya"
+      },
+      {
+        "number": "25",
+        "name": "Kamogelo Sebelebele",
+        "title": "Kamogelo Sebelebele"
+      },
+      {
+        "number": "26",
+        "name": "Bradley Cross",
+        "title": "Bradley Cross (soccer)"
+      }
+    ]
+  },
+  {
+    "team": "South Korea",
+    "folder": "韩国队",
+    "players": [
+      {
+        "number": "1",
+        "name": "Kim Seung-gyu",
+        "title": "Kim Seung-gyu"
+      },
+      {
+        "number": "2",
+        "name": "Lee Han-beom",
+        "title": "Lee Han-beom"
+      },
+      {
+        "number": "3",
+        "name": "Lee Gi-hyuk",
+        "title": "Lee Gi-hyuk"
+      },
+      {
+        "number": "4",
+        "name": "Kim Min-jae",
+        "title": "Kim Min-jae (footballer)"
+      },
+      {
+        "number": "5",
+        "name": "Kim Tae-hyeon",
+        "title": "Kim Tae-hyeon"
+      },
+      {
+        "number": "6",
+        "name": "Hwang In-beom",
+        "title": "Hwang In-beom"
+      },
+      {
+        "number": "7",
+        "name": "Son Heung-min ( captain )",
+        "title": "Son Heung-min"
+      },
+      {
+        "number": "8",
+        "name": "Paik Seung-ho",
+        "title": "Paik Seung-ho"
+      },
+      {
+        "number": "9",
+        "name": "Cho Gue-sung",
+        "title": "Cho Gue-sung"
+      },
+      {
+        "number": "10",
+        "name": "Lee Jae-sung",
+        "title": "Lee Jae-sung"
+      },
+      {
+        "number": "11",
+        "name": "Hwang Hee-chan",
+        "title": "Hwang Hee-chan"
+      },
+      {
+        "number": "12",
+        "name": "Song Bum-keun",
+        "title": "Song Bum-keun"
+      },
+      {
+        "number": "13",
+        "name": "Lee Tae-seok",
+        "title": "Lee Tae-seok"
+      },
+      {
+        "number": "14",
+        "name": "Cho Wi-je",
+        "title": "Cho Wi-je"
+      },
+      {
+        "number": "15",
+        "name": "Kim Moon-hwan",
+        "title": "Kim Moon-hwan"
+      },
+      {
+        "number": "16",
+        "name": "Park Jin-seob",
+        "title": "Park Jin-seob (footballer, born 1995)"
+      },
+      {
+        "number": "17",
+        "name": "Bae Jun-ho",
+        "title": "Bae Jun-ho"
+      },
+      {
+        "number": "18",
+        "name": "Oh Hyeon-gyu",
+        "title": "Oh Hyeon-gyu"
+      },
+      {
+        "number": "19",
+        "name": "Lee Kang-in",
+        "title": "Lee Kang-in"
+      },
+      {
+        "number": "20",
+        "name": "Yang Hyun-jun",
+        "title": "Yang Hyun-jun"
+      },
+      {
+        "number": "21",
+        "name": "Jo Hyeon-woo",
+        "title": "Jo Hyeon-woo"
+      },
+      {
+        "number": "22",
+        "name": "Seol Young-woo",
+        "title": "Seol Young-woo"
+      },
+      {
+        "number": "23",
+        "name": "Jens Castrop",
+        "title": "Jens Castrop"
+      },
+      {
+        "number": "24",
+        "name": "Kim Jin-gyu",
+        "title": "Kim Jin-gyu (footballer, born 1997)"
+      },
+      {
+        "number": "25",
+        "name": "Eom Ji-sung",
+        "title": "Eom Ji-sung"
+      },
+      {
+        "number": "26",
+        "name": "Lee Dong-gyeong",
+        "title": "Lee Dong-gyeong"
+      }
+    ]
+  },
+  {
+    "team": "Bosnia and Herzegovina",
+    "folder": "波黑队",
+    "players": [
+      {
+        "number": "1",
+        "name": "Nikola Vasilj",
+        "title": "Nikola Vasilj"
+      },
+      {
+        "number": "2",
+        "name": "Nihad Mujakić",
+        "title": "Nihad Mujakić"
+      },
+      {
+        "number": "3",
+        "name": "Dennis Hadžikadunić",
+        "title": "Dennis Hadžikadunić"
+      },
+      {
+        "number": "4",
+        "name": "Tarik Muharemović",
+        "title": "Tarik Muharemović"
+      },
+      {
+        "number": "5",
+        "name": "Sead Kolašinac",
+        "title": "Sead Kolašinac"
+      },
+      {
+        "number": "6",
+        "name": "Benjamin Tahirović",
+        "title": "Benjamin Tahirović"
+      },
+      {
+        "number": "7",
+        "name": "Amar Dedić",
+        "title": "Amar Dedić"
+      },
+      {
+        "number": "8",
+        "name": "Armin Gigović",
+        "title": "Armin Gigović"
+      },
+      {
+        "number": "9",
+        "name": "Samed Baždar",
+        "title": "Samed Baždar"
+      },
+      {
+        "number": "10",
+        "name": "Ermedin Demirović",
+        "title": "Ermedin Demirović"
+      },
+      {
+        "number": "11",
+        "name": "Edin Džeko ( captain )",
+        "title": "Edin Džeko"
+      },
+      {
+        "number": "12",
+        "name": "Mladen Jurkas",
+        "title": "Mladen Jurkas"
+      },
+      {
+        "number": "13",
+        "name": "Ivan Bašić",
+        "title": "Ivan Bašić"
+      },
+      {
+        "number": "14",
+        "name": "Ivan Šunjić",
+        "title": "Ivan Šunjić"
+      },
+      {
+        "number": "15",
+        "name": "Amar Memić",
+        "title": "Amar Memić"
+      },
+      {
+        "number": "16",
+        "name": "Amir Hadžiahmetović",
+        "title": "Amir Hadžiahmetović"
+      },
+      {
+        "number": "17",
+        "name": "Dženis Burnić",
+        "title": "Dženis Burnić"
+      },
+      {
+        "number": "18",
+        "name": "Nikola Katić",
+        "title": "Nikola Katić"
+      },
+      {
+        "number": "19",
+        "name": "Kerim Alajbegović",
+        "title": "Kerim Alajbegović"
+      },
+      {
+        "number": "20",
+        "name": "Esmir Bajraktarević",
+        "title": "Esmir Bajraktarević"
+      },
+      {
+        "number": "21",
+        "name": "Stjepan Radeljić",
+        "title": "Stjepan Radeljić"
+      },
+      {
+        "number": "22",
+        "name": "Martin Zlomislić",
+        "title": "Martin Zlomislić"
+      },
+      {
+        "number": "23",
+        "name": "Haris Tabaković",
+        "title": "Haris Tabaković"
+      },
+      {
+        "number": "24",
+        "name": "Arjan Malić",
+        "title": "Arjan Malić"
+      },
+      {
+        "number": "25",
+        "name": "Jovo Lukić",
+        "title": "Jovo Lukić"
+      },
+      {
+        "number": "26",
+        "name": "Ermin Mahmić",
+        "title": "Ermin Mahmić"
+      }
+    ]
+  },
+  {
+    "team": "Canada",
+    "folder": "加拿大队",
+    "players": [
+      {
+        "number": "1",
+        "name": "Dayne St. Clair",
+        "title": "Dayne St. Clair"
+      },
+      {
+        "number": "2",
+        "name": "Alistair Johnston",
+        "title": "Alistair Johnston"
+      },
+      {
+        "number": "3",
+        "name": "Alfie Jones",
+        "title": "Alfie Jones"
+      },
+      {
+        "number": "4",
+        "name": "Luc de Fougerolles",
+        "title": "Luc de Fougerolles"
+      },
+      {
+        "number": "5",
+        "name": "Joel Waterman",
+        "title": "Joel Waterman"
+      },
+      {
+        "number": "6",
+        "name": "Mathieu Choinière",
+        "title": "Mathieu Choinière"
+      },
+      {
+        "number": "7",
+        "name": "Stephen Eustáquio",
+        "title": "Stephen Eustáquio"
+      },
+      {
+        "number": "8",
+        "name": "Ismaël Koné",
+        "title": "Ismaël Koné"
+      },
+      {
+        "number": "9",
+        "name": "Cyle Larin",
+        "title": "Cyle Larin"
+      },
+      {
+        "number": "10",
+        "name": "Jonathan David",
+        "title": "Jonathan David"
+      },
+      {
+        "number": "11",
+        "name": "Liam Millar",
+        "title": "Liam Millar"
+      },
+      {
+        "number": "12",
+        "name": "Tani Oluwaseyi",
+        "title": "Tani Oluwaseyi"
+      },
+      {
+        "number": "13",
+        "name": "Derek Cornelius",
+        "title": "Derek Cornelius"
+      },
+      {
+        "number": "14",
+        "name": "Jacob Shaffelburg",
+        "title": "Jacob Shaffelburg"
+      },
+      {
+        "number": "15",
+        "name": "Moïse Bombito",
+        "title": "Moïse Bombito"
+      },
+      {
+        "number": "16",
+        "name": "Maxime Crépeau",
+        "title": "Maxime Crépeau"
+      },
+      {
+        "number": "17",
+        "name": "Tajon Buchanan",
+        "title": "Tajon Buchanan"
+      },
+      {
+        "number": "18",
+        "name": "Owen Goodman",
+        "title": "Owen Goodman"
+      },
+      {
+        "number": "19",
+        "name": "Alphonso Davies ( captain )",
+        "title": "Alphonso Davies"
+      },
+      {
+        "number": "20",
+        "name": "Ali Ahmed",
+        "title": "Ali Ahmed (soccer)"
+      },
+      {
+        "number": "21",
+        "name": "Jonathan Osorio",
+        "title": "Jonathan Osorio"
+      },
+      {
+        "number": "22",
+        "name": "Richie Laryea",
+        "title": "Richie Laryea"
+      },
+      {
+        "number": "23",
+        "name": "Niko Sigur",
+        "title": "Niko Sigur"
+      },
+      {
+        "number": "24",
+        "name": "Promise David",
+        "title": "Promise David"
+      },
+      {
+        "number": "25",
+        "name": "Nathan Saliba",
+        "title": "Nathan Saliba"
+      },
+      {
+        "number": "26",
+        "name": "Jayden Nelson",
+        "title": "Jayden Nelson"
+      }
+    ]
+  },
+  {
+    "team": "Qatar",
+    "folder": "卡塔尔队",
+    "players": [
+      {
+        "number": "1",
+        "name": "Mahmud Abunada",
+        "title": "Mahmud Abunada"
+      },
+      {
+        "number": "2",
+        "name": "Pedro Miguel",
+        "title": "Pedro Miguel (footballer)"
+      },
+      {
+        "number": "3",
+        "name": "Lucas Mendes",
+        "title": "Lucas Mendes (footballer, born 1990)"
+      },
+      {
+        "number": "4",
+        "name": "Issa Laye",
+        "title": "Issa Laye"
+      },
+      {
+        "number": "5",
+        "name": "Jassem Gaber",
+        "title": "Jassem Gaber"
+      },
+      {
+        "number": "6",
+        "name": "Abdulaziz Hatem",
+        "title": "Abdulaziz Hatem"
+      },
+      {
+        "number": "7",
+        "name": "Ahmed Alaaeldin",
+        "title": "Ahmed Alaaeldin"
+      },
+      {
+        "number": "8",
+        "name": "Edmilson Junior",
+        "title": "Edmilson Junior"
+      },
+      {
+        "number": "9",
+        "name": "Mohammed Muntari",
+        "title": "Mohammed Muntari"
+      },
+      {
+        "number": "10",
+        "name": "Hassan Al-Haydos ( captain )",
+        "title": "Hassan Al-Haydos"
+      },
+      {
+        "number": "11",
+        "name": "Akram Afif",
+        "title": "Akram Afif"
+      },
+      {
+        "number": "12",
+        "name": "Karim Boudiaf",
+        "title": "Karim Boudiaf"
+      },
+      {
+        "number": "13",
+        "name": "Ayoub Al-Oui",
+        "title": "Ayoub Al-Oui"
+      },
+      {
+        "number": "14",
+        "name": "Homam Ahmed",
+        "title": "Homam Ahmed"
+      },
+      {
+        "number": "15",
+        "name": "Yusuf Abdurisag",
+        "title": "Yusuf Abdurisag"
+      },
+      {
+        "number": "16",
+        "name": "Boualem Khoukhi",
+        "title": "Boualem Khoukhi"
+      },
+      {
+        "number": "17",
+        "name": "Ahmed Al-Ganehi",
+        "title": "Ahmed Al-Ganehi"
+      },
+      {
+        "number": "18",
+        "name": "Sultan Al-Brake",
+        "title": "Sultan Al-Brake"
+      },
+      {
+        "number": "19",
+        "name": "Almoez Ali",
+        "title": "Almoez Ali"
+      },
+      {
+        "number": "20",
+        "name": "Ahmed Fathy",
+        "title": "Ahmed Fathy (Qatari footballer)"
+      },
+      {
+        "number": "21",
+        "name": "Salah Zakaria",
+        "title": "Salah Zakaria"
+      },
+      {
+        "number": "22",
+        "name": "Meshaal Barsham",
+        "title": "Meshaal Barsham"
+      },
+      {
+        "number": "23",
+        "name": "Assim Madibo",
+        "title": "Assim Madibo"
+      },
+      {
+        "number": "24",
+        "name": "Tahsin Jamshid",
+        "title": "Tahsin Jamshid"
+      },
+      {
+        "number": "25",
+        "name": "Al-Hashmi Al-Hussain",
+        "title": "Al-Hashmi Al-Hussain"
+      },
+      {
+        "number": "26",
+        "name": "Mohamed Manai",
+        "title": "Mohamed Manai"
+      }
+    ]
+  },
+  {
+    "team": "Switzerland",
+    "folder": "瑞士队",
+    "players": [
+      {
+        "number": "1",
+        "name": "Gregor Kobel",
+        "title": "Gregor Kobel"
+      },
+      {
+        "number": "2",
+        "name": "Miro Muheim",
+        "title": "Miro Muheim"
+      },
+      {
+        "number": "3",
+        "name": "Silvan Widmer",
+        "title": "Silvan Widmer"
+      },
+      {
+        "number": "4",
+        "name": "Nico Elvedi",
+        "title": "Nico Elvedi"
+      },
+      {
+        "number": "5",
+        "name": "Manuel Akanji",
+        "title": "Manuel Akanji"
+      },
+      {
+        "number": "6",
+        "name": "Denis Zakaria",
+        "title": "Denis Zakaria"
+      },
+      {
+        "number": "7",
+        "name": "Breel Embolo",
+        "title": "Breel Embolo"
+      },
+      {
+        "number": "8",
+        "name": "Remo Freuler",
+        "title": "Remo Freuler"
+      },
+      {
+        "number": "9",
+        "name": "Johan Manzambi",
+        "title": "Johan Manzambi"
+      },
+      {
+        "number": "10",
+        "name": "Granit Xhaka ( captain )",
+        "title": "Granit Xhaka"
+      },
+      {
+        "number": "11",
+        "name": "Dan Ndoye",
+        "title": "Dan Ndoye"
+      },
+      {
+        "number": "12",
+        "name": "Yvon Mvogo",
+        "title": "Yvon Mvogo"
+      },
+      {
+        "number": "13",
+        "name": "Ricardo Rodriguez",
+        "title": "Ricardo Rodriguez (footballer)"
+      },
+      {
+        "number": "14",
+        "name": "Ardon Jashari",
+        "title": "Ardon Jashari"
+      },
+      {
+        "number": "15",
+        "name": "Djibril Sow",
+        "title": "Djibril Sow"
+      },
+      {
+        "number": "16",
+        "name": "Christian Fassnacht",
+        "title": "Christian Fassnacht"
+      },
+      {
+        "number": "17",
+        "name": "Rubén Vargas",
+        "title": "Rubén Vargas"
+      },
+      {
+        "number": "18",
+        "name": "Eray Cömert",
+        "title": "Eray Cömert"
+      },
+      {
+        "number": "19",
+        "name": "Noah Okafor",
+        "title": "Noah Okafor"
+      },
+      {
+        "number": "20",
+        "name": "Michel Aebischer",
+        "title": "Michel Aebischer"
+      },
+      {
+        "number": "21",
+        "name": "Marvin Keller",
+        "title": "Marvin Keller (footballer)"
+      },
+      {
+        "number": "22",
+        "name": "Fabian Rieder",
+        "title": "Fabian Rieder"
+      },
+      {
+        "number": "23",
+        "name": "Zeki Amdouni",
+        "title": "Zeki Amdouni"
+      },
+      {
+        "number": "24",
+        "name": "Aurèle Amenda",
+        "title": "Aurèle Amenda"
+      },
+      {
+        "number": "25",
+        "name": "Luca Jaquez",
+        "title": "Luca Jaquez"
+      },
+      {
+        "number": "26",
+        "name": "Cedric Itten",
+        "title": "Cedric Itten"
+      }
+    ]
+  },
+  {
+    "team": "Brazil",
+    "folder": "巴西队",
+    "players": [
+      {
+        "number": "1",
+        "name": "Alisson",
+        "title": "Alisson Becker"
+      },
+      {
+        "number": "2",
+        "name": "Éderson Silva",
+        "title": "Éderson (footballer, born 1999)"
+      },
+      {
+        "number": "3",
+        "name": "Gabriel Magalhães",
+        "title": "Gabriel Magalhães"
+      },
+      {
+        "number": "4",
+        "name": "Marquinhos ( captain )",
+        "title": "Marquinhos"
+      },
+      {
+        "number": "5",
+        "name": "Casemiro",
+        "title": "Casemiro"
+      },
+      {
+        "number": "6",
+        "name": "Alex Sandro",
+        "title": "Alex Sandro"
+      },
+      {
+        "number": "7",
+        "name": "Vinícius Júnior",
+        "title": "Vinícius Júnior"
+      },
+      {
+        "number": "8",
+        "name": "Bruno Guimarães",
+        "title": "Bruno Guimarães"
+      },
+      {
+        "number": "9",
+        "name": "Matheus Cunha",
+        "title": "Matheus Cunha"
+      },
+      {
+        "number": "10",
+        "name": "Neymar",
+        "title": "Neymar"
+      },
+      {
+        "number": "11",
+        "name": "Raphinha",
+        "title": "Raphinha"
+      },
+      {
+        "number": "12",
+        "name": "Weverton",
+        "title": "Weverton (footballer, born 1987)"
+      },
+      {
+        "number": "13",
+        "name": "Danilo Luiz",
+        "title": "Danilo (footballer, born July 1991)"
+      },
+      {
+        "number": "14",
+        "name": "Bremer",
+        "title": "Gleison Bremer"
+      },
+      {
+        "number": "15",
+        "name": "Léo Pereira",
+        "title": "Léo Pereira (footballer, born 1996)"
+      },
+      {
+        "number": "16",
+        "name": "Douglas Santos",
+        "title": "Douglas Santos (footballer, born 1994)"
+      },
+      {
+        "number": "17",
+        "name": "Fabinho",
+        "title": "Fabinho (footballer, born 1993)"
+      },
+      {
+        "number": "18",
+        "name": "Danilo Santos",
+        "title": "Danilo (footballer, born 2001)"
+      },
+      {
+        "number": "19",
+        "name": "Endrick",
+        "title": "Endrick (footballer, born 2006)"
+      },
+      {
+        "number": "20",
+        "name": "Lucas Paquetá",
+        "title": "Lucas Paquetá"
+      },
+      {
+        "number": "21",
+        "name": "Luiz Henrique",
+        "title": "Luiz Henrique (footballer, born 2001)"
+      },
+      {
+        "number": "22",
+        "name": "Gabriel Martinelli",
+        "title": "Gabriel Martinelli"
+      },
+      {
+        "number": "23",
+        "name": "Ederson Moraes",
+        "title": "Ederson (footballer, born 1993)"
+      },
+      {
+        "number": "24",
+        "name": "Roger Ibañez",
+        "title": "Roger Ibañez"
+      },
+      {
+        "number": "25",
+        "name": "Igor Thiago",
+        "title": "Igor Thiago"
+      },
+      {
+        "number": "26",
+        "name": "Rayan",
+        "title": "Rayan (footballer, born 2006)"
+      }
+    ]
+  },
+  {
+    "team": "Haiti",
+    "folder": "海地队",
+    "players": [
+      {
+        "number": "1",
+        "name": "Johny Placide ( captain )",
+        "title": "Johny Placide"
+      },
+      {
+        "number": "2",
+        "name": "Carlens Arcus",
+        "title": "Carlens Arcus"
+      },
+      {
+        "number": "3",
+        "name": "Keeto Thermoncy",
+        "title": "Keeto Thermoncy"
+      },
+      {
+        "number": "4",
+        "name": "Ricardo Adé",
+        "title": "Ricardo Adé"
+      },
+      {
+        "number": "5",
+        "name": "Hannes Delcroix",
+        "title": "Hannes Delcroix"
+      },
+      {
+        "number": "6",
+        "name": "Carl Sainté",
+        "title": "Carl Sainté"
+      },
+      {
+        "number": "7",
+        "name": "Derrick Etienne Jr.",
+        "title": "Derrick Etienne Jr."
+      },
+      {
+        "number": "8",
+        "name": "Martin Expérience",
+        "title": "Martin Expérience"
+      },
+      {
+        "number": "9",
+        "name": "Duckens Nazon",
+        "title": "Duckens Nazon"
+      },
+      {
+        "number": "10",
+        "name": "Jean-Ricner Bellegarde",
+        "title": "Jean-Ricner Bellegarde"
+      },
+      {
+        "number": "11",
+        "name": "Louicius Deedson",
+        "title": "Louicius Deedson"
+      },
+      {
+        "number": "12",
+        "name": "Alexandre Pierre",
+        "title": "Alexandre Pierre"
+      },
+      {
+        "number": "13",
+        "name": "Duke Lacroix",
+        "title": "Duke Lacroix"
+      },
+      {
+        "number": "14",
+        "name": "Garven Metusala",
+        "title": "Garven Metusala"
+      },
+      {
+        "number": "15",
+        "name": "Ruben Providence",
+        "title": "Ruben Providence"
+      },
+      {
+        "number": "16",
+        "name": "Lenny Joseph",
+        "title": "Lenny Joseph"
+      },
+      {
+        "number": "17",
+        "name": "Danley Jean Jacques",
+        "title": "Danley Jean Jacques"
+      },
+      {
+        "number": "18",
+        "name": "Wilson Isidor",
+        "title": "Wilson Isidor"
+      },
+      {
+        "number": "19",
+        "name": "Yassin Fortuné",
+        "title": "Yassin Fortuné"
+      },
+      {
+        "number": "20",
+        "name": "Frantzdy Pierrot",
+        "title": "Frantzdy Pierrot"
+      },
+      {
+        "number": "21",
+        "name": "Josué Casimir",
+        "title": "Josué Casimir"
+      },
+      {
+        "number": "22",
+        "name": "Jean-Kévin Duverne",
+        "title": "Jean-Kévin Duverne"
+      },
+      {
+        "number": "23",
+        "name": "Josué Duverger",
+        "title": "Josué Duverger"
+      },
+      {
+        "number": "24",
+        "name": "Wilguens Paugain",
+        "title": "Wilguens Paugain"
+      },
+      {
+        "number": "25",
+        "name": "Dominique Simon",
+        "title": "Dominique Simon"
+      },
+      {
+        "number": "26",
+        "name": "Woodensky Pierre",
+        "title": "Woodensky Pierre"
+      }
+    ]
+  },
+  {
+    "team": "Morocco",
+    "folder": "摩洛哥队",
+    "players": [
+      {
+        "number": "1",
+        "name": "Yassine Bounou",
+        "title": "Yassine Bounou"
+      },
+      {
+        "number": "2",
+        "name": "Achraf Hakimi ( captain )",
+        "title": "Achraf Hakimi"
+      },
+      {
+        "number": "3",
+        "name": "Noussair Mazraoui",
+        "title": "Noussair Mazraoui"
+      },
+      {
+        "number": "4",
+        "name": "Sofyan Amrabat",
+        "title": "Sofyan Amrabat"
+      },
+      {
+        "number": "5",
+        "name": "Marwane Saâdane",
+        "title": "Marwane Saâdane"
+      },
+      {
+        "number": "6",
+        "name": "Ayyoub Bouaddi",
+        "title": "Ayyoub Bouaddi"
+      },
+      {
+        "number": "7",
+        "name": "Chemsdine Talbi",
+        "title": "Chemsdine Talbi"
+      },
+      {
+        "number": "8",
+        "name": "Azzedine Ounahi",
+        "title": "Azzedine Ounahi"
+      },
+      {
+        "number": "9",
+        "name": "Soufiane Rahimi",
+        "title": "Soufiane Rahimi"
+      },
+      {
+        "number": "10",
+        "name": "Brahim Díaz",
+        "title": "Brahim Díaz"
+      },
+      {
+        "number": "11",
+        "name": "Ismael Saibari",
+        "title": "Ismael Saibari"
+      },
+      {
+        "number": "12",
+        "name": "Munir Mohamedi",
+        "title": "Munir Mohamedi"
+      },
+      {
+        "number": "13",
+        "name": "Zakaria El Ouahdi",
+        "title": "Zakaria El Ouahdi"
+      },
+      {
+        "number": "14",
+        "name": "Issa Diop",
+        "title": "Issa Diop (footballer)"
+      },
+      {
+        "number": "15",
+        "name": "Samir El Mourabet",
+        "title": "Samir El Mourabet"
+      },
+      {
+        "number": "16",
+        "name": "Gessime Yassine",
+        "title": "Gessime Yassine"
+      },
+      {
+        "number": "17",
+        "name": "Amine Sbaï",
+        "title": "Amine Sbaï"
+      },
+      {
+        "number": "18",
+        "name": "Chadi Riad",
+        "title": "Chadi Riad"
+      },
+      {
+        "number": "19",
+        "name": "Youssef Belammari",
+        "title": "Youssef Belammari"
+      },
+      {
+        "number": "20",
+        "name": "Ayoub El Kaabi",
+        "title": "Ayoub El Kaabi"
+      },
+      {
+        "number": "21",
+        "name": "Ayoube Amaimouni",
+        "title": "Ayoube Amaimouni"
+      },
+      {
+        "number": "22",
+        "name": "Ahmed Reda Tagnaouti",
+        "title": "Ahmed Reda Tagnaouti"
+      },
+      {
+        "number": "23",
+        "name": "Bilal El Khannouss",
+        "title": "Bilal El Khannouss"
+      },
+      {
+        "number": "24",
+        "name": "Neil El Aynaoui",
+        "title": "Neil El Aynaoui"
+      },
+      {
+        "number": "25",
+        "name": "Redouane Halhal",
+        "title": "Redouane Halhal"
+      },
+      {
+        "number": "26",
+        "name": "Anass Salah-Eddine",
+        "title": "Anass Salah-Eddine"
+      }
+    ]
+  },
+  {
+    "team": "Scotland",
+    "folder": "苏格兰队",
+    "players": [
+      {
+        "number": "1",
+        "name": "Angus Gunn",
+        "title": "Angus Gunn"
+      },
+      {
+        "number": "2",
+        "name": "Aaron Hickey",
+        "title": "Aaron Hickey"
+      },
+      {
+        "number": "3",
+        "name": "Andy Robertson ( captain )",
+        "title": "Andy Robertson"
+      },
+      {
+        "number": "4",
+        "name": "Scott McTominay",
+        "title": "Scott McTominay"
+      },
+      {
+        "number": "5",
+        "name": "Grant Hanley",
+        "title": "Grant Hanley"
+      },
+      {
+        "number": "6",
+        "name": "Kieran Tierney",
+        "title": "Kieran Tierney"
+      },
+      {
+        "number": "7",
+        "name": "John McGinn",
+        "title": "John McGinn"
+      },
+      {
+        "number": "8",
+        "name": "Tyler Fletcher",
+        "title": "Tyler Fletcher"
+      },
+      {
+        "number": "9",
+        "name": "Lyndon Dykes",
+        "title": "Lyndon Dykes"
+      },
+      {
+        "number": "10",
+        "name": "Ché Adams",
+        "title": "Ché Adams"
+      },
+      {
+        "number": "11",
+        "name": "Ryan Christie",
+        "title": "Ryan Christie"
+      },
+      {
+        "number": "12",
+        "name": "Liam Kelly",
+        "title": "Liam Kelly (footballer, born 1996)"
+      },
+      {
+        "number": "13",
+        "name": "Jack Hendry",
+        "title": "Jack Hendry (footballer, born 1995)"
+      },
+      {
+        "number": "14",
+        "name": "Ross Stewart",
+        "title": "Ross Stewart (footballer, born 1996)"
+      },
+      {
+        "number": "15",
+        "name": "John Souttar",
+        "title": "John Souttar"
+      },
+      {
+        "number": "16",
+        "name": "Dominic Hyam",
+        "title": "Dominic Hyam"
+      },
+      {
+        "number": "17",
+        "name": "Ben Gannon-Doak",
+        "title": "Ben Gannon-Doak"
+      },
+      {
+        "number": "18",
+        "name": "George Hirst",
+        "title": "George Hirst (footballer)"
+      },
+      {
+        "number": "19",
+        "name": "Lewis Ferguson",
+        "title": "Lewis Ferguson"
+      },
+      {
+        "number": "20",
+        "name": "Lawrence Shankland",
+        "title": "Lawrence Shankland"
+      },
+      {
+        "number": "21",
+        "name": "Craig Gordon",
+        "title": "Craig Gordon"
+      },
+      {
+        "number": "22",
+        "name": "Nathan Patterson",
+        "title": "Nathan Patterson (footballer)"
+      },
+      {
+        "number": "23",
+        "name": "Kenny McLean",
+        "title": "Kenny McLean"
+      },
+      {
+        "number": "24",
+        "name": "Anthony Ralston",
+        "title": "Anthony Ralston"
+      },
+      {
+        "number": "25",
+        "name": "Findlay Curtis",
+        "title": "Findlay Curtis"
+      },
+      {
+        "number": "26",
+        "name": "Scott McKenna",
+        "title": "Scott McKenna"
+      }
+    ]
+  },
+  {
+    "team": "Australia",
+    "folder": "澳大利亚队",
+    "players": [
+      {
+        "number": "1",
+        "name": "Mathew Ryan ( captain )",
+        "title": "Mathew Ryan"
+      },
+      {
+        "number": "2",
+        "name": "Miloš Degenek",
+        "title": "Miloš Degenek"
+      },
+      {
+        "number": "3",
+        "name": "Alessandro Circati",
+        "title": "Alessandro Circati"
+      },
+      {
+        "number": "4",
+        "name": "Jacob Italiano",
+        "title": "Jacob Italiano"
+      },
+      {
+        "number": "5",
+        "name": "Jordan Bos",
+        "title": "Jordan Bos"
+      },
+      {
+        "number": "6",
+        "name": "Jason Geria",
+        "title": "Jason Geria"
+      },
+      {
+        "number": "7",
+        "name": "Mathew Leckie",
+        "title": "Mathew Leckie"
+      },
+      {
+        "number": "8",
+        "name": "Connor Metcalfe",
+        "title": "Connor Metcalfe"
+      },
+      {
+        "number": "9",
+        "name": "Mohamed Touré",
+        "title": "Mohamed Touré (soccer, born 2004)"
+      },
+      {
+        "number": "10",
+        "name": "Ajdin Hrustic",
+        "title": "Ajdin Hrustic"
+      },
+      {
+        "number": "11",
+        "name": "Awer Mabil",
+        "title": "Awer Mabil"
+      },
+      {
+        "number": "12",
+        "name": "Paul Izzo",
+        "title": "Paul Izzo"
+      },
+      {
+        "number": "13",
+        "name": "Aiden O'Neill",
+        "title": "Aiden O'Neill"
+      },
+      {
+        "number": "14",
+        "name": "Cammy Devlin",
+        "title": "Cammy Devlin"
+      },
+      {
+        "number": "15",
+        "name": "Kai Trewin",
+        "title": "Kai Trewin"
+      },
+      {
+        "number": "16",
+        "name": "Aziz Behich",
+        "title": "Aziz Behich"
+      },
+      {
+        "number": "17",
+        "name": "Nestory Irankunda",
+        "title": "Nestory Irankunda"
+      },
+      {
+        "number": "18",
+        "name": "Patrick Beach",
+        "title": "Patrick Beach"
+      },
+      {
+        "number": "19",
+        "name": "Harry Souttar",
+        "title": "Harry Souttar"
+      },
+      {
+        "number": "20",
+        "name": "Cristian Volpato",
+        "title": "Cristian Volpato"
+      },
+      {
+        "number": "21",
+        "name": "Cameron Burgess",
+        "title": "Cameron Burgess"
+      },
+      {
+        "number": "22",
+        "name": "Jackson Irvine",
+        "title": "Jackson Irvine"
+      },
+      {
+        "number": "23",
+        "name": "Nishan Velupillay",
+        "title": "Nishan Velupillay"
+      },
+      {
+        "number": "24",
+        "name": "Paul Okon-Engstler",
+        "title": "Paul Okon-Engstler"
+      },
+      {
+        "number": "25",
+        "name": "Lucas Herrington",
+        "title": "Lucas Herrington"
+      },
+      {
+        "number": "26",
+        "name": "Tete Yengi",
+        "title": "Tete Yengi"
+      }
+    ]
+  },
+  {
+    "team": "Paraguay",
+    "folder": "巴拉圭队",
+    "players": [
+      {
+        "number": "1",
+        "name": "Gatito Fernández",
+        "title": "Gatito Fernández"
+      },
+      {
+        "number": "2",
+        "name": "Gustavo Velázquez",
+        "title": "Gustavo Velázquez"
+      },
+      {
+        "number": "3",
+        "name": "Omar Alderete",
+        "title": "Omar Alderete"
+      },
+      {
+        "number": "4",
+        "name": "Juan José Cáceres",
+        "title": "Juan José Cáceres"
+      },
+      {
+        "number": "5",
+        "name": "Fabián Balbuena",
+        "title": "Fabián Balbuena"
+      },
+      {
+        "number": "6",
+        "name": "Júnior Alonso",
+        "title": "Júnior Alonso"
+      },
+      {
+        "number": "7",
+        "name": "Ramón Sosa",
+        "title": "Ramón Sosa"
+      },
+      {
+        "number": "8",
+        "name": "Diego Gómez",
+        "title": "Diego Gómez (Paraguayan footballer)"
+      },
+      {
+        "number": "9",
+        "name": "Antonio Sanabria",
+        "title": "Antonio Sanabria"
+      },
+      {
+        "number": "10",
+        "name": "Miguel Almirón",
+        "title": "Miguel Almirón"
+      },
+      {
+        "number": "11",
+        "name": "Maurício",
+        "title": "Maurício (footballer, born 2001)"
+      },
+      {
+        "number": "12",
+        "name": "Orlando Gill",
+        "title": "Orlando Gill"
+      },
+      {
+        "number": "13",
+        "name": "José Canale",
+        "title": "José Canale"
+      },
+      {
+        "number": "14",
+        "name": "Andrés Cubas",
+        "title": "Andrés Cubas"
+      },
+      {
+        "number": "15",
+        "name": "Gustavo Gómez ( captain )",
+        "title": "Gustavo Gómez"
+      },
+      {
+        "number": "16",
+        "name": "Damián Bobadilla",
+        "title": "Damián Bobadilla"
+      },
+      {
+        "number": "17",
+        "name": "Kaku",
+        "title": "Kaku (footballer)"
+      },
+      {
+        "number": "18",
+        "name": "Álex Arce",
+        "title": "Álex Arce"
+      },
+      {
+        "number": "19",
+        "name": "Julio Enciso",
+        "title": "Julio Enciso (footballer, born 2004)"
+      },
+      {
+        "number": "20",
+        "name": "Braian Ojeda",
+        "title": "Braian Ojeda"
+      },
+      {
+        "number": "21",
+        "name": "Gabriel Ávalos",
+        "title": "Gabriel Ávalos"
+      },
+      {
+        "number": "22",
+        "name": "Gastón Olveira",
+        "title": "Gastón Olveira"
+      },
+      {
+        "number": "23",
+        "name": "Matías Galarza",
+        "title": "Matías Galarza (Paraguayan footballer)"
+      },
+      {
+        "number": "24",
+        "name": "Gustavo Caballero",
+        "title": "Gustavo Caballero"
+      },
+      {
+        "number": "25",
+        "name": "Isidro Pitta",
+        "title": "Isidro Pitta"
+      },
+      {
+        "number": "26",
+        "name": "Alexandro Maidana",
+        "title": "Alexandro Maidana"
+      }
+    ]
+  },
+  {
+    "team": "Turkey",
+    "folder": "土耳其队",
+    "players": [
+      {
+        "number": "1",
+        "name": "Mert Günok",
+        "title": "Mert Günok"
+      },
+      {
+        "number": "2",
+        "name": "Zeki Çelik",
+        "title": "Zeki Çelik"
+      },
+      {
+        "number": "3",
+        "name": "Merih Demiral",
+        "title": "Merih Demiral"
+      },
+      {
+        "number": "4",
+        "name": "Çağlar Söyüncü",
+        "title": "Çağlar Söyüncü"
+      },
+      {
+        "number": "5",
+        "name": "Salih Özcan",
+        "title": "Salih Özcan"
+      },
+      {
+        "number": "6",
+        "name": "Orkun Kökçü",
+        "title": "Orkun Kökçü"
+      },
+      {
+        "number": "7",
+        "name": "Kerem Aktürkoğlu",
+        "title": "Kerem Aktürkoğlu"
+      },
+      {
+        "number": "8",
+        "name": "Arda Güler",
+        "title": "Arda Güler"
+      },
+      {
+        "number": "9",
+        "name": "Deniz Gül",
+        "title": "Deniz Gül"
+      },
+      {
+        "number": "10",
+        "name": "Hakan Çalhanoğlu ( captain )",
+        "title": "Hakan Çalhanoğlu"
+      },
+      {
+        "number": "11",
+        "name": "Kenan Yıldız",
+        "title": "Kenan Yıldız"
+      },
+      {
+        "number": "12",
+        "name": "Altay Bayındır",
+        "title": "Altay Bayındır"
+      },
+      {
+        "number": "13",
+        "name": "Eren Elmalı",
+        "title": "Eren Elmalı"
+      },
+      {
+        "number": "14",
+        "name": "Abdülkerim Bardakcı",
+        "title": "Abdülkerim Bardakcı"
+      },
+      {
+        "number": "15",
+        "name": "Ozan Kabak",
+        "title": "Ozan Kabak"
+      },
+      {
+        "number": "16",
+        "name": "İsmail Yüksek",
+        "title": "İsmail Yüksek"
+      },
+      {
+        "number": "17",
+        "name": "İrfan Can Kahveci",
+        "title": "İrfan Can Kahveci"
+      },
+      {
+        "number": "18",
+        "name": "Mert Müldür",
+        "title": "Mert Müldür"
+      },
+      {
+        "number": "19",
+        "name": "Yunus Akgün",
+        "title": "Yunus Akgün"
+      },
+      {
+        "number": "20",
+        "name": "Ferdi Kadıoğlu",
+        "title": "Ferdi Kadıoğlu"
+      },
+      {
+        "number": "21",
+        "name": "Barış Alper Yılmaz",
+        "title": "Barış Alper Yılmaz"
+      },
+      {
+        "number": "22",
+        "name": "Kaan Ayhan",
+        "title": "Kaan Ayhan"
+      },
+      {
+        "number": "23",
+        "name": "Uğurcan Çakır",
+        "title": "Uğurcan Çakır"
+      },
+      {
+        "number": "24",
+        "name": "Oğuz Aydın",
+        "title": "Oğuz Aydın"
+      },
+      {
+        "number": "25",
+        "name": "Samet Akaydin",
+        "title": "Samet Akaydin"
+      },
+      {
+        "number": "26",
+        "name": "Can Uzun",
+        "title": "Can Uzun"
+      }
+    ]
+  },
+  {
+    "team": "United States",
+    "folder": "美国队",
+    "players": [
+      {
+        "number": "1",
+        "name": "Matt Turner",
+        "title": "Matt Turner (soccer)"
+      },
+      {
+        "number": "2",
+        "name": "Sergiño Dest",
+        "title": "Sergiño Dest"
+      },
+      {
+        "number": "3",
+        "name": "Chris Richards",
+        "title": "Chris Richards (soccer)"
+      },
+      {
+        "number": "4",
+        "name": "Tyler Adams",
+        "title": "Tyler Adams"
+      },
+      {
+        "number": "5",
+        "name": "Antonee Robinson",
+        "title": "Antonee Robinson"
+      },
+      {
+        "number": "6",
+        "name": "Auston Trusty",
+        "title": "Auston Trusty"
+      },
+      {
+        "number": "7",
+        "name": "Giovanni Reyna",
+        "title": "Giovanni Reyna"
+      },
+      {
+        "number": "8",
+        "name": "Weston McKennie",
+        "title": "Weston McKennie"
+      },
+      {
+        "number": "9",
+        "name": "Ricardo Pepi",
+        "title": "Ricardo Pepi"
+      },
+      {
+        "number": "10",
+        "name": "Christian Pulisic",
+        "title": "Christian Pulisic"
+      },
+      {
+        "number": "11",
+        "name": "Brenden Aaronson",
+        "title": "Brenden Aaronson"
+      },
+      {
+        "number": "12",
+        "name": "Miles Robinson",
+        "title": "Miles Robinson (soccer)"
+      },
+      {
+        "number": "13",
+        "name": "Tim Ream ( captain )",
+        "title": "Tim Ream"
+      },
+      {
+        "number": "14",
+        "name": "Sebastian Berhalter",
+        "title": "Sebastian Berhalter"
+      },
+      {
+        "number": "15",
+        "name": "Cristian Roldan",
+        "title": "Cristian Roldan"
+      },
+      {
+        "number": "16",
+        "name": "Alex Freeman",
+        "title": "Alex Freeman"
+      },
+      {
+        "number": "17",
+        "name": "Malik Tillman",
+        "title": "Malik Tillman"
+      },
+      {
+        "number": "18",
+        "name": "Max Arfsten",
+        "title": "Max Arfsten"
+      },
+      {
+        "number": "19",
+        "name": "Haji Wright",
+        "title": "Haji Wright"
+      },
+      {
+        "number": "20",
+        "name": "Folarin Balogun",
+        "title": "Folarin Balogun"
+      },
+      {
+        "number": "21",
+        "name": "Timothy Weah",
+        "title": "Timothy Weah"
+      },
+      {
+        "number": "22",
+        "name": "Mark McKenzie",
+        "title": "Mark McKenzie (soccer, born 1999)"
+      },
+      {
+        "number": "23",
+        "name": "Joe Scally",
+        "title": "Joe Scally"
+      },
+      {
+        "number": "24",
+        "name": "Matt Freese",
+        "title": "Matt Freese"
+      },
+      {
+        "number": "25",
+        "name": "Chris Brady",
+        "title": "Chris Brady (soccer)"
+      },
+      {
+        "number": "26",
+        "name": "Alejandro Zendejas",
+        "title": "Alejandro Zendejas"
+      }
+    ]
+  },
+  {
+    "team": "Curaçao",
+    "folder": "库拉索队",
+    "players": [
+      {
+        "number": "1",
+        "name": "Eloy Room",
+        "title": "Eloy Room"
+      },
+      {
+        "number": "2",
+        "name": "Shurandy Sambo",
+        "title": "Shurandy Sambo"
+      },
+      {
+        "number": "3",
+        "name": "Juriën Gaari",
+        "title": "Juriën Gaari"
+      },
+      {
+        "number": "4",
+        "name": "Roshon van Eijma",
+        "title": "Roshon van Eijma"
+      },
+      {
+        "number": "5",
+        "name": "Sherel Floranus",
+        "title": "Sherel Floranus"
+      },
+      {
+        "number": "6",
+        "name": "Godfried Roemeratoe",
+        "title": "Godfried Roemeratoe"
+      },
+      {
+        "number": "7",
+        "name": "Juninho Bacuna",
+        "title": "Juninho Bacuna"
+      },
+      {
+        "number": "8",
+        "name": "Livano Comenencia",
+        "title": "Livano Comenencia"
+      },
+      {
+        "number": "9",
+        "name": "Jürgen Locadia",
+        "title": "Jürgen Locadia"
+      },
+      {
+        "number": "10",
+        "name": "Leandro Bacuna ( captain )",
+        "title": "Leandro Bacuna"
+      },
+      {
+        "number": "11",
+        "name": "Jeremy Antonisse",
+        "title": "Jeremy Antonisse"
+      },
+      {
+        "number": "12",
+        "name": "Sontje Hansen",
+        "title": "Sontje Hansen"
+      },
+      {
+        "number": "13",
+        "name": "Tyrese Noslin",
+        "title": "Tyrese Noslin"
+      },
+      {
+        "number": "14",
+        "name": "Kenji Gorré",
+        "title": "Kenji Gorré"
+      },
+      {
+        "number": "15",
+        "name": "Ar'jany Martha",
+        "title": "Ar'jany Martha"
+      },
+      {
+        "number": "16",
+        "name": "Jearl Margaritha",
+        "title": "Jearl Margaritha"
+      },
+      {
+        "number": "17",
+        "name": "Brandley Kuwas",
+        "title": "Brandley Kuwas"
+      },
+      {
+        "number": "18",
+        "name": "Armando Obispo",
+        "title": "Armando Obispo"
+      },
+      {
+        "number": "19",
+        "name": "Gervane Kastaneer",
+        "title": "Gervane Kastaneer"
+      },
+      {
+        "number": "20",
+        "name": "Joshua Brenet",
+        "title": "Joshua Brenet"
+      },
+      {
+        "number": "21",
+        "name": "Tahith Chong",
+        "title": "Tahith Chong"
+      },
+      {
+        "number": "22",
+        "name": "Kevin Felida",
+        "title": "Kevin Felida"
+      },
+      {
+        "number": "23",
+        "name": "Riechedly Bazoer",
+        "title": "Riechedly Bazoer"
+      },
+      {
+        "number": "24",
+        "name": "Deveron Fonville",
+        "title": "Deveron Fonville"
+      },
+      {
+        "number": "25",
+        "name": "Tyrick Bodak",
+        "title": "Tyrick Bodak"
+      },
+      {
+        "number": "26",
+        "name": "Trevor Doornbusch",
+        "title": "Trevor Doornbusch"
+      }
+    ]
+  },
+  {
+    "team": "Ecuador",
+    "folder": "厄瓜多尔队",
+    "players": [
+      {
+        "number": "1",
+        "name": "Hernán Galíndez",
+        "title": "Hernán Galíndez"
+      },
+      {
+        "number": "2",
+        "name": "Félix Torres",
+        "title": "Félix Torres (footballer, born 1997)"
+      },
+      {
+        "number": "3",
+        "name": "Piero Hincapié",
+        "title": "Piero Hincapié"
+      },
+      {
+        "number": "4",
+        "name": "Joel Ordóñez",
+        "title": "Joel Ordóñez"
+      },
+      {
+        "number": "5",
+        "name": "Jordy Alcívar",
+        "title": "Jordy Alcívar"
+      },
+      {
+        "number": "6",
+        "name": "Willian Pacho",
+        "title": "Willian Pacho"
+      },
+      {
+        "number": "7",
+        "name": "Pervis Estupiñán",
+        "title": "Pervis Estupiñán"
+      },
+      {
+        "number": "8",
+        "name": "Anthony Valencia",
+        "title": "Anthony Valencia"
+      },
+      {
+        "number": "9",
+        "name": "John Yeboah",
+        "title": "John Yeboah"
+      },
+      {
+        "number": "10",
+        "name": "Kendry Páez",
+        "title": "Kendry Páez"
+      },
+      {
+        "number": "11",
+        "name": "Kevin Rodríguez",
+        "title": "Kevin Rodríguez (footballer, born 2000)"
+      },
+      {
+        "number": "12",
+        "name": "Moisés Ramírez",
+        "title": "Moisés Ramírez"
+      },
+      {
+        "number": "13",
+        "name": "Enner Valencia ( captain )",
+        "title": "Enner Valencia"
+      },
+      {
+        "number": "14",
+        "name": "Alan Minda",
+        "title": "Alan Minda"
+      },
+      {
+        "number": "15",
+        "name": "Pedro Vite",
+        "title": "Pedro Vite"
+      },
+      {
+        "number": "16",
+        "name": "Jordy Caicedo",
+        "title": "Jordy Caicedo"
+      },
+      {
+        "number": "17",
+        "name": "Ángelo Preciado",
+        "title": "Ángelo Preciado"
+      },
+      {
+        "number": "18",
+        "name": "Denil Castillo",
+        "title": "Denil Castillo"
+      },
+      {
+        "number": "19",
+        "name": "Gonzalo Plata",
+        "title": "Gonzalo Plata"
+      },
+      {
+        "number": "20",
+        "name": "Nilson Angulo",
+        "title": "Nilson Angulo"
+      },
+      {
+        "number": "21",
+        "name": "Alan Franco",
+        "title": "Alan Franco (footballer, born 1998)"
+      },
+      {
+        "number": "22",
+        "name": "Gonzalo Valle",
+        "title": "Gonzalo Valle"
+      },
+      {
+        "number": "23",
+        "name": "Moisés Caicedo",
+        "title": "Moisés Caicedo"
+      },
+      {
+        "number": "24",
+        "name": "Jeremy Arévalo",
+        "title": "Jeremy Arévalo"
+      },
+      {
+        "number": "25",
+        "name": "Jackson Porozo",
+        "title": "Jackson Porozo"
+      },
+      {
+        "number": "26",
+        "name": "Yaimar Medina",
+        "title": "Yaimar Medina"
+      }
+    ]
+  },
+  {
+    "team": "Germany",
+    "folder": "德国队",
+    "players": [
+      {
+        "number": "1",
+        "name": "Manuel Neuer",
+        "title": "Manuel Neuer"
+      },
+      {
+        "number": "2",
+        "name": "Antonio Rüdiger",
+        "title": "Antonio Rüdiger"
+      },
+      {
+        "number": "3",
+        "name": "Waldemar Anton",
+        "title": "Waldemar Anton"
+      },
+      {
+        "number": "4",
+        "name": "Jonathan Tah",
+        "title": "Jonathan Tah"
+      },
+      {
+        "number": "5",
+        "name": "Aleksandar Pavlović",
+        "title": "Aleksandar Pavlović (footballer)"
+      },
+      {
+        "number": "6",
+        "name": "Joshua Kimmich ( captain )",
+        "title": "Joshua Kimmich"
+      },
+      {
+        "number": "7",
+        "name": "Kai Havertz",
+        "title": "Kai Havertz"
+      },
+      {
+        "number": "8",
+        "name": "Leon Goretzka",
+        "title": "Leon Goretzka"
+      },
+      {
+        "number": "9",
+        "name": "Jamie Leweling",
+        "title": "Jamie Leweling"
+      },
+      {
+        "number": "10",
+        "name": "Jamal Musiala",
+        "title": "Jamal Musiala"
+      },
+      {
+        "number": "11",
+        "name": "Nick Woltemade",
+        "title": "Nick Woltemade"
+      },
+      {
+        "number": "12",
+        "name": "Oliver Baumann",
+        "title": "Oliver Baumann"
+      },
+      {
+        "number": "13",
+        "name": "Pascal Groß",
+        "title": "Pascal Groß"
+      },
+      {
+        "number": "14",
+        "name": "Maximilian Beier",
+        "title": "Maximilian Beier"
+      },
+      {
+        "number": "15",
+        "name": "Nico Schlotterbeck",
+        "title": "Nico Schlotterbeck"
+      },
+      {
+        "number": "16",
+        "name": "Angelo Stiller",
+        "title": "Angelo Stiller"
+      },
+      {
+        "number": "17",
+        "name": "Florian Wirtz",
+        "title": "Florian Wirtz"
+      },
+      {
+        "number": "18",
+        "name": "Nathaniel Brown",
+        "title": "Nathaniel Brown (footballer)"
+      },
+      {
+        "number": "19",
+        "name": "Leroy Sané",
+        "title": "Leroy Sané"
+      },
+      {
+        "number": "20",
+        "name": "Nadiem Amiri",
+        "title": "Nadiem Amiri"
+      },
+      {
+        "number": "21",
+        "name": "Alexander Nübel",
+        "title": "Alexander Nübel"
+      },
+      {
+        "number": "22",
+        "name": "David Raum",
+        "title": "David Raum"
+      },
+      {
+        "number": "23",
+        "name": "Felix Nmecha",
+        "title": "Felix Nmecha"
+      },
+      {
+        "number": "24",
+        "name": "Malick Thiaw",
+        "title": "Malick Thiaw"
+      },
+      {
+        "number": "25",
+        "name": "Assan Ouédraogo",
+        "title": "Assan Ouédraogo"
+      },
+      {
+        "number": "26",
+        "name": "Deniz Undav",
+        "title": "Deniz Undav"
+      }
+    ]
+  },
+  {
+    "team": "Ivory Coast",
+    "folder": "科特迪瓦队",
+    "players": [
+      {
+        "number": "1",
+        "name": "Yahia Fofana",
+        "title": "Yahia Fofana"
+      },
+      {
+        "number": "2",
+        "name": "Ousmane Diomande",
+        "title": "Ousmane Diomande"
+      },
+      {
+        "number": "3",
+        "name": "Ghislain Konan",
+        "title": "Ghislain Konan"
+      },
+      {
+        "number": "4",
+        "name": "Jean Michaël Seri",
+        "title": "Jean Michaël Seri"
+      },
+      {
+        "number": "5",
+        "name": "Wilfried Singo",
+        "title": "Wilfried Singo"
+      },
+      {
+        "number": "6",
+        "name": "Seko Fofana",
+        "title": "Seko Fofana"
+      },
+      {
+        "number": "7",
+        "name": "Odilon Kossounou",
+        "title": "Odilon Kossounou"
+      },
+      {
+        "number": "8",
+        "name": "Franck Kessié ( captain )",
+        "title": "Franck Kessié"
+      },
+      {
+        "number": "9",
+        "name": "Ange-Yoan Bonny",
+        "title": "Ange-Yoan Bonny"
+      },
+      {
+        "number": "10",
+        "name": "Simon Adingra",
+        "title": "Simon Adingra"
+      },
+      {
+        "number": "11",
+        "name": "Yan Diomande",
+        "title": "Yan Diomande"
+      },
+      {
+        "number": "12",
+        "name": "Elye Wahi",
+        "title": "Elye Wahi"
+      },
+      {
+        "number": "13",
+        "name": "Christopher Opéri",
+        "title": "Christopher Opéri"
+      },
+      {
+        "number": "14",
+        "name": "Oumar Diakité",
+        "title": "Oumar Diakité"
+      },
+      {
+        "number": "15",
+        "name": "Amad Diallo",
+        "title": "Amad Diallo"
+      },
+      {
+        "number": "16",
+        "name": "Mohamed Koné",
+        "title": "Mohamed Koné (footballer, born 2002)"
+      },
+      {
+        "number": "17",
+        "name": "Guéla Doué",
+        "title": "Guéla Doué"
+      },
+      {
+        "number": "18",
+        "name": "Ibrahim Sangaré",
+        "title": "Ibrahim Sangaré (Ivorian footballer)"
+      },
+      {
+        "number": "19",
+        "name": "Nicolas Pépé",
+        "title": "Nicolas Pépé"
+      },
+      {
+        "number": "20",
+        "name": "Emmanuel Agbadou",
+        "title": "Emmanuel Agbadou"
+      },
+      {
+        "number": "21",
+        "name": "Evan Ndicka",
+        "title": "Evan Ndicka"
+      },
+      {
+        "number": "22",
+        "name": "Evann Guessand",
+        "title": "Evann Guessand"
+      },
+      {
+        "number": "23",
+        "name": "Alban Lafont",
+        "title": "Alban Lafont"
+      },
+      {
+        "number": "24",
+        "name": "Bazoumana Touré",
+        "title": "Bazoumana Touré"
+      },
+      {
+        "number": "25",
+        "name": "Parfait Guiagon",
+        "title": "Parfait Guiagon"
+      },
+      {
+        "number": "26",
+        "name": "Christ Inao Oulaï",
+        "title": "Christ Inao Oulaï"
+      }
+    ]
+  },
+  {
+    "team": "Japan",
+    "folder": "日本队",
+    "players": [
+      {
+        "number": "1",
+        "name": "Zion Suzuki",
+        "title": "Zion Suzuki"
+      },
+      {
+        "number": "2",
+        "name": "Yukinari Sugawara",
+        "title": "Yukinari Sugawara"
+      },
+      {
+        "number": "3",
+        "name": "Shōgo Taniguchi",
+        "title": "Shōgo Taniguchi"
+      },
+      {
+        "number": "4",
+        "name": "Kō Itakura ( captain )",
+        "title": "Kō Itakura"
+      },
+      {
+        "number": "5",
+        "name": "Yūto Nagatomo",
+        "title": "Yūto Nagatomo"
+      },
+      {
+        "number": "6",
+        "name": "Shūto Machino",
+        "title": "Shūto Machino"
+      },
+      {
+        "number": "7",
+        "name": "Ao Tanaka",
+        "title": "Ao Tanaka"
+      },
+      {
+        "number": "8",
+        "name": "Takefusa Kubo",
+        "title": "Takefusa Kubo"
+      },
+      {
+        "number": "9",
+        "name": "Keisuke Gotō",
+        "title": "Keisuke Gotō"
+      },
+      {
+        "number": "10",
+        "name": "Ritsu Dōan",
+        "title": "Ritsu Dōan"
+      },
+      {
+        "number": "11",
+        "name": "Daizen Maeda",
+        "title": "Daizen Maeda"
+      },
+      {
+        "number": "12",
+        "name": "Keisuke Ōsako",
+        "title": "Keisuke Ōsako"
+      },
+      {
+        "number": "13",
+        "name": "Keito Nakamura",
+        "title": "Keito Nakamura"
+      },
+      {
+        "number": "14",
+        "name": "Junya Itō",
+        "title": "Junya Itō"
+      },
+      {
+        "number": "15",
+        "name": "Daichi Kamada",
+        "title": "Daichi Kamada"
+      },
+      {
+        "number": "16",
+        "name": "Tsuyoshi Watanabe",
+        "title": "Tsuyoshi Watanabe"
+      },
+      {
+        "number": "17",
+        "name": "Yuito Suzuki",
+        "title": "Yuito Suzuki"
+      },
+      {
+        "number": "18",
+        "name": "Ayase Ueda",
+        "title": "Ayase Ueda"
+      },
+      {
+        "number": "19",
+        "name": "Kōki Ogawa",
+        "title": "Kōki Ogawa (footballer)"
+      },
+      {
+        "number": "20",
+        "name": "Ayumu Seko",
+        "title": "Ayumu Seko"
+      },
+      {
+        "number": "21",
+        "name": "Hiroki Itō",
+        "title": "Hiroki Itō (footballer, born 1999)"
+      },
+      {
+        "number": "22",
+        "name": "Takehiro Tomiyasu",
+        "title": "Takehiro Tomiyasu"
+      },
+      {
+        "number": "23",
+        "name": "Tomoki Hayakawa",
+        "title": "Tomoki Hayakawa"
+      },
+      {
+        "number": "24",
+        "name": "Kaishū Sano",
+        "title": "Kaishū Sano"
+      },
+      {
+        "number": "25",
+        "name": "Junnosuke Suzuki",
+        "title": "Junnosuke Suzuki"
+      },
+      {
+        "number": "26",
+        "name": "Kento Shiogai",
+        "title": "Kento Shiogai"
+      }
+    ]
+  },
+  {
+    "team": "Netherlands",
+    "folder": "荷兰队",
+    "players": [
+      {
+        "number": "1",
+        "name": "Bart Verbruggen",
+        "title": "Bart Verbruggen"
+      },
+      {
+        "number": "2",
+        "name": "Lutsharel Geertruida",
+        "title": "Lutsharel Geertruida"
+      },
+      {
+        "number": "3",
+        "name": "Marten de Roon",
+        "title": "Marten de Roon"
+      },
+      {
+        "number": "4",
+        "name": "Virgil van Dijk ( captain )",
+        "title": "Virgil van Dijk"
+      },
+      {
+        "number": "5",
+        "name": "Nathan Aké",
+        "title": "Nathan Aké"
+      },
+      {
+        "number": "6",
+        "name": "Jan Paul van Hecke",
+        "title": "Jan Paul van Hecke"
+      },
+      {
+        "number": "7",
+        "name": "Justin Kluivert",
+        "title": "Justin Kluivert"
+      },
+      {
+        "number": "8",
+        "name": "Ryan Gravenberch",
+        "title": "Ryan Gravenberch"
+      },
+      {
+        "number": "9",
+        "name": "Wout Weghorst",
+        "title": "Wout Weghorst"
+      },
+      {
+        "number": "10",
+        "name": "Memphis Depay",
+        "title": "Memphis Depay"
+      },
+      {
+        "number": "11",
+        "name": "Cody Gakpo",
+        "title": "Cody Gakpo"
+      },
+      {
+        "number": "12",
+        "name": "Mats Wieffer",
+        "title": "Mats Wieffer"
+      },
+      {
+        "number": "13",
+        "name": "Robin Roefs",
+        "title": "Robin Roefs"
+      },
+      {
+        "number": "14",
+        "name": "Tijjani Reijnders",
+        "title": "Tijjani Reijnders"
+      },
+      {
+        "number": "15",
+        "name": "Micky van de Ven",
+        "title": "Micky van de Ven"
+      },
+      {
+        "number": "16",
+        "name": "Guus Til",
+        "title": "Guus Til"
+      },
+      {
+        "number": "17",
+        "name": "Noa Lang",
+        "title": "Noa Lang"
+      },
+      {
+        "number": "18",
+        "name": "Donyell Malen",
+        "title": "Donyell Malen"
+      },
+      {
+        "number": "19",
+        "name": "Brian Brobbey",
+        "title": "Brian Brobbey"
+      },
+      {
+        "number": "20",
+        "name": "Teun Koopmeiners",
+        "title": "Teun Koopmeiners"
+      },
+      {
+        "number": "21",
+        "name": "Frenkie de Jong",
+        "title": "Frenkie de Jong"
+      },
+      {
+        "number": "22",
+        "name": "Denzel Dumfries",
+        "title": "Denzel Dumfries"
+      },
+      {
+        "number": "23",
+        "name": "Mark Flekken",
+        "title": "Mark Flekken"
+      },
+      {
+        "number": "24",
+        "name": "Crysencio Summerville",
+        "title": "Crysencio Summerville"
+      },
+      {
+        "number": "25",
+        "name": "Jorrel Hato",
+        "title": "Jorrel Hato"
+      },
+      {
+        "number": "26",
+        "name": "Quinten Timber",
+        "title": "Quinten Timber"
+      }
+    ]
+  },
+  {
+    "team": "Sweden",
+    "folder": "瑞典队",
+    "players": [
+      {
+        "number": "1",
+        "name": "Jacob Widell Zetterström",
+        "title": "Jacob Widell Zetterström"
+      },
+      {
+        "number": "2",
+        "name": "Gustaf Lagerbielke",
+        "title": "Gustaf Lagerbielke (footballer)"
+      },
+      {
+        "number": "3",
+        "name": "Victor Lindelöf ( captain )",
+        "title": "Victor Lindelöf"
+      },
+      {
+        "number": "4",
+        "name": "Isak Hien",
+        "title": "Isak Hien"
+      },
+      {
+        "number": "5",
+        "name": "Gabriel Gudmundsson",
+        "title": "Gabriel Gudmundsson"
+      },
+      {
+        "number": "6",
+        "name": "Herman Johansson",
+        "title": "Herman Johansson"
+      },
+      {
+        "number": "7",
+        "name": "Lucas Bergvall",
+        "title": "Lucas Bergvall"
+      },
+      {
+        "number": "8",
+        "name": "Daniel Svensson",
+        "title": "Daniel Svensson (footballer, born 2002)"
+      },
+      {
+        "number": "9",
+        "name": "Alexander Isak",
+        "title": "Alexander Isak"
+      },
+      {
+        "number": "10",
+        "name": "Benjamin Nygren",
+        "title": "Benjamin Nygren"
+      },
+      {
+        "number": "11",
+        "name": "Anthony Elanga",
+        "title": "Anthony Elanga"
+      },
+      {
+        "number": "12",
+        "name": "Viktor Johansson",
+        "title": "Viktor Johansson"
+      },
+      {
+        "number": "13",
+        "name": "Ken Sema",
+        "title": "Ken Sema"
+      },
+      {
+        "number": "14",
+        "name": "Hjalmar Ekdal",
+        "title": "Hjalmar Ekdal"
+      },
+      {
+        "number": "15",
+        "name": "Carl Starfelt",
+        "title": "Carl Starfelt"
+      },
+      {
+        "number": "16",
+        "name": "Jesper Karlström",
+        "title": "Jesper Karlström"
+      },
+      {
+        "number": "17",
+        "name": "Viktor Gyökeres",
+        "title": "Viktor Gyökeres"
+      },
+      {
+        "number": "18",
+        "name": "Yasin Ayari",
+        "title": "Yasin Ayari"
+      },
+      {
+        "number": "19",
+        "name": "Mattias Svanberg",
+        "title": "Mattias Svanberg"
+      },
+      {
+        "number": "20",
+        "name": "Eric Smith",
+        "title": "Eric Smith (Swedish footballer)"
+      },
+      {
+        "number": "21",
+        "name": "Alexander Bernhardsson",
+        "title": "Alexander Bernhardsson"
+      },
+      {
+        "number": "22",
+        "name": "Besfort Zeneli",
+        "title": "Besfort Zeneli"
+      },
+      {
+        "number": "23",
+        "name": "Kristoffer Nordfeldt",
+        "title": "Kristoffer Nordfeldt"
+      },
+      {
+        "number": "24",
+        "name": "Elliot Stroud",
+        "title": "Elliot Stroud"
+      },
+      {
+        "number": "25",
+        "name": "Gustaf Nilsson",
+        "title": "Gustaf Nilsson (footballer, born 1997)"
+      },
+      {
+        "number": "26",
+        "name": "Taha Ali",
+        "title": "Taha Ali"
+      }
+    ]
+  },
+  {
+    "team": "Tunisia",
+    "folder": "突尼斯队",
+    "players": [
+      {
+        "number": "1",
+        "name": "Mouhib Chamakh",
+        "title": "Mouhib Chamakh"
+      },
+      {
+        "number": "2",
+        "name": "Ali Abdi",
+        "title": "Ali Abdi (footballer)"
+      },
+      {
+        "number": "3",
+        "name": "Montassar Talbi",
+        "title": "Montassar Talbi"
+      },
+      {
+        "number": "4",
+        "name": "Omar Rekik",
+        "title": "Omar Rekik"
+      },
+      {
+        "number": "5",
+        "name": "Adem Arous",
+        "title": "Adem Arous"
+      },
+      {
+        "number": "6",
+        "name": "Dylan Bronn",
+        "title": "Dylan Bronn"
+      },
+      {
+        "number": "7",
+        "name": "Elias Achouri",
+        "title": "Elias Achouri"
+      },
+      {
+        "number": "8",
+        "name": "Elias Saad",
+        "title": "Elias Saad"
+      },
+      {
+        "number": "9",
+        "name": "Hazem Mastouri",
+        "title": "Hazem Mastouri"
+      },
+      {
+        "number": "10",
+        "name": "Hannibal Mejbri",
+        "title": "Hannibal Mejbri"
+      },
+      {
+        "number": "11",
+        "name": "Ismaël Gharbi",
+        "title": "Ismaël Gharbi"
+      },
+      {
+        "number": "12",
+        "name": "Mortadha Ben Ouanes",
+        "title": "Mortadha Ben Ouanes"
+      },
+      {
+        "number": "13",
+        "name": "Rani Khedira",
+        "title": "Rani Khedira"
+      },
+      {
+        "number": "14",
+        "name": "Khalil Ayari",
+        "title": "Khalil Ayari"
+      },
+      {
+        "number": "15",
+        "name": "Hadj Mahmoud",
+        "title": "Hadj Mahmoud"
+      },
+      {
+        "number": "16",
+        "name": "Aymen Dahmen",
+        "title": "Aymen Dahmen"
+      },
+      {
+        "number": "17",
+        "name": "Ellyes Skhiri ( captain )",
+        "title": "Ellyes Skhiri"
+      },
+      {
+        "number": "18",
+        "name": "Rayan Elloumi",
+        "title": "Rayan Elloumi"
+      },
+      {
+        "number": "19",
+        "name": "Firas Chaouat",
+        "title": "Firas Chaouat"
+      },
+      {
+        "number": "20",
+        "name": "Yan Valery",
+        "title": "Yan Valery"
+      },
+      {
+        "number": "21",
+        "name": "Mohamed Amine Ben Hamida",
+        "title": "Mohamed Amine Ben Hamida"
+      },
+      {
+        "number": "22",
+        "name": "Sabri Ben Hessen",
+        "title": "Sabri Ben Hessen"
+      },
+      {
+        "number": "23",
+        "name": "Moutaz Neffati",
+        "title": "Moutaz Neffati"
+      },
+      {
+        "number": "24",
+        "name": "Raed Chikhaoui",
+        "title": "Raed Chikhaoui"
+      },
+      {
+        "number": "25",
+        "name": "Anis Ben Slimane",
+        "title": "Anis Ben Slimane"
+      },
+      {
+        "number": "26",
+        "name": "Sebastian Tounekti",
+        "title": "Sebastian Tounekti"
+      }
+    ]
+  },
+  {
+    "team": "Belgium",
+    "folder": "比利时队",
+    "players": [
+      {
+        "number": "1",
+        "name": "Thibaut Courtois",
+        "title": "Thibaut Courtois"
+      },
+      {
+        "number": "2",
+        "name": "Zeno Debast",
+        "title": "Zeno Debast"
+      },
+      {
+        "number": "3",
+        "name": "Arthur Theate",
+        "title": "Arthur Theate"
+      },
+      {
+        "number": "4",
+        "name": "Brandon Mechele",
+        "title": "Brandon Mechele"
+      },
+      {
+        "number": "5",
+        "name": "Maxim De Cuyper",
+        "title": "Maxim De Cuyper"
+      },
+      {
+        "number": "6",
+        "name": "Axel Witsel",
+        "title": "Axel Witsel"
+      },
+      {
+        "number": "7",
+        "name": "Kevin De Bruyne",
+        "title": "Kevin De Bruyne"
+      },
+      {
+        "number": "8",
+        "name": "Youri Tielemans ( captain )",
+        "title": "Youri Tielemans"
+      },
+      {
+        "number": "9",
+        "name": "Romelu Lukaku",
+        "title": "Romelu Lukaku"
+      },
+      {
+        "number": "10",
+        "name": "Leandro Trossard",
+        "title": "Leandro Trossard"
+      },
+      {
+        "number": "11",
+        "name": "Jérémy Doku",
+        "title": "Jérémy Doku"
+      },
+      {
+        "number": "12",
+        "name": "Senne Lammens",
+        "title": "Senne Lammens"
+      },
+      {
+        "number": "13",
+        "name": "Mike Penders",
+        "title": "Mike Penders"
+      },
+      {
+        "number": "14",
+        "name": "Dodi Lukébakio",
+        "title": "Dodi Lukébakio"
+      },
+      {
+        "number": "15",
+        "name": "Thomas Meunier",
+        "title": "Thomas Meunier"
+      },
+      {
+        "number": "16",
+        "name": "Koni De Winter",
+        "title": "Koni De Winter"
+      },
+      {
+        "number": "17",
+        "name": "Charles De Ketelaere",
+        "title": "Charles De Ketelaere"
+      },
+      {
+        "number": "18",
+        "name": "Joaquin Seys",
+        "title": "Joaquin Seys"
+      },
+      {
+        "number": "19",
+        "name": "Diego Moreira",
+        "title": "Diego Moreira"
+      },
+      {
+        "number": "20",
+        "name": "Hans Vanaken",
+        "title": "Hans Vanaken"
+      },
+      {
+        "number": "21",
+        "name": "Timothy Castagne",
+        "title": "Timothy Castagne"
+      },
+      {
+        "number": "22",
+        "name": "Alexis Saelemaekers",
+        "title": "Alexis Saelemaekers"
+      },
+      {
+        "number": "23",
+        "name": "Nicolas Raskin",
+        "title": "Nicolas Raskin"
+      },
+      {
+        "number": "24",
+        "name": "Amadou Onana",
+        "title": "Amadou Onana"
+      },
+      {
+        "number": "25",
+        "name": "Nathan Ngoy",
+        "title": "Nathan Ngoy"
+      },
+      {
+        "number": "26",
+        "name": "Matias Fernandez-Pardo",
+        "title": "Matias Fernandez-Pardo"
+      }
+    ]
+  },
+  {
+    "team": "Egypt",
+    "folder": "埃及队",
+    "players": [
+      {
+        "number": "1",
+        "name": "Mohamed El Shenawy",
+        "title": "Mohamed El Shenawy"
+      },
+      {
+        "number": "2",
+        "name": "Yasser Ibrahim",
+        "title": "Yasser Ibrahim"
+      },
+      {
+        "number": "3",
+        "name": "Mohamed Hany",
+        "title": "Mohamed Hany"
+      },
+      {
+        "number": "4",
+        "name": "Hossam Abdelmaguid",
+        "title": "Hossam Abdelmaguid"
+      },
+      {
+        "number": "5",
+        "name": "Ramy Rabia",
+        "title": "Ramy Rabia"
+      },
+      {
+        "number": "6",
+        "name": "Mohamed Abdelmonem",
+        "title": "Mohamed Abdelmonem"
+      },
+      {
+        "number": "7",
+        "name": "Trézéguet",
+        "title": "Trézéguet (Egyptian footballer)"
+      },
+      {
+        "number": "8",
+        "name": "Emam Ashour",
+        "title": "Emam Ashour"
+      },
+      {
+        "number": "9",
+        "name": "Hamza Abdelkarim",
+        "title": "Hamza Abdelkarim"
+      },
+      {
+        "number": "10",
+        "name": "Mohamed Salah ( captain )",
+        "title": "Mohamed Salah"
+      },
+      {
+        "number": "11",
+        "name": "Mostafa Ziko",
+        "title": "Mostafa Ziko"
+      },
+      {
+        "number": "12",
+        "name": "Haissem Hassan",
+        "title": "Haissem Hassan"
+      },
+      {
+        "number": "13",
+        "name": "Ahmed Fatouh",
+        "title": "Ahmed Fatouh"
+      },
+      {
+        "number": "14",
+        "name": "Hamdy Fathy",
+        "title": "Hamdy Fathy"
+      },
+      {
+        "number": "15",
+        "name": "Karim Hafez",
+        "title": "Karim Hafez"
+      },
+      {
+        "number": "16",
+        "name": "El Mahdy Soliman",
+        "title": "El Mahdy Soliman"
+      },
+      {
+        "number": "17",
+        "name": "Mohanad Lasheen",
+        "title": "Mohanad Lasheen"
+      },
+      {
+        "number": "18",
+        "name": "Nabil Emad",
+        "title": "Nabil Emad"
+      },
+      {
+        "number": "19",
+        "name": "Marwan Attia",
+        "title": "Marwan Attia"
+      },
+      {
+        "number": "20",
+        "name": "Ibrahim Adel",
+        "title": "Ibrahim Adel"
+      },
+      {
+        "number": "21",
+        "name": "Mahmoud Saber",
+        "title": "Mahmoud Saber"
+      },
+      {
+        "number": "22",
+        "name": "Omar Marmoush",
+        "title": "Omar Marmoush"
+      },
+      {
+        "number": "23",
+        "name": "Mostafa Shobeir",
+        "title": "Mostafa Shobeir"
+      },
+      {
+        "number": "24",
+        "name": "Tarek Alaa",
+        "title": "Tarek Alaa (footballer, born 2002)"
+      },
+      {
+        "number": "25",
+        "name": "Zizo",
+        "title": "Zizo (footballer)"
+      },
+      {
+        "number": "26",
+        "name": "Mohamed Alaa",
+        "title": "Mohamed Alaa"
+      }
+    ]
+  },
+  {
+    "team": "Iran",
+    "folder": "伊朗队",
+    "players": [
+      {
+        "number": "1",
+        "name": "Alireza Beiranvand",
+        "title": "Alireza Beiranvand"
+      },
+      {
+        "number": "2",
+        "name": "Saleh Hardani",
+        "title": "Saleh Hardani"
+      },
+      {
+        "number": "3",
+        "name": "Ehsan Hajsafi ( captain )",
+        "title": "Ehsan Hajsafi"
+      },
+      {
+        "number": "4",
+        "name": "Shojae Khalilzadeh",
+        "title": "Shojae Khalilzadeh"
+      },
+      {
+        "number": "5",
+        "name": "Milad Mohammadi",
+        "title": "Milad Mohammadi"
+      },
+      {
+        "number": "6",
+        "name": "Saeid Ezatolahi",
+        "title": "Saeid Ezatolahi"
+      },
+      {
+        "number": "7",
+        "name": "Alireza Jahanbakhsh",
+        "title": "Alireza Jahanbakhsh"
+      },
+      {
+        "number": "8",
+        "name": "Mohammad Mohebi",
+        "title": "Mohammad Mohebi"
+      },
+      {
+        "number": "9",
+        "name": "Mehdi Taremi",
+        "title": "Mehdi Taremi"
+      },
+      {
+        "number": "10",
+        "name": "Mehdi Ghayedi",
+        "title": "Mehdi Ghayedi"
+      },
+      {
+        "number": "11",
+        "name": "Ali Alipour",
+        "title": "Ali Alipour"
+      },
+      {
+        "number": "12",
+        "name": "Payam Niazmand",
+        "title": "Payam Niazmand"
+      },
+      {
+        "number": "13",
+        "name": "Hossein Kanaanizadegan",
+        "title": "Hossein Kanaanizadegan"
+      },
+      {
+        "number": "14",
+        "name": "Saman Ghoddos",
+        "title": "Saman Ghoddos"
+      },
+      {
+        "number": "15",
+        "name": "Rouzbeh Cheshmi",
+        "title": "Rouzbeh Cheshmi"
+      },
+      {
+        "number": "16",
+        "name": "Mehdi Torabi",
+        "title": "Mehdi Torabi"
+      },
+      {
+        "number": "17",
+        "name": "Aria Yousefi",
+        "title": "Aria Yousefi"
+      },
+      {
+        "number": "18",
+        "name": "Amirhossein Hosseinzadeh",
+        "title": "Amirhossein Hosseinzadeh"
+      },
+      {
+        "number": "19",
+        "name": "Ali Nemati",
+        "title": "Ali Nemati"
+      },
+      {
+        "number": "20",
+        "name": "Shahriyar Moghanlou",
+        "title": "Shahriyar Moghanlou"
+      },
+      {
+        "number": "21",
+        "name": "Mohammad Ghorbani",
+        "title": "Mohammad Ghorbani (footballer)"
+      },
+      {
+        "number": "22",
+        "name": "Hossein Hosseini",
+        "title": "Hossein Hosseini (footballer, born 1992)"
+      },
+      {
+        "number": "23",
+        "name": "Ramin Rezaeian",
+        "title": "Ramin Rezaeian"
+      },
+      {
+        "number": "24",
+        "name": "Dennis Eckert",
+        "title": "Dennis Eckert"
+      },
+      {
+        "number": "25",
+        "name": "Danial Eiri",
+        "title": "Danial Eiri"
+      },
+      {
+        "number": "26",
+        "name": "Amirmohammad Razzaghinia",
+        "title": "Amirmohammad Razzaghinia"
+      }
+    ]
+  },
+  {
+    "team": "New Zealand",
+    "folder": "新西兰队",
+    "players": [
+      {
+        "number": "1",
+        "name": "Max Crocombe",
+        "title": "Max Crocombe"
+      },
+      {
+        "number": "2",
+        "name": "Tim Payne",
+        "title": "Tim Payne (footballer)"
+      },
+      {
+        "number": "3",
+        "name": "Francis de Vries",
+        "title": "Francis de Vries"
+      },
+      {
+        "number": "4",
+        "name": "Tyler Bindon",
+        "title": "Tyler Bindon"
+      },
+      {
+        "number": "5",
+        "name": "Michael Boxall",
+        "title": "Michael Boxall"
+      },
+      {
+        "number": "6",
+        "name": "Joe Bell",
+        "title": "Joe Bell (footballer)"
+      },
+      {
+        "number": "7",
+        "name": "Matthew Garbett",
+        "title": "Matthew Garbett"
+      },
+      {
+        "number": "8",
+        "name": "Marko Stamenić",
+        "title": "Marko Stamenić"
+      },
+      {
+        "number": "9",
+        "name": "Chris Wood ( captain )",
+        "title": "Chris Wood (footballer, born 1991)"
+      },
+      {
+        "number": "10",
+        "name": "Sarpreet Singh",
+        "title": "Sarpreet Singh"
+      },
+      {
+        "number": "11",
+        "name": "Elijah Just",
+        "title": "Elijah Just"
+      },
+      {
+        "number": "12",
+        "name": "Alex Paulsen",
+        "title": "Alex Paulsen"
+      },
+      {
+        "number": "13",
+        "name": "Liberato Cacace",
+        "title": "Liberato Cacace"
+      },
+      {
+        "number": "14",
+        "name": "Alex Rufer",
+        "title": "Alex Rufer"
+      },
+      {
+        "number": "15",
+        "name": "Nando Pijnaker",
+        "title": "Nando Pijnaker"
+      },
+      {
+        "number": "16",
+        "name": "Finn Surman",
+        "title": "Finn Surman"
+      },
+      {
+        "number": "17",
+        "name": "Kosta Barbarouses",
+        "title": "Kosta Barbarouses"
+      },
+      {
+        "number": "18",
+        "name": "Ben Waine",
+        "title": "Ben Waine"
+      },
+      {
+        "number": "19",
+        "name": "Ben Old",
+        "title": "Ben Old"
+      },
+      {
+        "number": "20",
+        "name": "Callum McCowatt",
+        "title": "Callum McCowatt"
+      },
+      {
+        "number": "21",
+        "name": "Jesse Randall",
+        "title": "Jesse Randall"
+      },
+      {
+        "number": "22",
+        "name": "Michael Woud",
+        "title": "Michael Woud"
+      },
+      {
+        "number": "23",
+        "name": "Ryan Thomas",
+        "title": "Ryan Thomas (footballer)"
+      },
+      {
+        "number": "24",
+        "name": "Callan Elliot",
+        "title": "Callan Elliot"
+      },
+      {
+        "number": "25",
+        "name": "Lachlan Bayliss",
+        "title": "Lachlan Bayliss"
+      },
+      {
+        "number": "26",
+        "name": "Tommy Smith",
+        "title": "Tommy Smith (footballer, born 1990)"
+      }
+    ]
+  },
+  {
+    "team": "Cape Verde",
+    "folder": "佛得角队",
+    "players": [
+      {
+        "number": "1",
+        "name": "Vozinha",
+        "title": "Vozinha"
+      },
+      {
+        "number": "2",
+        "name": "Stopira",
+        "title": "Stopira"
+      },
+      {
+        "number": "3",
+        "name": "Diney",
+        "title": "Diney (footballer, born 1995)"
+      },
+      {
+        "number": "4",
+        "name": "Roberto Lopes",
+        "title": "Roberto Lopes (footballer, born 1992)"
+      },
+      {
+        "number": "5",
+        "name": "Logan Costa",
+        "title": "Logan Costa"
+      },
+      {
+        "number": "6",
+        "name": "Kevin Pina",
+        "title": "Kevin Pina (footballer)"
+      },
+      {
+        "number": "7",
+        "name": "Jovane Cabral",
+        "title": "Jovane Cabral"
+      },
+      {
+        "number": "8",
+        "name": "João Paulo",
+        "title": "João Paulo Fernandes (footballer)"
+      },
+      {
+        "number": "9",
+        "name": "Gilson Benchimol",
+        "title": "Gilson Benchimol"
+      },
+      {
+        "number": "10",
+        "name": "Jamiro Monteiro",
+        "title": "Jamiro Monteiro"
+      },
+      {
+        "number": "11",
+        "name": "Garry Rodrigues",
+        "title": "Garry Rodrigues"
+      },
+      {
+        "number": "12",
+        "name": "Márcio Rosa",
+        "title": "Márcio Rosa"
+      },
+      {
+        "number": "13",
+        "name": "Sidny Lopes Cabral",
+        "title": "Sidny Lopes Cabral"
+      },
+      {
+        "number": "14",
+        "name": "Deroy Duarte",
+        "title": "Deroy Duarte"
+      },
+      {
+        "number": "15",
+        "name": "Laros Duarte",
+        "title": "Laros Duarte"
+      },
+      {
+        "number": "16",
+        "name": "Yannick Semedo",
+        "title": "Yannick Semedo"
+      },
+      {
+        "number": "17",
+        "name": "Willy Semedo",
+        "title": "Willy Semedo"
+      },
+      {
+        "number": "18",
+        "name": "Telmo Arcanjo",
+        "title": "Telmo Arcanjo"
+      },
+      {
+        "number": "19",
+        "name": "Dailon Livramento",
+        "title": "Dailon Livramento"
+      },
+      {
+        "number": "20",
+        "name": "Ryan Mendes ( captain )",
+        "title": "Ryan Mendes"
+      },
+      {
+        "number": "21",
+        "name": "Nuno da Costa",
+        "title": "Nuno da Costa"
+      },
+      {
+        "number": "22",
+        "name": "Steven Moreira",
+        "title": "Steven Moreira"
+      },
+      {
+        "number": "23",
+        "name": "CJ dos Santos",
+        "title": "CJ dos Santos"
+      },
+      {
+        "number": "24",
+        "name": "Wagner Pina",
+        "title": "Wagner Pina"
+      },
+      {
+        "number": "25",
+        "name": "Kelvin Pires",
+        "title": "Kelvin Pires"
+      },
+      {
+        "number": "26",
+        "name": "Hélio Varela",
+        "title": "Hélio Varela"
+      }
+    ]
+  },
+  {
+    "team": "Saudi Arabia",
+    "folder": "沙特阿拉伯队",
+    "players": [
+      {
+        "number": "1",
+        "name": "Nawaf Al-Aqidi",
+        "title": "Nawaf Al-Aqidi"
+      },
+      {
+        "number": "2",
+        "name": "Ali Majrashi",
+        "title": "Ali Majrashi"
+      },
+      {
+        "number": "3",
+        "name": "Ali Lajami",
+        "title": "Ali Lajami"
+      },
+      {
+        "number": "4",
+        "name": "Abdulelah Al-Amri",
+        "title": "Abdulelah Al-Amri"
+      },
+      {
+        "number": "5",
+        "name": "Hassan Al-Tambakti",
+        "title": "Hassan Al-Tambakti"
+      },
+      {
+        "number": "6",
+        "name": "Nasser Al-Dawsari",
+        "title": "Nasser Al-Dawsari"
+      },
+      {
+        "number": "7",
+        "name": "Musab Al-Juwayr",
+        "title": "Musab Al-Juwayr"
+      },
+      {
+        "number": "8",
+        "name": "Ayman Yahya",
+        "title": "Ayman Yahya"
+      },
+      {
+        "number": "9",
+        "name": "Firas Al-Buraikan",
+        "title": "Firas Al-Buraikan"
+      },
+      {
+        "number": "10",
+        "name": "Salem Al-Dawsari ( captain )",
+        "title": "Salem Al-Dawsari"
+      },
+      {
+        "number": "11",
+        "name": "Saleh Al-Shehri",
+        "title": "Saleh Al-Shehri"
+      },
+      {
+        "number": "12",
+        "name": "Saud Abdulhamid",
+        "title": "Saud Abdulhamid"
+      },
+      {
+        "number": "13",
+        "name": "Nawaf Boushal",
+        "title": "Nawaf Boushal"
+      },
+      {
+        "number": "14",
+        "name": "Hassan Kadesh",
+        "title": "Hassan Kadesh"
+      },
+      {
+        "number": "15",
+        "name": "Abdullah Al-Khaibari",
+        "title": "Abdullah Al-Khaibari"
+      },
+      {
+        "number": "16",
+        "name": "Ziyad Al-Johani",
+        "title": "Ziyad Al-Johani"
+      },
+      {
+        "number": "17",
+        "name": "Khalid Al-Ghannam",
+        "title": "Khalid Al-Ghannam"
+      },
+      {
+        "number": "18",
+        "name": "Alaa Al-Hejji",
+        "title": "Alaa Al-Hejji"
+      },
+      {
+        "number": "19",
+        "name": "Abdullah Al-Hamdan",
+        "title": "Abdullah Al-Hamdan"
+      },
+      {
+        "number": "20",
+        "name": "Sultan Mandash",
+        "title": "Sultan Mandash"
+      },
+      {
+        "number": "21",
+        "name": "Mohammed Al-Owais",
+        "title": "Mohammed Al-Owais"
+      },
+      {
+        "number": "22",
+        "name": "Ahmed Al-Kassar",
+        "title": "Ahmed Al-Kassar"
+      },
+      {
+        "number": "23",
+        "name": "Mohamed Kanno",
+        "title": "Mohamed Kanno"
+      },
+      {
+        "number": "24",
+        "name": "Moteb Al-Harbi",
+        "title": "Moteb Al-Harbi"
+      },
+      {
+        "number": "25",
+        "name": "Jehad Thakri",
+        "title": "Jehad Thakri"
+      },
+      {
+        "number": "26",
+        "name": "Mohammed Abu Al-Shamat",
+        "title": "Mohammed Abu Al-Shamat"
+      }
+    ]
+  },
+  {
+    "team": "Spain",
+    "folder": "西班牙队",
+    "players": [
+      {
+        "number": "1",
+        "name": "David Raya",
+        "title": "David Raya"
+      },
+      {
+        "number": "2",
+        "name": "Marc Pubill",
+        "title": "Marc Pubill"
+      },
+      {
+        "number": "3",
+        "name": "Álex Grimaldo",
+        "title": "Álex Grimaldo"
+      },
+      {
+        "number": "4",
+        "name": "Eric García",
+        "title": "Eric García (footballer, born 2001)"
+      },
+      {
+        "number": "5",
+        "name": "Marcos Llorente",
+        "title": "Marcos Llorente"
+      },
+      {
+        "number": "6",
+        "name": "Mikel Merino",
+        "title": "Mikel Merino"
+      },
+      {
+        "number": "7",
+        "name": "Ferran Torres",
+        "title": "Ferran Torres"
+      },
+      {
+        "number": "8",
+        "name": "Fabián Ruiz",
+        "title": "Fabián Ruiz"
+      },
+      {
+        "number": "9",
+        "name": "Gavi",
+        "title": "Gavi (footballer)"
+      },
+      {
+        "number": "10",
+        "name": "Dani Olmo",
+        "title": "Dani Olmo"
+      },
+      {
+        "number": "11",
+        "name": "Yéremy Pino",
+        "title": "Yéremy Pino"
+      },
+      {
+        "number": "12",
+        "name": "Pedro Porro",
+        "title": "Pedro Porro"
+      },
+      {
+        "number": "13",
+        "name": "Joan Garcia",
+        "title": "Joan Garcia"
+      },
+      {
+        "number": "14",
+        "name": "Aymeric Laporte",
+        "title": "Aymeric Laporte"
+      },
+      {
+        "number": "15",
+        "name": "Álex Baena",
+        "title": "Álex Baena"
+      },
+      {
+        "number": "16",
+        "name": "Rodri ( captain )",
+        "title": "Rodri (footballer, born 1996)"
+      },
+      {
+        "number": "17",
+        "name": "Nico Williams",
+        "title": "Nico Williams"
+      },
+      {
+        "number": "18",
+        "name": "Martín Zubimendi",
+        "title": "Martín Zubimendi"
+      },
+      {
+        "number": "19",
+        "name": "Lamine Yamal",
+        "title": "Lamine Yamal"
+      },
+      {
+        "number": "20",
+        "name": "Pedri",
+        "title": "Pedri"
+      },
+      {
+        "number": "21",
+        "name": "Mikel Oyarzabal",
+        "title": "Mikel Oyarzabal"
+      },
+      {
+        "number": "22",
+        "name": "Pau Cubarsí",
+        "title": "Pau Cubarsí"
+      },
+      {
+        "number": "23",
+        "name": "Unai Simón",
+        "title": "Unai Simón"
+      },
+      {
+        "number": "24",
+        "name": "Marc Cucurella",
+        "title": "Marc Cucurella"
+      },
+      {
+        "number": "25",
+        "name": "Víctor Muñoz",
+        "title": "Víctor Muñoz (footballer, born 2003)"
+      },
+      {
+        "number": "26",
+        "name": "Borja Iglesias",
+        "title": "Borja Iglesias"
+      }
+    ]
+  },
+  {
+    "team": "Uruguay",
+    "folder": "乌拉圭队",
+    "players": [
+      {
+        "number": "1",
+        "name": "Sergio Rochet",
+        "title": "Sergio Rochet"
+      },
+      {
+        "number": "2",
+        "name": "José María Giménez ( captain )",
+        "title": "José María Giménez"
+      },
+      {
+        "number": "3",
+        "name": "Sebastián Cáceres",
+        "title": "Sebastián Cáceres"
+      },
+      {
+        "number": "4",
+        "name": "Ronald Araújo",
+        "title": "Ronald Araújo"
+      },
+      {
+        "number": "5",
+        "name": "Manuel Ugarte",
+        "title": "Manuel Ugarte (footballer)"
+      },
+      {
+        "number": "6",
+        "name": "Rodrigo Bentancur",
+        "title": "Rodrigo Bentancur"
+      },
+      {
+        "number": "7",
+        "name": "Nicolás de la Cruz",
+        "title": "Nicolás de la Cruz"
+      },
+      {
+        "number": "8",
+        "name": "Federico Valverde",
+        "title": "Federico Valverde"
+      },
+      {
+        "number": "9",
+        "name": "Darwin Núñez",
+        "title": "Darwin Núñez"
+      },
+      {
+        "number": "10",
+        "name": "Giorgian de Arrascaeta",
+        "title": "Giorgian de Arrascaeta"
+      },
+      {
+        "number": "11",
+        "name": "Facundo Pellistri",
+        "title": "Facundo Pellistri"
+      },
+      {
+        "number": "12",
+        "name": "Santiago Mele",
+        "title": "Santiago Mele"
+      },
+      {
+        "number": "13",
+        "name": "Guillermo Varela",
+        "title": "Guillermo Varela"
+      },
+      {
+        "number": "14",
+        "name": "Agustín Canobbio",
+        "title": "Agustín Canobbio"
+      },
+      {
+        "number": "15",
+        "name": "Emiliano Martínez",
+        "title": "Emiliano Martínez (footballer, born 1999)"
+      },
+      {
+        "number": "16",
+        "name": "Mathías Olivera",
+        "title": "Mathías Olivera"
+      },
+      {
+        "number": "17",
+        "name": "Matías Viña",
+        "title": "Matías Viña"
+      },
+      {
+        "number": "18",
+        "name": "Brian Rodríguez",
+        "title": "Brian Rodríguez"
+      },
+      {
+        "number": "19",
+        "name": "Rodrigo Aguirre",
+        "title": "Rodrigo Aguirre"
+      },
+      {
+        "number": "20",
+        "name": "Maximiliano Araújo",
+        "title": "Maximiliano Araújo"
+      },
+      {
+        "number": "21",
+        "name": "Federico Viñas",
+        "title": "Federico Viñas"
+      },
+      {
+        "number": "22",
+        "name": "Joaquín Piquerez",
+        "title": "Joaquín Piquerez"
+      },
+      {
+        "number": "23",
+        "name": "Fernando Muslera",
+        "title": "Fernando Muslera"
+      },
+      {
+        "number": "24",
+        "name": "Santiago Bueno",
+        "title": "Santiago Bueno"
+      },
+      {
+        "number": "25",
+        "name": "Juan Manuel Sanabria",
+        "title": "Juan Manuel Sanabria"
+      },
+      {
+        "number": "26",
+        "name": "Rodrigo Zalazar",
+        "title": "Rodrigo Zalazar"
+      }
+    ]
+  },
+  {
+    "team": "France",
+    "folder": "法国队",
+    "players": [
+      {
+        "number": "1",
+        "name": "Brice Samba",
+        "title": "Brice Samba"
+      },
+      {
+        "number": "2",
+        "name": "Malo Gusto",
+        "title": "Malo Gusto"
+      },
+      {
+        "number": "3",
+        "name": "Lucas Digne",
+        "title": "Lucas Digne"
+      },
+      {
+        "number": "4",
+        "name": "Dayot Upamecano",
+        "title": "Dayot Upamecano"
+      },
+      {
+        "number": "5",
+        "name": "Jules Koundé",
+        "title": "Jules Koundé"
+      },
+      {
+        "number": "6",
+        "name": "Manu Koné",
+        "title": "Manu Koné"
+      },
+      {
+        "number": "7",
+        "name": "Ousmane Dembélé",
+        "title": "Ousmane Dembélé"
+      },
+      {
+        "number": "8",
+        "name": "Aurélien Tchouaméni",
+        "title": "Aurélien Tchouaméni"
+      },
+      {
+        "number": "9",
+        "name": "Marcus Thuram",
+        "title": "Marcus Thuram"
+      },
+      {
+        "number": "10",
+        "name": "Kylian Mbappé ( captain )",
+        "title": "Kylian Mbappé"
+      },
+      {
+        "number": "11",
+        "name": "Michael Olise",
+        "title": "Michael Olise"
+      },
+      {
+        "number": "12",
+        "name": "Bradley Barcola",
+        "title": "Bradley Barcola"
+      },
+      {
+        "number": "13",
+        "name": "N'Golo Kanté",
+        "title": "N'Golo Kanté"
+      },
+      {
+        "number": "14",
+        "name": "Adrien Rabiot",
+        "title": "Adrien Rabiot"
+      },
+      {
+        "number": "15",
+        "name": "Ibrahima Konaté",
+        "title": "Ibrahima Konaté"
+      },
+      {
+        "number": "16",
+        "name": "Mike Maignan",
+        "title": "Mike Maignan"
+      },
+      {
+        "number": "17",
+        "name": "William Saliba",
+        "title": "William Saliba"
+      },
+      {
+        "number": "18",
+        "name": "Warren Zaïre-Emery",
+        "title": "Warren Zaïre-Emery"
+      },
+      {
+        "number": "19",
+        "name": "Théo Hernandez",
+        "title": "Théo Hernandez"
+      },
+      {
+        "number": "20",
+        "name": "Désiré Doué",
+        "title": "Désiré Doué"
+      },
+      {
+        "number": "21",
+        "name": "Lucas Hernandez",
+        "title": "Lucas Hernandez"
+      },
+      {
+        "number": "22",
+        "name": "Jean-Philippe Mateta",
+        "title": "Jean-Philippe Mateta"
+      },
+      {
+        "number": "23",
+        "name": "Robin Risser",
+        "title": "Robin Risser"
+      },
+      {
+        "number": "24",
+        "name": "Rayan Cherki",
+        "title": "Rayan Cherki"
+      },
+      {
+        "number": "25",
+        "name": "Maghnes Akliouche",
+        "title": "Maghnes Akliouche"
+      },
+      {
+        "number": "26",
+        "name": "Maxence Lacroix",
+        "title": "Maxence Lacroix"
+      }
+    ]
+  },
+  {
+    "team": "Iraq",
+    "folder": "伊拉克队",
+    "players": [
+      {
+        "number": "1",
+        "name": "Fahad Talib",
+        "title": "Fahad Talib"
+      },
+      {
+        "number": "2",
+        "name": "Rebin Sulaka",
+        "title": "Rebin Sulaka"
+      },
+      {
+        "number": "3",
+        "name": "Hussein Ali",
+        "title": "Hussein Ali (footballer, born 2002)"
+      },
+      {
+        "number": "4",
+        "name": "Zaid Tahseen",
+        "title": "Zaid Tahseen"
+      },
+      {
+        "number": "5",
+        "name": "Akam Hashim",
+        "title": "Akam Hashim"
+      },
+      {
+        "number": "6",
+        "name": "Manaf Younis",
+        "title": "Manaf Younis"
+      },
+      {
+        "number": "7",
+        "name": "Youssef Amyn",
+        "title": "Youssef Amyn"
+      },
+      {
+        "number": "8",
+        "name": "Ibrahim Bayesh",
+        "title": "Ibrahim Bayesh"
+      },
+      {
+        "number": "9",
+        "name": "Ali Al-Hamadi",
+        "title": "Ali Al-Hamadi"
+      },
+      {
+        "number": "10",
+        "name": "Mohanad Ali",
+        "title": "Mohanad Ali"
+      },
+      {
+        "number": "11",
+        "name": "Ahmed Qasem",
+        "title": "Ahmed Qasem"
+      },
+      {
+        "number": "12",
+        "name": "Jalal Hassan ( captain )",
+        "title": "Jalal Hassan"
+      },
+      {
+        "number": "13",
+        "name": "Ali Yousif",
+        "title": "Ali Yousif"
+      },
+      {
+        "number": "14",
+        "name": "Zidane Iqbal",
+        "title": "Zidane Iqbal"
+      },
+      {
+        "number": "15",
+        "name": "Ahmed Maknzi",
+        "title": "Ahmed Maknzi"
+      },
+      {
+        "number": "16",
+        "name": "Amir Al-Ammari",
+        "title": "Amir Al-Ammari"
+      },
+      {
+        "number": "17",
+        "name": "Ali Jasim",
+        "title": "Ali Jasim"
+      },
+      {
+        "number": "18",
+        "name": "Aymen Hussein",
+        "title": "Aymen Hussein"
+      },
+      {
+        "number": "19",
+        "name": "Kevin Yakob",
+        "title": "Kevin Yakob"
+      },
+      {
+        "number": "20",
+        "name": "Aimar Sher",
+        "title": "Aimar Sher"
+      },
+      {
+        "number": "21",
+        "name": "Marko Farji",
+        "title": "Marko Farji"
+      },
+      {
+        "number": "22",
+        "name": "Ahmed Basil",
+        "title": "Ahmed Basil"
+      },
+      {
+        "number": "23",
+        "name": "Merchas Doski",
+        "title": "Merchas Doski"
+      },
+      {
+        "number": "24",
+        "name": "Zaid Ismail",
+        "title": "Zaid Ismail"
+      },
+      {
+        "number": "25",
+        "name": "Mustafa Saadoon",
+        "title": "Mustafa Saadoon (footballer, born 2001)"
+      },
+      {
+        "number": "26",
+        "name": "Frans Putros",
+        "title": "Frans Putros"
+      }
+    ]
+  },
+  {
+    "team": "Norway",
+    "folder": "挪威队",
+    "players": [
+      {
+        "number": "1",
+        "name": "Ørjan Nyland",
+        "title": "Ørjan Nyland"
+      },
+      {
+        "number": "2",
+        "name": "Morten Thorsby",
+        "title": "Morten Thorsby"
+      },
+      {
+        "number": "3",
+        "name": "Kristoffer Ajer",
+        "title": "Kristoffer Ajer"
+      },
+      {
+        "number": "4",
+        "name": "Leo Østigård",
+        "title": "Leo Østigård"
+      },
+      {
+        "number": "5",
+        "name": "David Møller Wolfe",
+        "title": "David Møller Wolfe"
+      },
+      {
+        "number": "6",
+        "name": "Patrick Berg",
+        "title": "Patrick Berg"
+      },
+      {
+        "number": "7",
+        "name": "Alexander Sørloth",
+        "title": "Alexander Sørloth"
+      },
+      {
+        "number": "8",
+        "name": "Sander Berge",
+        "title": "Sander Berge"
+      },
+      {
+        "number": "9",
+        "name": "Erling Haaland",
+        "title": "Erling Haaland"
+      },
+      {
+        "number": "10",
+        "name": "Martin Ødegaard ( captain )",
+        "title": "Martin Ødegaard"
+      },
+      {
+        "number": "11",
+        "name": "Jørgen Strand Larsen",
+        "title": "Jørgen Strand Larsen"
+      },
+      {
+        "number": "12",
+        "name": "Sander Tangvik",
+        "title": "Sander Tangvik"
+      },
+      {
+        "number": "13",
+        "name": "Egil Selvik",
+        "title": "Egil Selvik"
+      },
+      {
+        "number": "14",
+        "name": "Fredrik Aursnes",
+        "title": "Fredrik Aursnes"
+      },
+      {
+        "number": "15",
+        "name": "Fredrik André Bjørkan",
+        "title": "Fredrik André Bjørkan"
+      },
+      {
+        "number": "16",
+        "name": "Marcus Holmgren Pedersen",
+        "title": "Marcus Holmgren Pedersen"
+      },
+      {
+        "number": "17",
+        "name": "Torbjørn Heggem",
+        "title": "Torbjørn Heggem"
+      },
+      {
+        "number": "18",
+        "name": "Kristian Thorstvedt",
+        "title": "Kristian Thorstvedt"
+      },
+      {
+        "number": "19",
+        "name": "Thelo Aasgaard",
+        "title": "Thelo Aasgaard"
+      },
+      {
+        "number": "20",
+        "name": "Antonio Nusa",
+        "title": "Antonio Nusa"
+      },
+      {
+        "number": "21",
+        "name": "Andreas Schjelderup",
+        "title": "Andreas Schjelderup"
+      },
+      {
+        "number": "22",
+        "name": "Oscar Bobb",
+        "title": "Oscar Bobb"
+      },
+      {
+        "number": "23",
+        "name": "Jens Petter Hauge",
+        "title": "Jens Petter Hauge"
+      },
+      {
+        "number": "24",
+        "name": "Sondre Langås",
+        "title": "Sondre Langås"
+      },
+      {
+        "number": "25",
+        "name": "Henrik Falchener",
+        "title": "Henrik Falchener"
+      },
+      {
+        "number": "26",
+        "name": "Julian Ryerson",
+        "title": "Julian Ryerson"
+      }
+    ]
+  },
+  {
+    "team": "Senegal",
+    "folder": "塞内加尔队",
+    "players": [
+      {
+        "number": "1",
+        "name": "Yehvann Diouf",
+        "title": "Yehvann Diouf"
+      },
+      {
+        "number": "2",
+        "name": "Mamadou Sarr",
+        "title": "Mamadou Sarr"
+      },
+      {
+        "number": "3",
+        "name": "Kalidou Koulibaly ( captain )",
+        "title": "Kalidou Koulibaly"
+      },
+      {
+        "number": "4",
+        "name": "Abdoulaye Seck",
+        "title": "Abdoulaye Seck (footballer, born 1992)"
+      },
+      {
+        "number": "5",
+        "name": "Idrissa Gueye",
+        "title": "Idrissa Gueye"
+      },
+      {
+        "number": "6",
+        "name": "Pathé Ciss",
+        "title": "Pathé Ciss"
+      },
+      {
+        "number": "7",
+        "name": "Assane Diao",
+        "title": "Assane Diao"
+      },
+      {
+        "number": "8",
+        "name": "Lamine Camara",
+        "title": "Lamine Camara"
+      },
+      {
+        "number": "9",
+        "name": "Bamba Dieng",
+        "title": "Bamba Dieng"
+      },
+      {
+        "number": "10",
+        "name": "Sadio Mané",
+        "title": "Sadio Mané"
+      },
+      {
+        "number": "11",
+        "name": "Nicolas Jackson",
+        "title": "Nicolas Jackson"
+      },
+      {
+        "number": "12",
+        "name": "Cherif Ndiaye",
+        "title": "Cherif Ndiaye"
+      },
+      {
+        "number": "13",
+        "name": "Iliman Ndiaye",
+        "title": "Iliman Ndiaye"
+      },
+      {
+        "number": "14",
+        "name": "Ismail Jakobs",
+        "title": "Ismail Jakobs"
+      },
+      {
+        "number": "15",
+        "name": "Krépin Diatta",
+        "title": "Krépin Diatta"
+      },
+      {
+        "number": "16",
+        "name": "Édouard Mendy",
+        "title": "Édouard Mendy"
+      },
+      {
+        "number": "17",
+        "name": "Pape Matar Sarr",
+        "title": "Pape Matar Sarr"
+      },
+      {
+        "number": "18",
+        "name": "Ismaïla Sarr",
+        "title": "Ismaïla Sarr"
+      },
+      {
+        "number": "19",
+        "name": "Moussa Niakhaté",
+        "title": "Moussa Niakhaté"
+      },
+      {
+        "number": "20",
+        "name": "Ibrahim Mbaye",
+        "title": "Ibrahim Mbaye"
+      },
+      {
+        "number": "21",
+        "name": "Habib Diarra",
+        "title": "Habib Diarra"
+      },
+      {
+        "number": "22",
+        "name": "Bara Sapoko Ndiaye",
+        "title": "Bara Sapoko Ndiaye"
+      },
+      {
+        "number": "23",
+        "name": "Mory Diaw",
+        "title": "Mory Diaw"
+      },
+      {
+        "number": "24",
+        "name": "Antoine Mendy",
+        "title": "Antoine Mendy (footballer)"
+      },
+      {
+        "number": "25",
+        "name": "El Hadji Malick Diouf",
+        "title": "El Hadji Malick Diouf"
+      },
+      {
+        "number": "26",
+        "name": "Pape Gueye",
+        "title": "Pape Gueye"
+      }
+    ]
+  },
+  {
+    "team": "Algeria",
+    "folder": "阿尔及利亚队",
+    "players": [
+      {
+        "number": "1",
+        "name": "Melvin Mastil",
+        "title": "Melvin Mastil"
+      },
+      {
+        "number": "2",
+        "name": "Aïssa Mandi",
+        "title": "Aïssa Mandi"
+      },
+      {
+        "number": "3",
+        "name": "Achref Abada",
+        "title": "Achref Abada"
+      },
+      {
+        "number": "4",
+        "name": "Mohamed Amine Tougai",
+        "title": "Mohamed Amine Tougai"
+      },
+      {
+        "number": "5",
+        "name": "Zineddine Belaïd",
+        "title": "Zineddine Belaïd"
+      },
+      {
+        "number": "6",
+        "name": "Ramiz Zerrouki",
+        "title": "Ramiz Zerrouki"
+      },
+      {
+        "number": "7",
+        "name": "Riyad Mahrez ( captain )",
+        "title": "Riyad Mahrez"
+      },
+      {
+        "number": "8",
+        "name": "Houssem Aouar",
+        "title": "Houssem Aouar"
+      },
+      {
+        "number": "9",
+        "name": "Amine Gouiri",
+        "title": "Amine Gouiri"
+      },
+      {
+        "number": "10",
+        "name": "Farès Chaïbi",
+        "title": "Farès Chaïbi"
+      },
+      {
+        "number": "11",
+        "name": "Anis Hadj Moussa",
+        "title": "Anis Hadj Moussa"
+      },
+      {
+        "number": "12",
+        "name": "Nadhir Benbouali",
+        "title": "Nadhir Benbouali"
+      },
+      {
+        "number": "13",
+        "name": "Jaouen Hadjam",
+        "title": "Jaouen Hadjam"
+      },
+      {
+        "number": "14",
+        "name": "Hicham Boudaoui",
+        "title": "Hicham Boudaoui"
+      },
+      {
+        "number": "15",
+        "name": "Rayan Aït-Nouri",
+        "title": "Rayan Aït-Nouri"
+      },
+      {
+        "number": "16",
+        "name": "Oussama Benbot",
+        "title": "Oussama Benbot"
+      },
+      {
+        "number": "17",
+        "name": "Rafik Belghali",
+        "title": "Rafik Belghali"
+      },
+      {
+        "number": "18",
+        "name": "Mohamed Amoura",
+        "title": "Mohamed Amoura"
+      },
+      {
+        "number": "19",
+        "name": "Nabil Bentaleb",
+        "title": "Nabil Bentaleb"
+      },
+      {
+        "number": "20",
+        "name": "Adil Boulbina",
+        "title": "Adil Boulbina"
+      },
+      {
+        "number": "21",
+        "name": "Ramy Bensebaini",
+        "title": "Ramy Bensebaini"
+      },
+      {
+        "number": "22",
+        "name": "Ibrahim Maza",
+        "title": "Ibrahim Maza"
+      },
+      {
+        "number": "23",
+        "name": "Luca Zidane",
+        "title": "Luca Zidane"
+      },
+      {
+        "number": "24",
+        "name": "Yacine Titraoui",
+        "title": "Yacine Titraoui"
+      },
+      {
+        "number": "25",
+        "name": "Farès Ghedjemis",
+        "title": "Farès Ghedjemis"
+      },
+      {
+        "number": "26",
+        "name": "Samir Chergui",
+        "title": "Samir Chergui"
+      }
+    ]
+  },
+  {
+    "team": "Argentina",
+    "folder": "阿根廷队",
+    "players": [
+      {
+        "number": "1",
+        "name": "Juan Musso",
+        "title": "Juan Musso"
+      },
+      {
+        "number": "2",
+        "name": "Marcos Senesi",
+        "title": "Marcos Senesi"
+      },
+      {
+        "number": "3",
+        "name": "Nicolás Tagliafico",
+        "title": "Nicolás Tagliafico"
+      },
+      {
+        "number": "4",
+        "name": "Gonzalo Montiel",
+        "title": "Gonzalo Montiel"
+      },
+      {
+        "number": "5",
+        "name": "Leandro Paredes",
+        "title": "Leandro Paredes"
+      },
+      {
+        "number": "6",
+        "name": "Lisandro Martínez",
+        "title": "Lisandro Martínez"
+      },
+      {
+        "number": "7",
+        "name": "Rodrigo De Paul",
+        "title": "Rodrigo De Paul"
+      },
+      {
+        "number": "8",
+        "name": "Valentín Barco",
+        "title": "Valentín Barco"
+      },
+      {
+        "number": "9",
+        "name": "Julián Alvarez",
+        "title": "Julián Alvarez"
+      },
+      {
+        "number": "10",
+        "name": "Lionel Messi ( captain )",
+        "title": "Lionel Messi"
+      },
+      {
+        "number": "11",
+        "name": "Giovani Lo Celso",
+        "title": "Giovani Lo Celso"
+      },
+      {
+        "number": "12",
+        "name": "Gerónimo Rulli",
+        "title": "Gerónimo Rulli"
+      },
+      {
+        "number": "13",
+        "name": "Cristian Romero",
+        "title": "Cristian Romero"
+      },
+      {
+        "number": "14",
+        "name": "Exequiel Palacios",
+        "title": "Exequiel Palacios"
+      },
+      {
+        "number": "15",
+        "name": "Nicolás González",
+        "title": "Nicolás González (footballer, born 1998)"
+      },
+      {
+        "number": "16",
+        "name": "Thiago Almada",
+        "title": "Thiago Almada"
+      },
+      {
+        "number": "17",
+        "name": "Giuliano Simeone",
+        "title": "Giuliano Simeone"
+      },
+      {
+        "number": "18",
+        "name": "Nico Paz",
+        "title": "Nico Paz"
+      },
+      {
+        "number": "19",
+        "name": "Nicolás Otamendi",
+        "title": "Nicolás Otamendi"
+      },
+      {
+        "number": "20",
+        "name": "Alexis Mac Allister",
+        "title": "Alexis Mac Allister"
+      },
+      {
+        "number": "21",
+        "name": "José Manuel López",
+        "title": "José Manuel López (footballer)"
+      },
+      {
+        "number": "22",
+        "name": "Lautaro Martínez",
+        "title": "Lautaro Martínez"
+      },
+      {
+        "number": "23",
+        "name": "Emiliano Martínez",
+        "title": "Emiliano Martínez"
+      },
+      {
+        "number": "24",
+        "name": "Enzo Fernández",
+        "title": "Enzo Fernández"
+      },
+      {
+        "number": "25",
+        "name": "Facundo Medina",
+        "title": "Facundo Medina"
+      },
+      {
+        "number": "26",
+        "name": "Nahuel Molina",
+        "title": "Nahuel Molina"
+      }
+    ]
+  },
+  {
+    "team": "Austria",
+    "folder": "奥地利队",
+    "players": [
+      {
+        "number": "1",
+        "name": "Alexander Schlager",
+        "title": "Alexander Schlager"
+      },
+      {
+        "number": "2",
+        "name": "David Affengruber",
+        "title": "David Affengruber (footballer, born 2001)"
+      },
+      {
+        "number": "3",
+        "name": "Kevin Danso",
+        "title": "Kevin Danso"
+      },
+      {
+        "number": "4",
+        "name": "Xaver Schlager",
+        "title": "Xaver Schlager"
+      },
+      {
+        "number": "5",
+        "name": "Stefan Posch",
+        "title": "Stefan Posch"
+      },
+      {
+        "number": "6",
+        "name": "Nicolas Seiwald",
+        "title": "Nicolas Seiwald"
+      },
+      {
+        "number": "7",
+        "name": "Marko Arnautović",
+        "title": "Marko Arnautović"
+      },
+      {
+        "number": "8",
+        "name": "David Alaba ( captain )",
+        "title": "David Alaba"
+      },
+      {
+        "number": "9",
+        "name": "Marcel Sabitzer",
+        "title": "Marcel Sabitzer"
+      },
+      {
+        "number": "10",
+        "name": "Florian Grillitsch",
+        "title": "Florian Grillitsch"
+      },
+      {
+        "number": "11",
+        "name": "Michael Gregoritsch",
+        "title": "Michael Gregoritsch"
+      },
+      {
+        "number": "12",
+        "name": "Florian Wiegele",
+        "title": "Florian Wiegele"
+      },
+      {
+        "number": "13",
+        "name": "Patrick Pentz",
+        "title": "Patrick Pentz"
+      },
+      {
+        "number": "14",
+        "name": "Saša Kalajdžić",
+        "title": "Saša Kalajdžić"
+      },
+      {
+        "number": "15",
+        "name": "Philipp Lienhart",
+        "title": "Philipp Lienhart"
+      },
+      {
+        "number": "16",
+        "name": "Phillipp Mwene",
+        "title": "Phillipp Mwene"
+      },
+      {
+        "number": "17",
+        "name": "Carney Chukwuemeka",
+        "title": "Carney Chukwuemeka"
+      },
+      {
+        "number": "18",
+        "name": "Romano Schmid",
+        "title": "Romano Schmid"
+      },
+      {
+        "number": "19",
+        "name": "Dejan Ljubičić",
+        "title": "Dejan Ljubičić"
+      },
+      {
+        "number": "20",
+        "name": "Konrad Laimer",
+        "title": "Konrad Laimer"
+      },
+      {
+        "number": "21",
+        "name": "Patrick Wimmer",
+        "title": "Patrick Wimmer"
+      },
+      {
+        "number": "22",
+        "name": "Alexander Prass",
+        "title": "Alexander Prass"
+      },
+      {
+        "number": "23",
+        "name": "Marco Friedl",
+        "title": "Marco Friedl"
+      },
+      {
+        "number": "24",
+        "name": "Paul Wanner",
+        "title": "Paul Wanner"
+      },
+      {
+        "number": "25",
+        "name": "Michael Svoboda",
+        "title": "Michael Svoboda"
+      },
+      {
+        "number": "26",
+        "name": "Alessandro Schöpf",
+        "title": "Alessandro Schöpf"
+      }
+    ]
+  },
+  {
+    "team": "Jordan",
+    "folder": "约旦队",
+    "players": [
+      {
+        "number": "1",
+        "name": "Yazeed Abulaila",
+        "title": "Yazeed Abulaila"
+      },
+      {
+        "number": "2",
+        "name": "Mohammad Abu Hashish",
+        "title": "Mohammad Abu Hashish"
+      },
+      {
+        "number": "3",
+        "name": "Abdallah Nasib",
+        "title": "Abdallah Nasib"
+      },
+      {
+        "number": "4",
+        "name": "Husam Abu Dahab",
+        "title": "Husam Abu Dahab"
+      },
+      {
+        "number": "5",
+        "name": "Yazan Al-Arab",
+        "title": "Yazan Al-Arab"
+      },
+      {
+        "number": "6",
+        "name": "Amer Jamous",
+        "title": "Amer Jamous"
+      },
+      {
+        "number": "7",
+        "name": "Mohammad Abu Zrayq",
+        "title": "Mohammad Abu Zrayq"
+      },
+      {
+        "number": "8",
+        "name": "Noor Al-Rawabdeh",
+        "title": "Noor Al-Rawabdeh"
+      },
+      {
+        "number": "9",
+        "name": "Ali Olwan",
+        "title": "Ali Olwan"
+      },
+      {
+        "number": "10",
+        "name": "Musa Al-Taamari",
+        "title": "Musa Al-Taamari"
+      },
+      {
+        "number": "11",
+        "name": "Odeh Al-Fakhouri",
+        "title": "Odeh Al-Fakhouri"
+      },
+      {
+        "number": "12",
+        "name": "Nour Bani Attiah",
+        "title": "Nour Bani Attiah"
+      },
+      {
+        "number": "13",
+        "name": "Mahmoud Al-Mardi",
+        "title": "Mahmoud Al-Mardi"
+      },
+      {
+        "number": "14",
+        "name": "Rajaei Ayed",
+        "title": "Rajaei Ayed"
+      },
+      {
+        "number": "15",
+        "name": "Ibrahim Sadeh",
+        "title": "Ibrahim Sadeh"
+      },
+      {
+        "number": "16",
+        "name": "Mo Abualnadi",
+        "title": "Mo Abualnadi"
+      },
+      {
+        "number": "17",
+        "name": "Salim Obaid",
+        "title": "Salim Obaid"
+      },
+      {
+        "number": "18",
+        "name": "Mohammad Taha",
+        "title": "Mohammad Taha (footballer)"
+      },
+      {
+        "number": "19",
+        "name": "Saed Al-Rosan",
+        "title": "Saed Al-Rosan"
+      },
+      {
+        "number": "20",
+        "name": "Mohannad Abu Taha",
+        "title": "Mohannad Abu Taha"
+      },
+      {
+        "number": "21",
+        "name": "Nizar Al-Rashdan",
+        "title": "Nizar Al-Rashdan"
+      },
+      {
+        "number": "22",
+        "name": "Abdallah Al-Fakhouri",
+        "title": "Abdallah Al-Fakhouri"
+      },
+      {
+        "number": "23",
+        "name": "Ihsan Haddad ( captain )",
+        "title": "Ihsan Haddad"
+      },
+      {
+        "number": "24",
+        "name": "Ali Azaizeh",
+        "title": "Ali Azaizeh"
+      },
+      {
+        "number": "25",
+        "name": "Mohammad Al-Dawoud",
+        "title": "Mohammad Al-Dawoud"
+      },
+      {
+        "number": "26",
+        "name": "Anas Badawi",
+        "title": "Anas Badawi"
+      }
+    ]
+  },
+  {
+    "team": "Colombia",
+    "folder": "哥伦比亚队",
+    "players": [
+      {
+        "number": "1",
+        "name": "David Ospina",
+        "title": "David Ospina"
+      },
+      {
+        "number": "2",
+        "name": "Daniel Muñoz",
+        "title": "Daniel Muñoz (footballer)"
+      },
+      {
+        "number": "3",
+        "name": "Jhon Lucumí",
+        "title": "Jhon Lucumí"
+      },
+      {
+        "number": "4",
+        "name": "Santiago Arias",
+        "title": "Santiago Arias"
+      },
+      {
+        "number": "5",
+        "name": "Kevin Castaño",
+        "title": "Kevin Castaño"
+      },
+      {
+        "number": "6",
+        "name": "Richard Ríos",
+        "title": "Richard Ríos"
+      },
+      {
+        "number": "7",
+        "name": "Luis Díaz",
+        "title": "Luis Díaz (footballer, born 1997)"
+      },
+      {
+        "number": "8",
+        "name": "Jorge Carrascal",
+        "title": "Jorge Carrascal"
+      },
+      {
+        "number": "9",
+        "name": "Jhon Córdoba",
+        "title": "Jhon Córdoba"
+      },
+      {
+        "number": "10",
+        "name": "James Rodríguez ( captain )",
+        "title": "James Rodríguez"
+      },
+      {
+        "number": "11",
+        "name": "Jhon Arias",
+        "title": "Jhon Arias (footballer)"
+      },
+      {
+        "number": "12",
+        "name": "Camilo Vargas",
+        "title": "Camilo Vargas"
+      },
+      {
+        "number": "13",
+        "name": "Yerry Mina",
+        "title": "Yerry Mina"
+      },
+      {
+        "number": "14",
+        "name": "Gustavo Puerta",
+        "title": "Gustavo Puerta"
+      },
+      {
+        "number": "15",
+        "name": "Juan Portilla",
+        "title": "Juan Portilla"
+      },
+      {
+        "number": "16",
+        "name": "Jefferson Lerma",
+        "title": "Jefferson Lerma"
+      },
+      {
+        "number": "17",
+        "name": "Johan Mojica",
+        "title": "Johan Mojica"
+      },
+      {
+        "number": "18",
+        "name": "Willer Ditta",
+        "title": "Willer Ditta"
+      },
+      {
+        "number": "19",
+        "name": "Cucho Hernández",
+        "title": "Cucho Hernández"
+      },
+      {
+        "number": "20",
+        "name": "Juan Fernando Quintero",
+        "title": "Juan Fernando Quintero"
+      },
+      {
+        "number": "21",
+        "name": "Jaminton Campaz",
+        "title": "Jaminton Campaz"
+      },
+      {
+        "number": "22",
+        "name": "Deiver Machado",
+        "title": "Deiver Machado"
+      },
+      {
+        "number": "23",
+        "name": "Davinson Sánchez",
+        "title": "Davinson Sánchez"
+      },
+      {
+        "number": "24",
+        "name": "Álvaro Montero",
+        "title": "Álvaro Montero (Colombian footballer)"
+      },
+      {
+        "number": "25",
+        "name": "Luis Suárez",
+        "title": "Luis Suárez (footballer, born 1997)"
+      },
+      {
+        "number": "26",
+        "name": "Andrés Gómez",
+        "title": "Andrés Gómez (footballer)"
+      }
+    ]
+  },
+  {
+    "team": "DR Congo",
+    "folder": "民主刚果队",
+    "players": [
+      {
+        "number": "1",
+        "name": "Lionel Mpasi",
+        "title": "Lionel Mpasi"
+      },
+      {
+        "number": "2",
+        "name": "Aaron Wan-Bissaka",
+        "title": "Aaron Wan-Bissaka"
+      },
+      {
+        "number": "3",
+        "name": "Steve Kapuadi",
+        "title": "Steve Kapuadi"
+      },
+      {
+        "number": "4",
+        "name": "Axel Tuanzebe",
+        "title": "Axel Tuanzebe"
+      },
+      {
+        "number": "5",
+        "name": "Dylan Batubinsika",
+        "title": "Dylan Batubinsika"
+      },
+      {
+        "number": "6",
+        "name": "Ngal'ayel Mukau",
+        "title": "Ngal'ayel Mukau"
+      },
+      {
+        "number": "7",
+        "name": "Nathanaël Mbuku",
+        "title": "Nathanaël Mbuku"
+      },
+      {
+        "number": "8",
+        "name": "Samuel Moutoussamy",
+        "title": "Samuel Moutoussamy"
+      },
+      {
+        "number": "9",
+        "name": "Brian Cipenga",
+        "title": "Brian Cipenga"
+      },
+      {
+        "number": "10",
+        "name": "Théo Bongonda",
+        "title": "Théo Bongonda"
+      },
+      {
+        "number": "11",
+        "name": "Gaël Kakuta",
+        "title": "Gaël Kakuta"
+      },
+      {
+        "number": "12",
+        "name": "Joris Kayembe",
+        "title": "Joris Kayembe"
+      },
+      {
+        "number": "13",
+        "name": "Meschak Elia",
+        "title": "Meschak Elia"
+      },
+      {
+        "number": "14",
+        "name": "Noah Sadiki",
+        "title": "Noah Sadiki"
+      },
+      {
+        "number": "15",
+        "name": "Aaron Tshibola",
+        "title": "Aaron Tshibola"
+      },
+      {
+        "number": "16",
+        "name": "Timothy Fayulu",
+        "title": "Timothy Fayulu"
+      },
+      {
+        "number": "17",
+        "name": "Cédric Bakambu",
+        "title": "Cédric Bakambu"
+      },
+      {
+        "number": "18",
+        "name": "Charles Pickel",
+        "title": "Charles Pickel"
+      },
+      {
+        "number": "19",
+        "name": "Fiston Mayele",
+        "title": "Fiston Mayele"
+      },
+      {
+        "number": "20",
+        "name": "Yoane Wissa",
+        "title": "Yoane Wissa"
+      },
+      {
+        "number": "21",
+        "name": "Matthieu Epolo",
+        "title": "Matthieu Epolo"
+      },
+      {
+        "number": "22",
+        "name": "Chancel Mbemba ( captain )",
+        "title": "Chancel Mbemba"
+      },
+      {
+        "number": "23",
+        "name": "Simon Banza",
+        "title": "Simon Banza"
+      },
+      {
+        "number": "24",
+        "name": "Gédéon Kalulu",
+        "title": "Gédéon Kalulu"
+      },
+      {
+        "number": "25",
+        "name": "Edo Kayembe",
+        "title": "Edo Kayembe"
+      },
+      {
+        "number": "26",
+        "name": "Arthur Masuaku",
+        "title": "Arthur Masuaku"
+      }
+    ]
+  },
+  {
+    "team": "Portugal",
+    "folder": "葡萄牙队",
+    "players": [
+      {
+        "number": "1",
+        "name": "Diogo Costa",
+        "title": "Diogo Costa"
+      },
+      {
+        "number": "2",
+        "name": "Nélson Semedo",
+        "title": "Nélson Semedo"
+      },
+      {
+        "number": "3",
+        "name": "Rúben Dias",
+        "title": "Rúben Dias"
+      },
+      {
+        "number": "4",
+        "name": "Tomás Araújo",
+        "title": "Tomás Araújo"
+      },
+      {
+        "number": "5",
+        "name": "Diogo Dalot",
+        "title": "Diogo Dalot"
+      },
+      {
+        "number": "6",
+        "name": "Matheus Nunes",
+        "title": "Matheus Nunes"
+      },
+      {
+        "number": "7",
+        "name": "Cristiano Ronaldo ( captain )",
+        "title": "Cristiano Ronaldo"
+      },
+      {
+        "number": "8",
+        "name": "Bruno Fernandes",
+        "title": "Bruno Fernandes"
+      },
+      {
+        "number": "9",
+        "name": "Gonçalo Ramos",
+        "title": "Gonçalo Ramos"
+      },
+      {
+        "number": "10",
+        "name": "Bernardo Silva",
+        "title": "Bernardo Silva"
+      },
+      {
+        "number": "11",
+        "name": "João Félix",
+        "title": "João Félix"
+      },
+      {
+        "number": "12",
+        "name": "José Sá",
+        "title": "José Sá"
+      },
+      {
+        "number": "13",
+        "name": "Renato Veiga",
+        "title": "Renato Veiga"
+      },
+      {
+        "number": "14",
+        "name": "Gonçalo Inácio",
+        "title": "Gonçalo Inácio"
+      },
+      {
+        "number": "15",
+        "name": "João Neves",
+        "title": "João Neves"
+      },
+      {
+        "number": "16",
+        "name": "Francisco Trincão",
+        "title": "Francisco Trincão"
+      },
+      {
+        "number": "17",
+        "name": "Rafael Leão",
+        "title": "Rafael Leão"
+      },
+      {
+        "number": "18",
+        "name": "Pedro Neto",
+        "title": "Pedro Neto"
+      },
+      {
+        "number": "19",
+        "name": "Gonçalo Guedes",
+        "title": "Gonçalo Guedes"
+      },
+      {
+        "number": "20",
+        "name": "João Cancelo",
+        "title": "João Cancelo"
+      },
+      {
+        "number": "21",
+        "name": "Rúben Neves",
+        "title": "Rúben Neves"
+      },
+      {
+        "number": "22",
+        "name": "Rui Silva",
+        "title": "Rui Silva (footballer, born 1994)"
+      },
+      {
+        "number": "23",
+        "name": "Vitinha",
+        "title": "Vitinha"
+      },
+      {
+        "number": "24",
+        "name": "Samú Costa",
+        "title": "Samú Costa"
+      },
+      {
+        "number": "25",
+        "name": "Nuno Mendes",
+        "title": "Nuno Mendes (footballer, born 2002)"
+      },
+      {
+        "number": "26",
+        "name": "Francisco Conceição",
+        "title": "Francisco Conceição"
+      }
+    ]
+  },
+  {
+    "team": "Uzbekistan",
+    "folder": "乌兹别克斯坦队",
+    "players": [
+      {
+        "number": "1",
+        "name": "Utkir Yusupov",
+        "title": "Utkir Yusupov"
+      },
+      {
+        "number": "2",
+        "name": "Abdukodir Khusanov",
+        "title": "Abdukodir Khusanov"
+      },
+      {
+        "number": "3",
+        "name": "Khojiakbar Alijonov",
+        "title": "Khojiakbar Alijonov"
+      },
+      {
+        "number": "4",
+        "name": "Farrukh Sayfiev",
+        "title": "Farrukh Sayfiev"
+      },
+      {
+        "number": "5",
+        "name": "Rustam Ashurmatov",
+        "title": "Rustam Ashurmatov"
+      },
+      {
+        "number": "6",
+        "name": "Akmal Mozgovoy",
+        "title": "Akmal Mozgovoy"
+      },
+      {
+        "number": "7",
+        "name": "Otabek Shukurov",
+        "title": "Otabek Shukurov"
+      },
+      {
+        "number": "8",
+        "name": "Jamshid Iskanderov",
+        "title": "Jamshid Iskanderov"
+      },
+      {
+        "number": "9",
+        "name": "Odiljon Hamrobekov",
+        "title": "Odiljon Hamrobekov"
+      },
+      {
+        "number": "10",
+        "name": "Jaloliddin Masharipov",
+        "title": "Jaloliddin Masharipov"
+      },
+      {
+        "number": "11",
+        "name": "Oston Urunov",
+        "title": "Oston Urunov"
+      },
+      {
+        "number": "12",
+        "name": "Abduvohid Nematov",
+        "title": "Abduvohid Nematov"
+      },
+      {
+        "number": "13",
+        "name": "Sherzod Nasrullaev",
+        "title": "Sherzod Nasrullaev"
+      },
+      {
+        "number": "14",
+        "name": "Eldor Shomurodov ( captain )",
+        "title": "Eldor Shomurodov"
+      },
+      {
+        "number": "15",
+        "name": "Umar Eshmurodov",
+        "title": "Umar Eshmurodov"
+      },
+      {
+        "number": "16",
+        "name": "Botirali Ergashev",
+        "title": "Botirali Ergashev"
+      },
+      {
+        "number": "17",
+        "name": "Dostonbek Khamdamov",
+        "title": "Dostonbek Khamdamov"
+      },
+      {
+        "number": "18",
+        "name": "Abdulla Abdullaev",
+        "title": "Abdulla Abdullaev"
+      },
+      {
+        "number": "19",
+        "name": "Azizjon Ganiev",
+        "title": "Azizjon Ganiev"
+      },
+      {
+        "number": "20",
+        "name": "Azizbek Amonov",
+        "title": "Azizbek Amonov"
+      },
+      {
+        "number": "21",
+        "name": "Igor Sergeev",
+        "title": "Igor Sergeev"
+      },
+      {
+        "number": "22",
+        "name": "Abbosbek Fayzullaev",
+        "title": "Abbosbek Fayzullaev"
+      },
+      {
+        "number": "23",
+        "name": "Sherzod Esanov",
+        "title": "Sherzod Esanov"
+      },
+      {
+        "number": "24",
+        "name": "Bekhruz Karimov",
+        "title": "Bekhruz Karimov"
+      },
+      {
+        "number": "25",
+        "name": "Avazbek Ulmasaliev",
+        "title": "Avazbek Ulmasaliev"
+      },
+      {
+        "number": "26",
+        "name": "Jakhongir Urozov",
+        "title": "Jakhongir Urozov"
+      }
+    ]
+  },
+  {
+    "team": "Croatia",
+    "folder": "克罗地亚队",
+    "players": [
+      {
+        "number": "1",
+        "name": "Dominik Livaković",
+        "title": "Dominik Livaković"
+      },
+      {
+        "number": "2",
+        "name": "Josip Stanišić",
+        "title": "Josip Stanišić"
+      },
+      {
+        "number": "3",
+        "name": "Marin Pongračić",
+        "title": "Marin Pongračić"
+      },
+      {
+        "number": "4",
+        "name": "Joško Gvardiol",
+        "title": "Joško Gvardiol"
+      },
+      {
+        "number": "5",
+        "name": "Duje Ćaleta-Car",
+        "title": "Duje Ćaleta-Car"
+      },
+      {
+        "number": "6",
+        "name": "Josip Šutalo",
+        "title": "Josip Šutalo"
+      },
+      {
+        "number": "7",
+        "name": "Nikola Moro",
+        "title": "Nikola Moro"
+      },
+      {
+        "number": "8",
+        "name": "Mateo Kovačić",
+        "title": "Mateo Kovačić"
+      },
+      {
+        "number": "9",
+        "name": "Andrej Kramarić",
+        "title": "Andrej Kramarić"
+      },
+      {
+        "number": "10",
+        "name": "Luka Modrić ( captain )",
+        "title": "Luka Modrić"
+      },
+      {
+        "number": "11",
+        "name": "Ante Budimir",
+        "title": "Ante Budimir"
+      },
+      {
+        "number": "12",
+        "name": "Ivor Pandur",
+        "title": "Ivor Pandur"
+      },
+      {
+        "number": "13",
+        "name": "Nikola Vlašić",
+        "title": "Nikola Vlašić"
+      },
+      {
+        "number": "14",
+        "name": "Ivan Perišić",
+        "title": "Ivan Perišić"
+      },
+      {
+        "number": "15",
+        "name": "Mario Pašalić",
+        "title": "Mario Pašalić"
+      },
+      {
+        "number": "16",
+        "name": "Martin Baturina",
+        "title": "Martin Baturina"
+      },
+      {
+        "number": "17",
+        "name": "Petar Sučić",
+        "title": "Petar Sučić"
+      },
+      {
+        "number": "18",
+        "name": "Kristijan Jakić",
+        "title": "Kristijan Jakić"
+      },
+      {
+        "number": "19",
+        "name": "Toni Fruk",
+        "title": "Toni Fruk"
+      },
+      {
+        "number": "20",
+        "name": "Igor Matanović",
+        "title": "Igor Matanović"
+      },
+      {
+        "number": "21",
+        "name": "Luka Sučić",
+        "title": "Luka Sučić"
+      },
+      {
+        "number": "22",
+        "name": "Luka Vušković",
+        "title": "Luka Vušković"
+      },
+      {
+        "number": "23",
+        "name": "Dominik Kotarski",
+        "title": "Dominik Kotarski"
+      },
+      {
+        "number": "24",
+        "name": "Marco Pašalić",
+        "title": "Marco Pašalić"
+      },
+      {
+        "number": "25",
+        "name": "Martin Erlić",
+        "title": "Martin Erlić"
+      },
+      {
+        "number": "26",
+        "name": "Petar Musa",
+        "title": "Petar Musa"
+      }
+    ]
+  },
+  {
+    "team": "England",
+    "folder": "英格兰队",
+    "players": [
+      {
+        "number": "1",
+        "name": "Jordan Pickford",
+        "title": "Jordan Pickford"
+      },
+      {
+        "number": "2",
+        "name": "Ezri Konsa",
+        "title": "Ezri Konsa"
+      },
+      {
+        "number": "3",
+        "name": "Nico O'Reilly",
+        "title": "Nico O'Reilly"
+      },
+      {
+        "number": "4",
+        "name": "Declan Rice",
+        "title": "Declan Rice"
+      },
+      {
+        "number": "5",
+        "name": "John Stones",
+        "title": "John Stones"
+      },
+      {
+        "number": "6",
+        "name": "Marc Guéhi",
+        "title": "Marc Guéhi"
+      },
+      {
+        "number": "7",
+        "name": "Bukayo Saka",
+        "title": "Bukayo Saka"
+      },
+      {
+        "number": "8",
+        "name": "Elliot Anderson",
+        "title": "Elliot Anderson (footballer)"
+      },
+      {
+        "number": "9",
+        "name": "Harry Kane ( captain )",
+        "title": "Harry Kane"
+      },
+      {
+        "number": "10",
+        "name": "Jude Bellingham",
+        "title": "Jude Bellingham"
+      },
+      {
+        "number": "11",
+        "name": "Marcus Rashford",
+        "title": "Marcus Rashford"
+      },
+      {
+        "number": "12",
+        "name": "Tino Livramento",
+        "title": "Tino Livramento"
+      },
+      {
+        "number": "13",
+        "name": "Dean Henderson",
+        "title": "Dean Henderson"
+      },
+      {
+        "number": "14",
+        "name": "Jordan Henderson",
+        "title": "Jordan Henderson"
+      },
+      {
+        "number": "15",
+        "name": "Dan Burn",
+        "title": "Dan Burn"
+      },
+      {
+        "number": "16",
+        "name": "Kobbie Mainoo",
+        "title": "Kobbie Mainoo"
+      },
+      {
+        "number": "17",
+        "name": "Morgan Rogers",
+        "title": "Morgan Rogers"
+      },
+      {
+        "number": "18",
+        "name": "Anthony Gordon",
+        "title": "Anthony Gordon (footballer)"
+      },
+      {
+        "number": "19",
+        "name": "Ollie Watkins",
+        "title": "Ollie Watkins"
+      },
+      {
+        "number": "20",
+        "name": "Noni Madueke",
+        "title": "Noni Madueke"
+      },
+      {
+        "number": "21",
+        "name": "Eberechi Eze",
+        "title": "Eberechi Eze"
+      },
+      {
+        "number": "22",
+        "name": "Ivan Toney",
+        "title": "Ivan Toney"
+      },
+      {
+        "number": "23",
+        "name": "James Trafford",
+        "title": "James Trafford"
+      },
+      {
+        "number": "24",
+        "name": "Reece James",
+        "title": "Reece James"
+      },
+      {
+        "number": "25",
+        "name": "Djed Spence",
+        "title": "Djed Spence"
+      },
+      {
+        "number": "26",
+        "name": "Jarell Quansah",
+        "title": "Jarell Quansah"
+      }
+    ]
+  },
+  {
+    "team": "Ghana",
+    "folder": "加纳队",
+    "players": [
+      {
+        "number": "1",
+        "name": "Lawrence Ati-Zigi",
+        "title": "Lawrence Ati-Zigi"
+      },
+      {
+        "number": "2",
+        "name": "Alidu Seidu",
+        "title": "Alidu Seidu"
+      },
+      {
+        "number": "3",
+        "name": "Caleb Yirenkyi",
+        "title": "Caleb Yirenkyi"
+      },
+      {
+        "number": "4",
+        "name": "Jonas Adjetey",
+        "title": "Jonas Adjetey"
+      },
+      {
+        "number": "5",
+        "name": "Thomas Partey",
+        "title": "Thomas Partey"
+      },
+      {
+        "number": "6",
+        "name": "Abdul Mumin",
+        "title": "Abdul Mumin"
+      },
+      {
+        "number": "7",
+        "name": "Abdul Fatawu",
+        "title": "Abdul Fatawu"
+      },
+      {
+        "number": "8",
+        "name": "Kwasi Sibo",
+        "title": "Kwasi Sibo"
+      },
+      {
+        "number": "9",
+        "name": "Jordan Ayew ( captain )",
+        "title": "Jordan Ayew"
+      },
+      {
+        "number": "10",
+        "name": "Brandon Thomas-Asante",
+        "title": "Brandon Thomas-Asante"
+      },
+      {
+        "number": "11",
+        "name": "Antoine Semenyo",
+        "title": "Antoine Semenyo"
+      },
+      {
+        "number": "12",
+        "name": "Joseph Anang",
+        "title": "Joseph Anang"
+      },
+      {
+        "number": "13",
+        "name": "Christopher Bonsu Baah",
+        "title": "Christopher Bonsu Baah"
+      },
+      {
+        "number": "14",
+        "name": "Gideon Mensah",
+        "title": "Gideon Mensah (footballer, born 1998)"
+      },
+      {
+        "number": "15",
+        "name": "Elisha Owusu",
+        "title": "Elisha Owusu"
+      },
+      {
+        "number": "16",
+        "name": "Benjamin Asare",
+        "title": "Benjamin Asare"
+      },
+      {
+        "number": "17",
+        "name": "Abdul Rahman Baba",
+        "title": "Abdul Rahman Baba"
+      },
+      {
+        "number": "18",
+        "name": "Jerome Opoku",
+        "title": "Jerome Opoku"
+      },
+      {
+        "number": "19",
+        "name": "Iñaki Williams",
+        "title": "Iñaki Williams"
+      },
+      {
+        "number": "20",
+        "name": "Augustine Boakye",
+        "title": "Augustine Boakye"
+      },
+      {
+        "number": "21",
+        "name": "Kojo Peprah Oppong",
+        "title": "Kojo Peprah Oppong"
+      },
+      {
+        "number": "22",
+        "name": "Kamaldeen Sulemana",
+        "title": "Kamaldeen Sulemana"
+      },
+      {
+        "number": "23",
+        "name": "Derrick Luckassen",
+        "title": "Derrick Luckassen"
+      },
+      {
+        "number": "24",
+        "name": "Ernest Nuamah",
+        "title": "Ernest Nuamah"
+      },
+      {
+        "number": "25",
+        "name": "Prince Kwabena Adu",
+        "title": "Prince Kwabena Adu"
+      },
+      {
+        "number": "26",
+        "name": "Marvin Senaya",
+        "title": "Marvin Senaya"
+      }
+    ]
+  },
+  {
+    "team": "Panama",
+    "folder": "巴拿马队",
+    "players": [
+      {
+        "number": "1",
+        "name": "Luis Mejía",
+        "title": "Luis Mejía"
+      },
+      {
+        "number": "2",
+        "name": "César Blackman",
+        "title": "César Blackman"
+      },
+      {
+        "number": "3",
+        "name": "José Córdoba",
+        "title": "José Córdoba"
+      },
+      {
+        "number": "4",
+        "name": "Fidel Escobar",
+        "title": "Fidel Escobar"
+      },
+      {
+        "number": "5",
+        "name": "Edgardo Fariña",
+        "title": "Edgardo Fariña"
+      },
+      {
+        "number": "6",
+        "name": "Cristian Martínez",
+        "title": "Cristian Martínez (Panamanian footballer)"
+      },
+      {
+        "number": "7",
+        "name": "José Luis Rodríguez",
+        "title": "José Luis Rodríguez (footballer, born 1998)"
+      },
+      {
+        "number": "8",
+        "name": "Adalberto Carrasquilla",
+        "title": "Adalberto Carrasquilla"
+      },
+      {
+        "number": "9",
+        "name": "Tomás Rodríguez",
+        "title": "Tomás Rodríguez (footballer)"
+      },
+      {
+        "number": "10",
+        "name": "Ismael Díaz",
+        "title": "Ismael Díaz (footballer, born 1997)"
+      },
+      {
+        "number": "11",
+        "name": "Yoel Bárcenas",
+        "title": "Yoel Bárcenas"
+      },
+      {
+        "number": "12",
+        "name": "César Samudio",
+        "title": "César Samudio"
+      },
+      {
+        "number": "13",
+        "name": "Jiovany Ramos",
+        "title": "Jiovany Ramos"
+      },
+      {
+        "number": "14",
+        "name": "Carlos Harvey",
+        "title": "Carlos Harvey"
+      },
+      {
+        "number": "15",
+        "name": "Eric Davis",
+        "title": "Eric Davis (Panamanian footballer)"
+      },
+      {
+        "number": "16",
+        "name": "Andrés Andrade",
+        "title": "Andrés Andrade (footballer, born 1998)"
+      },
+      {
+        "number": "17",
+        "name": "José Fajardo",
+        "title": "José Fajardo (footballer)"
+      },
+      {
+        "number": "18",
+        "name": "Cecilio Waterman",
+        "title": "Cecilio Waterman"
+      },
+      {
+        "number": "19",
+        "name": "Alberto Quintero",
+        "title": "Alberto Quintero (footballer)"
+      },
+      {
+        "number": "20",
+        "name": "Aníbal Godoy ( captain )",
+        "title": "Aníbal Godoy"
+      },
+      {
+        "number": "21",
+        "name": "César Yanis",
+        "title": "César Yanis"
+      },
+      {
+        "number": "22",
+        "name": "Orlando Mosquera",
+        "title": "Orlando Mosquera"
+      },
+      {
+        "number": "23",
+        "name": "Michael Amir Murillo",
+        "title": "Michael Amir Murillo"
+      },
+      {
+        "number": "24",
+        "name": "Azarias Londoño",
+        "title": "Azarias Londoño"
+      },
+      {
+        "number": "25",
+        "name": "Roderick Miller",
+        "title": "Roderick Miller (footballer)"
+      },
+      {
+        "number": "26",
+        "name": "Jorge Gutiérrez",
+        "title": "Jorge Gutiérrez (footballer)"
+      }
+    ]
+  }
+]

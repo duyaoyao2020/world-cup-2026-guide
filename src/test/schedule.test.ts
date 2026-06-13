@@ -1,0 +1,137 @@
+import { describe, expect, it } from "vitest";
+import {
+  bosniaLineup,
+  brazilLineup,
+  canadaLineup,
+  czechLineup,
+  haitiLineup,
+  koreaLineup,
+  mexicoLineup,
+  moroccoLineup,
+  paraguayLineup,
+  qatarLineup,
+  scotlandLineup,
+  southAfricaLineup,
+  swissLineup,
+  turkeyLineup,
+  usaLineup,
+  australiaLineup,
+} from "../data/lineups";
+import { localAvatarSources } from "../data/localAvatars";
+import { featuredMatch, matches } from "../data/schedule";
+import { groupStandings } from "../data/standings";
+import { formatLocalDate, groupMatchesByDate } from "../utils";
+
+describe("2026 World Cup static schedule", () => {
+  it("contains 104 complete and uniquely identified matches", () => {
+    expect(matches).toHaveLength(104);
+    expect(new Set(matches.map((match) => match.id)).size).toBe(104);
+    matches.forEach((match) => {
+      expect(match.home.name).toBeTruthy();
+      expect(match.away.name).toBeTruthy();
+      expect(match.venue.name).toBeTruthy();
+      expect(match.venue.timezone).toBeTruthy();
+      expect(Number.isNaN(new Date(match.kickoffUtc).getTime())).toBe(false);
+    });
+  });
+
+  it("uses Korea versus Czechia as the featured 3D match", () => {
+    expect(featuredMatch.home.code).toBe("KOR");
+    expect(featuredMatch.away.code).toBe("CZE");
+    expect(featuredMatch.group).toBe("A");
+    expect(featuredMatch.venue.name).toBe("瓜达拉哈拉体育场");
+    expect(formatLocalDate(featuredMatch.kickoffUtc)).toBe("2026-06-12");
+    expect(koreaLineup.players).toHaveLength(11);
+    expect(czechLineup.players).toHaveLength(11);
+  });
+
+  it("matches the reference fixture order and stage totals", () => {
+    expect(matches[0].home.name).toBe("墨西哥");
+    expect(matches[0].away.name).toBe("南非");
+    expect(
+      matches.reduce<Record<string, number>>((totals, match) => {
+        totals[match.stage] = (totals[match.stage] ?? 0) + 1;
+        return totals;
+      }, {}),
+    ).toEqual({
+      小组赛: 72,
+      "32强赛": 16,
+      "16强赛": 8,
+      四分之一决赛: 4,
+      半决赛: 2,
+      季军赛: 1,
+      决赛: 1,
+    });
+  });
+
+  it("provides a complete Mexico versus South Africa 3D showcase", () => {
+    const match = matches.find((item) => item.id === "match-5403396");
+    expect(match?.home.code).toBe("MEX");
+    expect(match?.away.code).toBe("RSA");
+    expect(match?.showcase).toBe(true);
+    expect(mexicoLineup.players).toHaveLength(11);
+    expect(southAfricaLineup.players).toHaveLength(11);
+    expect(mexicoLineup.kit.shirt).toBe("#087555");
+    expect(southAfricaLineup.kit.shirt).toBe("#e0b822");
+  });
+
+  it("provides complete 3D showcases for today's Canada and USA matches", () => {
+    const canadaMatch = matches.find((item) => item.id === "match-5403398");
+    const usaMatch = matches.find((item) => item.id === "match-5403399");
+
+    expect([canadaMatch?.home.code, canadaMatch?.away.code, canadaMatch?.showcase]).toEqual(["CAN", "BIH", true]);
+    expect([usaMatch?.home.code, usaMatch?.away.code, usaMatch?.showcase]).toEqual(["USA", "PAR", true]);
+    [canadaLineup, bosniaLineup, usaLineup, paraguayLineup].forEach((lineup) => {
+      expect(lineup.players).toHaveLength(11);
+      expect(lineup.formation).toBeTruthy();
+      expect(lineup.coach).toBeTruthy();
+      expect(lineup.kit.shirt).toBeTruthy();
+    });
+  });
+
+  it("provides complete 3D showcases for the four June 14 Beijing matches", () => {
+    const expected = [
+      ["match-5403400", "QAT", "SUI"],
+      ["match-5403401", "BRA", "MAR"],
+      ["match-5403402", "HAI", "SCO"],
+      ["match-5403403", "AUS", "TUR"],
+    ];
+    expected.forEach(([id, home, away]) => {
+      const match = matches.find((item) => item.id === id);
+      expect([match?.home.code, match?.away.code, match?.showcase]).toEqual([home, away, true]);
+    });
+    [qatarLineup, swissLineup, brazilLineup, moroccoLineup, haitiLineup, scotlandLineup, australiaLineup, turkeyLineup]
+      .forEach((lineup) => expect(lineup.players).toHaveLength(11));
+  });
+
+  it("provides complete clickable player details and local avatar coverage", () => {
+    const players = [...koreaLineup.players, ...czechLineup.players];
+    players.forEach((player) => {
+      expect(player.name).toBeTruthy();
+      expect(player.englishName).toBeTruthy();
+      expect(player.position).toBeTruthy();
+      expect(player.age).toBeGreaterThan(0);
+      expect(player.height).toBeTruthy();
+      expect(player.club).toBeTruthy();
+      expect(player.traits.length).toBeGreaterThan(0);
+    });
+    expect(Object.keys(localAvatarSources)).toHaveLength(155);
+    expect(players.filter((player) => player.avatarCredit === "本地头像库")).toHaveLength(17);
+  });
+
+  it("groups matches by Beijing date without dropping matches", () => {
+    const grouped = groupMatchesByDate(matches);
+    expect(Object.values(grouped).flat()).toHaveLength(104);
+  });
+
+  it("calculates all 12 group standings from recorded results", () => {
+    expect(groupStandings).toHaveLength(12);
+    expect(groupStandings.every((standing) => standing.rows.length === 4)).toBe(true);
+    expect(groupStandings.find(({ group }) => group === "A")?.rows[0].team.code).toBe("MEX");
+    expect(groupStandings.find(({ group }) => group === "A")?.rows[0].points).toBe(3);
+    expect(groupStandings.find(({ group }) => group === "B")?.rows.filter((row) => row.points === 1)).toHaveLength(2);
+    expect(groupStandings.find(({ group }) => group === "D")?.rows[0].team.code).toBe("USA");
+    expect(groupStandings.find(({ group }) => group === "D")?.rows[0].goalDifference).toBe(3);
+    expect(matches.filter((match) => match.status === "已结束")).toHaveLength(4);
+  });
+});
