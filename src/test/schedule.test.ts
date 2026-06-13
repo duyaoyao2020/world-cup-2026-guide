@@ -16,6 +16,7 @@ import {
   turkeyLineup,
   usaLineup,
   australiaLineup,
+  lineupsByMatchId,
 } from "../data/lineups";
 import { localAvatarSources } from "../data/localAvatars";
 import { featuredMatch, getDailyFocusMatch, matches } from "../data/schedule";
@@ -110,6 +111,10 @@ describe("2026 World Cup static schedule", () => {
     });
     [qatarLineup, swissLineup, brazilLineup, moroccoLineup, haitiLineup, scotlandLineup, australiaLineup, turkeyLineup]
       .forEach((lineup) => expect(lineup.players).toHaveLength(11));
+    expected.forEach(([id]) => {
+      expect(lineupsByMatchId[id]?.label).toBe("预测阵容");
+      expect(lineupsByMatchId[id]?.subtitle).toBe("官方首发待公布");
+    });
   });
 
   it("provides complete clickable player details and local avatar coverage", () => {

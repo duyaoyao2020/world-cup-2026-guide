@@ -37,13 +37,17 @@ const englishTeamNames: Record<string, string> = {
 export function MatchPage() {
   const { matchId } = useParams();
   const match = matches.find((item) => item.id === matchId) ?? matches[0];
-  const lineups = lineupsByMatchId[match.id];
-  const homeLineup = lineups?.home;
-  const awayLineup = lineups?.away;
+  const lineupBundle = lineupsByMatchId[match.id];
+  const homeLineup = lineupBundle?.home;
+  const awayLineup = lineupBundle?.away;
   const [hoveredSide, setHoveredSide] = useState<Side>();
   const [locked, setLocked] = useState<FocusedPlayer>();
   const playerCardRef = useRef<HTMLDivElement>(null);
   const playerClickRef = useRef(false);
+  const lineupLabel = lineupBundle?.label ?? "演示阵容";
+  const lineupSubtitle = lineupBundle?.subtitle ?? "非官方实时首发";
+  const lineupNote = lineupBundle?.note ?? "球员信息与阵型用于交互展示，比赛日请以官方公布首发为准。";
+  const score = match.score ? `${match.score.home} : ${match.score.away}` : "VS";
 
   useEffect(() => {
     const onKey = (event: KeyboardEvent) => {
@@ -94,7 +98,7 @@ export function MatchPage() {
       >
         <div className="match-context">
           <span>{match.stage} · {match.group}组 · 第 {match.number} 场</span>
-          <small>演示阵容 · 非官方实时首发</small>
+          <small>{lineupLabel} · {lineupSubtitle}</small>
         </div>
         <div className="scoreboard-teams">
           <div className="scoreboard-team">
@@ -103,8 +107,8 @@ export function MatchPage() {
           </div>
           <div className="versus">
             <span>{formatDate(match.kickoffUtc)}</span>
-            <strong>VS</strong>
-            <em>{formatTime(match.kickoffUtc)} <small>北京时间</small></em>
+            <strong>{score}</strong>
+            <em>{match.status === "已结束" ? "全场" : `${formatTime(match.kickoffUtc)} 北京时间`}</em>
           </div>
           <div className="scoreboard-team scoreboard-team--away">
             <TeamCrest team={match.away} large />
@@ -158,7 +162,7 @@ export function MatchPage() {
           </div>
         )}
       </section>
-      <div className="demo-note"><Info size={14} /> 球员信息与阵型用于交互展示，比赛日请以官方公布首发为准。</div>
+      <div className="demo-note"><Info size={14} /> {lineupNote}</div>
     </main>
   );
 }
@@ -173,7 +177,7 @@ function GenericMatch({ match }: { match: (typeof matches)[number] }) {
         <p>{match.stage}{match.group ? ` · ${match.group}组` : ""}</p>
         <div className="generic-versus">
           <div><TeamCrest team={match.home} large /><h1>{match.home.name}</h1><span>{match.home.code}</span></div>
-          <strong>VS</strong>
+          <strong>{match.score ? `${match.score.home} : ${match.score.away}` : "VS"}</strong>
           <div><TeamCrest team={match.away} large /><h1>{match.away.name}</h1><span>{match.away.code}</span></div>
         </div>
         <div className="generic-info">
@@ -183,7 +187,7 @@ function GenericMatch({ match }: { match: (typeof matches)[number] }) {
         </div>
         <div className="generic-callout">
           <Sparkles size={18} />
-          <div><b>比赛阵容将在赛前更新</b><span>当前页面展示已确认的赛程与场馆信息。</span></div>
+          <div><b>{match.status === "已结束" ? "当前页面未收录官方首发" : "比赛阵容将在赛前更新"}</b><span>{match.status === "已结束" ? "当前页面已同步赛果与场馆信息。" : "当前页面展示已确认的赛程与场馆信息。"}</span></div>
         </div>
         <Link className="primary-cta compact" to="/schedule">返回完整赛程</Link>
       </section>

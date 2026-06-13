@@ -235,13 +235,32 @@ export const paraguayLineup: Lineup = {
   ],
 };
 
-export const lineupsByMatchId: Record<string, { home: Lineup; away: Lineup }> = {
+export interface MatchLineupBundle {
+  home: Lineup;
+  away: Lineup;
+  label?: "演示阵容" | "预测阵容" | "待公布";
+  subtitle?: string;
+  note?: string;
+}
+
+const tomorrowPredictionBundle = (
+  home: Lineup,
+  away: Lineup,
+): MatchLineupBundle => ({
+  home,
+  away,
+  label: "预测阵容",
+  subtitle: "官方首发待公布",
+  note: "两队官方首发尚未发布，当前页面根据已公布大名单与常用阵型整理为赛前预测阵容，仅供观赛参考。",
+});
+
+export const lineupsByMatchId: Record<string, MatchLineupBundle> = {
   "group-f-1": { home: koreaLineup, away: czechLineup },
   "match-5403396": { home: mexicoLineup, away: southAfricaLineup },
   "match-5403398": { home: canadaLineup, away: bosniaLineup },
   "match-5403399": { home: usaLineup, away: paraguayLineup },
-  "match-5403400": { home: qatarLineup, away: swissLineup },
-  "match-5403401": { home: brazilLineup, away: moroccoLineup },
-  "match-5403402": { home: haitiLineup, away: scotlandLineup },
-  "match-5403403": { home: australiaLineup, away: turkeyLineup },
+  "match-5403400": tomorrowPredictionBundle(qatarLineup, swissLineup),
+  "match-5403401": tomorrowPredictionBundle(brazilLineup, moroccoLineup),
+  "match-5403402": tomorrowPredictionBundle(haitiLineup, scotlandLineup),
+  "match-5403403": tomorrowPredictionBundle(australiaLineup, turkeyLineup),
 };
