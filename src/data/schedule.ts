@@ -1,5 +1,6 @@
 import referenceSchedule from "./referenceSchedule.json";
 import type { Match, Stage, Team, Venue } from "../types";
+import { tournamentToday } from "../utils";
 
 type ReferenceTeam = {
   name: string;
@@ -183,3 +184,20 @@ export const matches: Match[] = (referenceSchedule as ReferenceMatch[]).map((ref
 });
 
 export const featuredMatch = matches.find((match) => match.featured)!;
+
+// Curated from Google search-interest signals. Keep the 3D showcase marker separate
+// so the homepage focus can change without changing match-detail behavior.
+const dailySearchFocusMatchIds: Record<string, string> = {
+  "2026-06-13": "match-5403399",
+};
+
+export const getDailyFocusMatch = (beijingDate: string) => {
+  const matchesOnDate = matches.filter((match) => match.beijingDate === beijingDate);
+  return matches.find((match) => match.id === dailySearchFocusMatchIds[beijingDate])
+    ?? matchesOnDate.find((match) => match.showcase)
+    ?? matchesOnDate[0]
+    ?? featuredMatch;
+};
+
+export const todayFocusMatch = getDailyFocusMatch(tournamentToday);
+export const todayFocusUsesGoogleInterest = Boolean(dailySearchFocusMatchIds[tournamentToday]);

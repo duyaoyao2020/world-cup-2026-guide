@@ -1,7 +1,7 @@
 import { ArrowRight, CalendarDays, MapPin, Play, Radio, Trophy } from "lucide-react";
 import { Link } from "react-router-dom";
 import { AppHeader } from "../components/AppHeader";
-import { featuredMatch, matches, venues } from "../data/schedule";
+import { matches, todayFocusMatch, todayFocusUsesGoogleInterest, venues } from "../data/schedule";
 import { formatFullDate, formatTime } from "../utils";
 
 const particles = Array.from({ length: 22 }, (_, index) => index);
@@ -21,7 +21,7 @@ export function HomePage() {
       <section className="hero-content">
         <div className="hero-eyebrow">
           <span><Radio size={14} /> 2026 北美盛夏</span>
-          <span>{formatFullDate(featuredMatch.kickoffUtc)}</span>
+          <span>{formatFullDate(todayFocusMatch.kickoffUtc)}</span>
         </div>
         <div className="hero-title-lockup">
           <span>THE WORLD'S GAME</span>
@@ -50,11 +50,13 @@ export function HomePage() {
           <strong>{venues.length}</strong>
           <span><MapPin size={14} /> 美国 · 加拿大 · 墨西哥</span>
         </div>
-        <Link className="next-match" to={`/match/${featuredMatch.id}`}>
+        <Link className="next-match" to={`/match/${todayFocusMatch.id}`}>
           <div>
-            <span className="status-pill"><i /> 今日焦点 · 演示阵容</span>
-            <h3>{featuredMatch.home.name} <b>VS</b> {featuredMatch.away.name}</h3>
-            <p>{featuredMatch.venue.city} · 北京时间 {formatTime(featuredMatch.kickoffUtc)}</p>
+            <span className="status-pill">
+              <i /> 今日焦点 · {todayFocusUsesGoogleInterest ? "Google 搜索热度最高" : "当日精选"}
+            </span>
+            <h3>{todayFocusMatch.home.name} <b>VS</b> {todayFocusMatch.away.name}</h3>
+            <p>{todayFocusMatch.venue.city} · 北京时间 {formatTime(todayFocusMatch.kickoffUtc)}</p>
           </div>
           <span className="round-button"><Trophy size={19} /></span>
         </Link>

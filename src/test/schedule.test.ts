@@ -18,7 +18,7 @@ import {
   australiaLineup,
 } from "../data/lineups";
 import { localAvatarSources } from "../data/localAvatars";
-import { featuredMatch, matches } from "../data/schedule";
+import { featuredMatch, getDailyFocusMatch, matches } from "../data/schedule";
 import { groupStandings } from "../data/standings";
 import { formatLocalDate, groupMatchesByDate } from "../utils";
 
@@ -43,6 +43,14 @@ describe("2026 World Cup static schedule", () => {
     expect(formatLocalDate(featuredMatch.kickoffUtc)).toBe("2026-06-12");
     expect(koreaLineup.players).toHaveLength(11);
     expect(czechLineup.players).toHaveLength(11);
+  });
+
+  it("uses the highest-search-interest match as today's homepage focus", () => {
+    const focusMatch = getDailyFocusMatch("2026-06-13");
+    expect(focusMatch.home.code).toBe("USA");
+    expect(focusMatch.away.code).toBe("PAR");
+    expect(focusMatch.beijingDate).toBe("2026-06-13");
+    expect(focusMatch.showcase).toBe(true);
   });
 
   it("matches the reference fixture order and stage totals", () => {
