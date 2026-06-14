@@ -5,6 +5,7 @@ import { AppHeader } from "../components/AppHeader";
 import { Pitch3D } from "../components/Pitch3D";
 import { PlayerCard } from "../components/PlayerCard";
 import { TeamCrest } from "../components/TeamCrest";
+import { genericMatchDetailsById } from "../data/matchDetails";
 import { lineupsByMatchId } from "../data/lineups";
 import { matches } from "../data/schedule";
 import type { Player, Side } from "../types";
@@ -44,9 +45,12 @@ export function MatchPage() {
   const [locked, setLocked] = useState<FocusedPlayer>();
   const playerCardRef = useRef<HTMLDivElement>(null);
   const playerClickRef = useRef(false);
-  const lineupLabel = lineupBundle?.label ?? "演示阵容";
-  const lineupSubtitle = lineupBundle?.subtitle ?? "非官方实时首发";
-  const lineupNote = lineupBundle?.note ?? "球员信息与阵型用于交互展示，比赛日请以官方公布首发为准。";
+  const endedMatch = match.status === "已结束";
+  const lineupLabel = endedMatch ? "演示阵容" : lineupBundle?.label ?? "演示阵容";
+  const lineupSubtitle = endedMatch ? "非官方首发回放" : lineupBundle?.subtitle ?? "非官方实时首发";
+  const lineupNote = endedMatch
+    ? "当前 3D 阵容保留赛前演示或预测站位，页面已同步终场比分；如需核对官方首发，请以 FIFA Match Centre 与球队赛后记录为准。"
+    : lineupBundle?.note ?? "球员信息与阵型用于交互展示，比赛日请以官方公布首发为准。";
   const score = match.score ? `${match.score.home} : ${match.score.away}` : "VS";
 
   useEffect(() => {
@@ -168,6 +172,8 @@ export function MatchPage() {
 }
 
 function GenericMatch({ match }: { match: (typeof matches)[number] }) {
+  const detail = genericMatchDetailsById[match.id];
+
   return (
     <main className="generic-match-page">
       <AppHeader />
@@ -187,8 +193,37 @@ function GenericMatch({ match }: { match: (typeof matches)[number] }) {
         </div>
         <div className="generic-callout">
           <Sparkles size={18} />
-          <div><b>{match.status === "已结束" ? "当前页面未收录官方首发" : "比赛阵容将在赛前更新"}</b><span>{match.status === "已结束" ? "当前页面已同步赛果与场馆信息。" : "当前页面展示已确认的赛程与场馆信息。"}</span></div>
+          <div>
+            <b>{detail ? `${detail.statusLabel} · ${detail.statusSubtitle}` : match.status === "已结束" ? "当前页面未收录官方首发" : "比赛阵容将在赛前更新"}</b>
+            <span>{detail?.note ?? (match.status === "已结束" ? "当前页面已同步赛果与场馆信息。" : "当前页面展示已确认的赛程与场馆信息。")}</span>
+          </div>
         </div>
+        {detail && (
+          <>
+            <section className="generic-preview">
+              <article>
+                <small>PREVIEW</small>
+                <h2>{detail.headline}</h2>
+                <p>{detail.summary}</p>
+              </article>
+              <article>
+                <small>LINEUP STATUS</small>
+                <h2>{detail.statusLabel}</h2>
+                <p>{detail.statusSubtitle}。当前页面仅保留赛前已确认信息。</p>
+              </article>
+            </section>
+            <section className="generic-watchlist">
+              <article>
+                <small>{match.home.name} 关注名单</small>
+                <div>{detail.homeWatch.map((name) => <span key={name}>{name}</span>)}</div>
+              </article>
+              <article>
+                <small>{match.away.name} 关注名单</small>
+                <div>{detail.awayWatch.map((name) => <span key={name}>{name}</span>)}</div>
+              </article>
+            </section>
+          </>
+        )}
         <Link className="primary-cta compact" to="/schedule">返回完整赛程</Link>
       </section>
     </main>

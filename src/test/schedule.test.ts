@@ -18,6 +18,7 @@ import {
   australiaLineup,
   lineupsByMatchId,
 } from "../data/lineups";
+import { genericMatchDetailsById } from "../data/matchDetails";
 import { localAvatarSources } from "../data/localAvatars";
 import { featuredMatch, getDailyFocusMatch, matches } from "../data/schedule";
 import { groupStandings } from "../data/standings";
@@ -142,9 +143,20 @@ describe("2026 World Cup static schedule", () => {
     expect(groupStandings.every((standing) => standing.rows.length === 4)).toBe(true);
     expect(groupStandings.find(({ group }) => group === "A")?.rows[0].team.code).toBe("MEX");
     expect(groupStandings.find(({ group }) => group === "A")?.rows[0].points).toBe(3);
-    expect(groupStandings.find(({ group }) => group === "B")?.rows.filter((row) => row.points === 1)).toHaveLength(2);
+    expect(groupStandings.find(({ group }) => group === "B")?.rows.filter((row) => row.points === 1)).toHaveLength(4);
+    expect(groupStandings.find(({ group }) => group === "C")?.rows[0].team.code).toBe("SCO");
+    expect(groupStandings.find(({ group }) => group === "D")?.rows[1].team.code).toBe("AUS");
     expect(groupStandings.find(({ group }) => group === "D")?.rows[0].team.code).toBe("USA");
     expect(groupStandings.find(({ group }) => group === "D")?.rows[0].goalDifference).toBe(3);
-    expect(matches.filter((match) => match.status === "已结束")).toHaveLength(4);
+    expect(matches.filter((match) => match.status === "已结束")).toHaveLength(8);
+  });
+
+  it("adds lineup-status detail cards for all June 15 Beijing matches", () => {
+    ["match-5403404", "match-5403405", "match-5403406", "match-5403407"].forEach((id) => {
+      expect(genericMatchDetailsById[id]?.statusLabel).toBe("待公布");
+      expect(genericMatchDetailsById[id]?.statusSubtitle).toBe("官方首发待公布");
+      expect(genericMatchDetailsById[id]?.homeWatch).toHaveLength(3);
+      expect(genericMatchDetailsById[id]?.awayWatch).toHaveLength(3);
+    });
   });
 });
