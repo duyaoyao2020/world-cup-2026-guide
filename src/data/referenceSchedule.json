@@ -200,7 +200,11 @@
       "icon": "https://relottery.ws.126.net/thread/snapshot/20260402/yv38Q7m.png"
     },
     "venue": "休斯顿体育场",
-    "status": 1
+    "status": 3,
+    "score": {
+      "home": 7,
+      "away": 1
+    }
   },
   {
     "sourceId": 5403405,
@@ -219,7 +223,11 @@
       "icon": "https://relottery.ws.126.net/thread/snapshot/20260402/NObVSPQ.png"
     },
     "venue": "达拉斯体育场",
-    "status": 1
+    "status": 3,
+    "score": {
+      "home": 2,
+      "away": 2
+    }
   },
   {
     "sourceId": 5403406,
@@ -238,7 +246,11 @@
       "icon": "https://relottery.ws.126.net/thread/snapshot/20260402/wNpOlXS.png"
     },
     "venue": "费城体育场",
-    "status": 1
+    "status": 3,
+    "score": {
+      "home": 1,
+      "away": 0
+    }
   },
   {
     "sourceId": 5403407,
@@ -257,7 +269,11 @@
       "icon": "https://relottery.ws.126.net/thread/snapshot/20260402/xPtaAS7.png"
     },
     "venue": "蒙特雷体育场",
-    "status": 1
+    "status": 3,
+    "score": {
+      "home": 5,
+      "away": 1
+    }
   },
   {
     "sourceId": 5403408,
@@ -276,7 +292,11 @@
       "icon": "https://relottery.ws.126.net/thread/snapshot/20260402/piaUqSW.png"
     },
     "venue": "亚特兰大体育场",
-    "status": 1
+    "status": 3,
+    "score": {
+      "home": 0,
+      "away": 0
+    }
   },
   {
     "sourceId": 5403409,
@@ -295,7 +315,11 @@
       "icon": "https://relottery.ws.126.net/thread/snapshot/20260402/PHWvt1y.png"
     },
     "venue": "西雅图体育场",
-    "status": 1
+    "status": 3,
+    "score": {
+      "home": 1,
+      "away": 1
+    }
   },
   {
     "sourceId": 5403410,
@@ -314,7 +338,11 @@
       "icon": "https://relottery.ws.126.net/thread/snapshot/20260402/vaKAYs6.png"
     },
     "venue": "迈阿密体育场",
-    "status": 1
+    "status": 3,
+    "score": {
+      "home": 1,
+      "away": 1
+    }
   },
   {
     "sourceId": 5403411,
@@ -333,7 +361,11 @@
       "icon": "https://relottery.ws.126.net/thread/snapshot/20260402/oz8htua.png"
     },
     "venue": "洛杉矶体育场",
-    "status": 1
+    "status": 3,
+    "score": {
+      "home": 2,
+      "away": 2
+    }
   },
   {
     "sourceId": 5403412,

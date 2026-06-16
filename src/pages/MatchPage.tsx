@@ -173,6 +173,12 @@ export function MatchPage() {
 
 function GenericMatch({ match }: { match: (typeof matches)[number] }) {
   const detail = genericMatchDetailsById[match.id];
+  const endedMatch = match.status === "已结束";
+  const detailLabel = endedMatch ? "已结束" : detail?.statusLabel;
+  const detailSubtitle = endedMatch ? "赛果已同步" : detail?.statusSubtitle;
+  const detailNote = endedMatch
+    ? "当前页面已同步终场比分与场馆信息；如需核对官方首发，请以 FIFA Match Centre 与球队赛后记录为准。"
+    : detail?.note;
 
   return (
     <main className="generic-match-page">
@@ -194,8 +200,8 @@ function GenericMatch({ match }: { match: (typeof matches)[number] }) {
         <div className="generic-callout">
           <Sparkles size={18} />
           <div>
-            <b>{detail ? `${detail.statusLabel} · ${detail.statusSubtitle}` : match.status === "已结束" ? "当前页面未收录官方首发" : "比赛阵容将在赛前更新"}</b>
-            <span>{detail?.note ?? (match.status === "已结束" ? "当前页面已同步赛果与场馆信息。" : "当前页面展示已确认的赛程与场馆信息。")}</span>
+            <b>{detailLabel && detailSubtitle ? `${detailLabel} · ${detailSubtitle}` : match.status === "已结束" ? "当前页面未收录官方首发" : "比赛阵容将在赛前更新"}</b>
+            <span>{detailNote ?? (match.status === "已结束" ? "当前页面已同步赛果与场馆信息。" : "当前页面展示已确认的赛程与场馆信息。")}</span>
           </div>
         </div>
         {detail && (
@@ -208,8 +214,8 @@ function GenericMatch({ match }: { match: (typeof matches)[number] }) {
               </article>
               <article>
                 <small>LINEUP STATUS</small>
-                <h2>{detail.statusLabel}</h2>
-                <p>{detail.statusSubtitle}。当前页面仅保留赛前已确认信息。</p>
+                <h2>{detailLabel}</h2>
+                <p>{endedMatch ? "赛果已同步，首发仍以赛后官方记录为准。" : `${detailSubtitle}。当前页面仅保留赛前已确认信息。`}</p>
               </article>
             </section>
             <section className="generic-watchlist">
