@@ -174,10 +174,10 @@ export function MatchPage() {
 function GenericMatch({ match }: { match: (typeof matches)[number] }) {
   const detail = genericMatchDetailsById[match.id];
   const endedMatch = match.status === "已结束";
-  const detailLabel = endedMatch ? "已结束" : detail?.statusLabel;
-  const detailSubtitle = endedMatch ? "赛果已同步" : detail?.statusSubtitle;
+  const detailLabel = detail?.statusLabel ?? (endedMatch ? "已结束" : undefined);
+  const detailSubtitle = detail?.statusSubtitle ?? (endedMatch ? "赛果已同步" : undefined);
   const detailNote = endedMatch
-    ? "当前页面已同步终场比分与场馆信息；如需核对官方首发，请以 FIFA Match Centre 与球队赛后记录为准。"
+    ? detail?.note ?? "当前页面已同步终场比分与场馆信息；如需核对官方首发，请以 FIFA Match Centre 与球队赛后记录为准。"
     : detail?.note;
 
   return (
@@ -215,9 +215,27 @@ function GenericMatch({ match }: { match: (typeof matches)[number] }) {
               <article>
                 <small>LINEUP STATUS</small>
                 <h2>{detailLabel}</h2>
-                <p>{endedMatch ? "赛果已同步，首发仍以赛后官方记录为准。" : `${detailSubtitle}。当前页面仅保留赛前已确认信息。`}</p>
+                <p>
+                  {detail.confirmedLineups
+                    ? `${detailSubtitle}。以下名单为赛前已确认首发。`
+                    : endedMatch
+                      ? "赛果已同步，首发仍以赛后官方记录为准。"
+                      : `${detailSubtitle}。当前页面仅保留赛前已确认信息。`}
+                </p>
               </article>
             </section>
+            {detail.confirmedLineups && (
+              <section className="generic-watchlist generic-watchlist--lineups">
+                <article>
+                  <small>{match.home.name} 首发 · {detail.confirmedLineups.homeFormation}</small>
+                  <div>{detail.confirmedLineups.homeXI.map((name) => <span key={name}>{name}</span>)}</div>
+                </article>
+                <article>
+                  <small>{match.away.name} 首发 · {detail.confirmedLineups.awayFormation}</small>
+                  <div>{detail.confirmedLineups.awayXI.map((name) => <span key={name}>{name}</span>)}</div>
+                </article>
+              </section>
+            )}
             <section className="generic-watchlist">
               <article>
                 <small>{match.home.name} 关注名单</small>
@@ -228,6 +246,7 @@ function GenericMatch({ match }: { match: (typeof matches)[number] }) {
                 <div>{detail.awayWatch.map((name) => <span key={name}>{name}</span>)}</div>
               </article>
             </section>
+            {detail.confirmedLineups && <p className="generic-lineup-source">{detail.confirmedLineups.sourceLabel}</p>}
           </>
         )}
         <Link className="primary-cta compact" to="/schedule">返回完整赛程</Link>

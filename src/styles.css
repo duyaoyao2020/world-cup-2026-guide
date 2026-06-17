@@ -603,6 +603,9 @@ em { font-style: normal; }
   flex-wrap: wrap;
   gap: 8px;
 }
+.generic-watchlist--lineups div {
+  gap: 10px;
+}
 .generic-watchlist span {
   padding: 7px 9px;
   color: #edf2ef;
@@ -610,6 +613,13 @@ em { font-style: normal; }
   border: 1px solid rgba(255,255,255,.08);
   font-size: 9px;
   letter-spacing: .05em;
+}
+.generic-lineup-source {
+  margin: 18px 0 0;
+  color: #8d999f;
+  font-size: 10px;
+  letter-spacing: .1em;
+  text-transform: uppercase;
 }
 .generic-match-content .primary-cta { margin-inline: auto; }
 

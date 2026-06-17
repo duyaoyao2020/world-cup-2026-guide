@@ -384,7 +384,11 @@
       "icon": "https://relottery.ws.126.net/thread/snapshot/20260402/BIFSraw.png"
     },
     "venue": "纽约/新泽西体育场",
-    "status": 1
+    "status": 3,
+    "score": {
+      "home": 3,
+      "away": 1
+    }
   },
   {
     "sourceId": 5403413,
@@ -403,7 +407,11 @@
       "icon": "https://relottery.ws.126.net/thread/snapshot/20260402/JiInQ0K.png"
     },
     "venue": "波士顿体育场",
-    "status": 1
+    "status": 3,
+    "score": {
+      "home": 1,
+      "away": 4
+    }
   },
   {
     "sourceId": 5403414,
@@ -422,7 +430,11 @@
       "icon": "https://relottery.ws.126.net/thread/snapshot/20260402/tVmRRdB.png"
     },
     "venue": "堪萨斯城体育场",
-    "status": 1
+    "status": 3,
+    "score": {
+      "home": 3,
+      "away": 0
+    }
   },
   {
     "sourceId": 5403415,
@@ -441,7 +453,11 @@
       "icon": "https://relottery.ws.126.net/thread/snapshot/20260402/xLEEHRy.png"
     },
     "venue": "旧金山湾区体育场",
-    "status": 1
+    "status": 3,
+    "score": {
+      "home": 3,
+      "away": 1
+    }
   },
   {
     "sourceId": 5403416,
