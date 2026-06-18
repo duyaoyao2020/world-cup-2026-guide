@@ -194,7 +194,11 @@ describe("2026 World Cup static schedule", () => {
     expect(groupStandings.find(({ group }) => group === "I")?.rows[1].team.code).toBe("FRA");
     expect(groupStandings.find(({ group }) => group === "J")?.rows[0].team.code).toBe("ARG");
     expect(groupStandings.find(({ group }) => group === "J")?.rows[1].team.code).toBe("AUT");
-    expect(matches.filter((match) => match.status === "已结束")).toHaveLength(20);
+    expect(groupStandings.find(({ group }) => group === "K")?.rows[0].team.code).toBe("COL");
+    expect(groupStandings.find(({ group }) => group === "K")?.rows[1].points).toBe(1);
+    expect(groupStandings.find(({ group }) => group === "L")?.rows[0].team.code).toBe("ENG");
+    expect(groupStandings.find(({ group }) => group === "L")?.rows[1].team.code).toBe("GHA");
+    expect(matches.filter((match) => match.status === "已结束")).toHaveLength(24);
   });
 
   it("adds confirmed lineup detail cards for all June 17 Beijing matches", () => {
@@ -210,6 +214,16 @@ describe("2026 World Cup static schedule", () => {
 
   it("adds preview detail cards for all June 18 Beijing matches while lineups remain pending", () => {
     ["match-5403416", "match-5403417", "match-5403418", "match-5403419"].forEach((id) => {
+      expect(genericMatchDetailsById[id]?.statusLabel).toBe("待公布");
+      expect(genericMatchDetailsById[id]?.statusSubtitle).toBe("官方首发待公布");
+      expect(genericMatchDetailsById[id]?.homeWatch).toHaveLength(3);
+      expect(genericMatchDetailsById[id]?.awayWatch).toHaveLength(3);
+      expect(genericMatchDetailsById[id]?.confirmedLineups).toBeUndefined();
+    });
+  });
+
+  it("adds preview detail cards for all June 19 Beijing matches while lineups remain pending", () => {
+    ["match-5403420", "match-5403421", "match-5403422", "match-5403423"].forEach((id) => {
       expect(genericMatchDetailsById[id]?.statusLabel).toBe("待公布");
       expect(genericMatchDetailsById[id]?.statusSubtitle).toBe("官方首发待公布");
       expect(genericMatchDetailsById[id]?.homeWatch).toHaveLength(3);
