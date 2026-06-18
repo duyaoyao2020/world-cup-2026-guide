@@ -3,12 +3,19 @@ import {
   bosniaLineup,
   brazilLineup,
   canadaLineup,
+  colombiaLineup,
+  croatiaLineup,
   czechLineup,
+  drCongoLineup,
+  englandLineup,
+  ghanaLineup,
   haitiLineup,
   koreaLineup,
   mexicoLineup,
   moroccoLineup,
+  panamaLineup,
   paraguayLineup,
+  portugalLineup,
   qatarLineup,
   scotlandLineup,
   southAfricaLineup,
@@ -17,6 +24,7 @@ import {
   usaLineup,
   australiaLineup,
   lineupsByMatchId,
+  uzbekistanLineup,
 } from "../data/lineups";
 import { genericMatchDetailsById } from "../data/matchDetails";
 import { localAvatarSources } from "../data/localAvatars";
@@ -115,6 +123,36 @@ describe("2026 World Cup static schedule", () => {
     expected.forEach(([id]) => {
       expect(lineupsByMatchId[id]?.label).toBe("预测阵容");
       expect(lineupsByMatchId[id]?.subtitle).toBe("官方首发待公布");
+    });
+  });
+
+  it("provides complete 3D showcases for the four June 18 Beijing matches", () => {
+    const expected = [
+      ["match-5403416", "POR", "COD"],
+      ["match-5403417", "ENG", "CRO"],
+      ["match-5403418", "GHA", "PAN"],
+      ["match-5403419", "UZB", "COL"],
+    ];
+    expected.forEach(([id, home, away]) => {
+      const match = matches.find((item) => item.id === id);
+      expect([match?.home.code, match?.away.code, match?.showcase]).toEqual([home, away, true]);
+      expect(lineupsByMatchId[id]?.label).toBe("预测阵容");
+      expect(lineupsByMatchId[id]?.subtitle).toBe("官方首发待公布");
+    });
+    [
+      portugalLineup,
+      drCongoLineup,
+      englandLineup,
+      croatiaLineup,
+      ghanaLineup,
+      panamaLineup,
+      uzbekistanLineup,
+      colombiaLineup,
+    ].forEach((lineup) => {
+      expect(lineup.players).toHaveLength(11);
+      expect(lineup.formation).toBeTruthy();
+      expect(lineup.coach).toBeTruthy();
+      expect(lineup.kit.shirt).toBeTruthy();
     });
   });
 

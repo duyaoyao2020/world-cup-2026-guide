@@ -33,6 +33,14 @@ const englishTeamNames: Record<string, string> = {
   SCO: "SCOTLAND",
   AUS: "AUSTRALIA",
   TUR: "TÜRKIYE",
+  POR: "PORTUGAL",
+  COD: "DR CONGO",
+  ENG: "ENGLAND",
+  CRO: "CROATIA",
+  GHA: "GHANA",
+  PAN: "PANAMA",
+  UZB: "UZBEKISTAN",
+  COL: "COLOMBIA",
 };
 
 export function MatchPage() {

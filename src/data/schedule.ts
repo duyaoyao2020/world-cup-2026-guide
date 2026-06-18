@@ -162,6 +162,10 @@ export const matches: Match[] = (referenceSchedule as ReferenceMatch[]).map((ref
     "巴西-摩洛哥",
     "海地-苏格兰",
     "澳大利亚-土耳其",
+    "葡萄牙-民主刚果",
+    "英格兰-克罗地亚",
+    "加纳-巴拿马",
+    "乌兹别克-哥伦比亚",
   ]);
   const showcase = featured || showcasePairs.has(`${reference.home.name}-${reference.away.name}`);
 

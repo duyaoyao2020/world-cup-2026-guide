@@ -11,6 +11,16 @@ import {
   swissLineup,
   turkeyLineup,
 } from "./tomorrowLineups";
+import {
+  colombiaLineup,
+  croatiaLineup,
+  drCongoLineup,
+  englandLineup,
+  ghanaLineup,
+  panamaLineup,
+  portugalLineup,
+  uzbekistanLineup,
+} from "./todayShowcaseLineups";
 
 export {
   australiaLineup,
@@ -22,6 +32,17 @@ export {
   swissLineup,
   turkeyLineup,
 } from "./tomorrowLineups";
+
+export {
+  colombiaLineup,
+  croatiaLineup,
+  drCongoLineup,
+  englandLineup,
+  ghanaLineup,
+  panamaLineup,
+  portugalLineup,
+  uzbekistanLineup,
+} from "./todayShowcaseLineups";
 
 const avatarSources: Record<string, string> = {
   "kor-1": "https://upload.wikimedia.org/wikipedia/commons/2/26/Jo_Hyeon-woo.jpg",
@@ -246,12 +267,13 @@ export interface MatchLineupBundle {
 const tomorrowPredictionBundle = (
   home: Lineup,
   away: Lineup,
+  note = "两队官方首发尚未发布，当前页面根据已公布大名单与常用阵型整理为赛前预测阵容，仅供观赛参考。",
 ): MatchLineupBundle => ({
   home,
   away,
   label: "预测阵容",
   subtitle: "官方首发待公布",
-  note: "两队官方首发尚未发布，当前页面根据已公布大名单与常用阵型整理为赛前预测阵容，仅供观赛参考。",
+  note,
 });
 
 export const lineupsByMatchId: Record<string, MatchLineupBundle> = {
@@ -263,4 +285,12 @@ export const lineupsByMatchId: Record<string, MatchLineupBundle> = {
   "match-5403401": tomorrowPredictionBundle(brazilLineup, moroccoLineup),
   "match-5403402": tomorrowPredictionBundle(haitiLineup, scotlandLineup),
   "match-5403403": tomorrowPredictionBundle(australiaLineup, turkeyLineup),
+  "match-5403416": tomorrowPredictionBundle(portugalLineup, drCongoLineup),
+  "match-5403417": tomorrowPredictionBundle(englandLineup, croatiaLineup),
+  "match-5403418": tomorrowPredictionBundle(
+    ghanaLineup,
+    panamaLineup,
+    "两队官方首发尚未发布，当前页面按已公布大名单与常用站位整理为赛前预测阵容；Thomas Partey 已确认缺席多伦多首战。",
+  ),
+  "match-5403419": tomorrowPredictionBundle(uzbekistanLineup, colombiaLineup),
 };
