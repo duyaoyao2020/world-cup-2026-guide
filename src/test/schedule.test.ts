@@ -180,8 +180,11 @@ describe("2026 World Cup static schedule", () => {
     expect(groupStandings).toHaveLength(12);
     expect(groupStandings.every((standing) => standing.rows.length === 4)).toBe(true);
     expect(groupStandings.find(({ group }) => group === "A")?.rows[0].team.code).toBe("MEX");
-    expect(groupStandings.find(({ group }) => group === "A")?.rows[0].points).toBe(3);
-    expect(groupStandings.find(({ group }) => group === "B")?.rows.filter((row) => row.points === 1)).toHaveLength(4);
+    expect(groupStandings.find(({ group }) => group === "A")?.rows[0].points).toBe(6);
+    expect(groupStandings.find(({ group }) => group === "A")?.rows[1].team.code).toBe("KOR");
+    expect(groupStandings.find(({ group }) => group === "B")?.rows[0].team.code).toBe("CAN");
+    expect(groupStandings.find(({ group }) => group === "B")?.rows[0].points).toBe(4);
+    expect(groupStandings.find(({ group }) => group === "B")?.rows[1].team.code).toBe("SUI");
     expect(groupStandings.find(({ group }) => group === "C")?.rows[0].team.code).toBe("SCO");
     expect(groupStandings.find(({ group }) => group === "D")?.rows[1].team.code).toBe("AUS");
     expect(groupStandings.find(({ group }) => group === "D")?.rows[0].team.code).toBe("USA");
@@ -198,7 +201,7 @@ describe("2026 World Cup static schedule", () => {
     expect(groupStandings.find(({ group }) => group === "K")?.rows[1].points).toBe(1);
     expect(groupStandings.find(({ group }) => group === "L")?.rows[0].team.code).toBe("ENG");
     expect(groupStandings.find(({ group }) => group === "L")?.rows[1].team.code).toBe("GHA");
-    expect(matches.filter((match) => match.status === "已结束")).toHaveLength(24);
+    expect(matches.filter((match) => match.status === "已结束")).toHaveLength(28);
   });
 
   it("adds confirmed lineup detail cards for all June 17 Beijing matches", () => {
@@ -224,6 +227,16 @@ describe("2026 World Cup static schedule", () => {
 
   it("adds preview detail cards for all June 19 Beijing matches while lineups remain pending", () => {
     ["match-5403420", "match-5403421", "match-5403422", "match-5403423"].forEach((id) => {
+      expect(genericMatchDetailsById[id]?.statusLabel).toBe("待公布");
+      expect(genericMatchDetailsById[id]?.statusSubtitle).toBe("官方首发待公布");
+      expect(genericMatchDetailsById[id]?.homeWatch).toHaveLength(3);
+      expect(genericMatchDetailsById[id]?.awayWatch).toHaveLength(3);
+      expect(genericMatchDetailsById[id]?.confirmedLineups).toBeUndefined();
+    });
+  });
+
+  it("adds preview detail cards for all June 20 Beijing matches while lineups remain pending", () => {
+    ["match-5403424", "match-5403425", "match-5403426", "match-5403427"].forEach((id) => {
       expect(genericMatchDetailsById[id]?.statusLabel).toBe("待公布");
       expect(genericMatchDetailsById[id]?.statusSubtitle).toBe("官方首发待公布");
       expect(genericMatchDetailsById[id]?.homeWatch).toHaveLength(3);

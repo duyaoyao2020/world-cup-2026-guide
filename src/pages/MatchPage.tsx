@@ -182,8 +182,12 @@ export function MatchPage() {
 function GenericMatch({ match }: { match: (typeof matches)[number] }) {
   const detail = genericMatchDetailsById[match.id];
   const endedMatch = match.status === "已结束";
-  const detailLabel = detail?.statusLabel ?? (endedMatch ? "已结束" : undefined);
-  const detailSubtitle = detail?.statusSubtitle ?? (endedMatch ? "赛果已同步" : undefined);
+  const detailLabel = detail
+    ? endedMatch && !detail.confirmedLineups ? "已结束" : detail.statusLabel
+    : endedMatch ? "已结束" : undefined;
+  const detailSubtitle = detail
+    ? endedMatch && !detail.confirmedLineups ? "赛果已同步" : detail.statusSubtitle
+    : endedMatch ? "赛果已同步" : undefined;
   const detailNote = endedMatch
     ? detail?.note ?? "当前页面已同步终场比分与场馆信息；如需核对官方首发，请以 FIFA Match Centre 与球队赛后记录为准。"
     : detail?.note;
@@ -222,13 +226,13 @@ function GenericMatch({ match }: { match: (typeof matches)[number] }) {
               </article>
               <article>
                 <small>LINEUP STATUS</small>
-                <h2>{detailLabel}</h2>
+                <h2>{detailLabel ?? (endedMatch ? "已结束" : "待公布")}</h2>
                 <p>
                   {detail.confirmedLineups
                     ? `${detailSubtitle}。以下名单为赛前已确认首发。`
                     : endedMatch
-                      ? "赛果已同步，首发仍以赛后官方记录为准。"
-                      : `${detailSubtitle}。当前页面仅保留赛前已确认信息。`}
+                      ? "赛果已同步，官方首发仍以 FIFA Match Centre 与球队赛后记录为准。"
+                      : `${detailSubtitle ?? "官方首发待公布"}。当前页面仅保留赛前已确认信息。`}
                 </p>
               </article>
             </section>
