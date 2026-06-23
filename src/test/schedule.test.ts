@@ -191,18 +191,22 @@ describe("2026 World Cup static schedule", () => {
     expect(groupStandings.find(({ group }) => group === "D")?.rows[0].team.code).toBe("USA");
     expect(groupStandings.find(({ group }) => group === "D")?.rows[0].goalDifference).toBe(5);
     expect(groupStandings.find(({ group }) => group === "E")?.rows[0].team.code).toBe("GER");
-    expect(groupStandings.find(({ group }) => group === "F")?.rows[0].team.code).toBe("SWE");
-    expect(groupStandings.find(({ group }) => group === "G")?.rows.filter((row) => row.points === 1)).toHaveLength(4);
-    expect(groupStandings.find(({ group }) => group === "H")?.rows.filter((row) => row.points === 1)).toHaveLength(4);
-    expect(groupStandings.find(({ group }) => group === "I")?.rows[0].team.code).toBe("NOR");
-    expect(groupStandings.find(({ group }) => group === "I")?.rows[1].team.code).toBe("FRA");
+    expect(groupStandings.find(({ group }) => group === "E")?.rows[1].team.code).toBe("CIV");
+    expect(groupStandings.find(({ group }) => group === "F")?.rows[0].team.code).toBe("NED");
+    expect(groupStandings.find(({ group }) => group === "F")?.rows[1].team.code).toBe("JPN");
+    expect(groupStandings.find(({ group }) => group === "G")?.rows[0].team.code).toBe("EGY");
+    expect(groupStandings.find(({ group }) => group === "G")?.rows[1].team.code).toBe("IRN");
+    expect(groupStandings.find(({ group }) => group === "H")?.rows[0].team.code).toBe("ESP");
+    expect(groupStandings.find(({ group }) => group === "H")?.rows[1].team.code).toBe("URU");
+    expect(groupStandings.find(({ group }) => group === "I")?.rows[0].team.code).toBe("FRA");
+    expect(groupStandings.find(({ group }) => group === "I")?.rows[1].team.code).toBe("NOR");
     expect(groupStandings.find(({ group }) => group === "J")?.rows[0].team.code).toBe("ARG");
     expect(groupStandings.find(({ group }) => group === "J")?.rows[1].team.code).toBe("AUT");
     expect(groupStandings.find(({ group }) => group === "K")?.rows[0].team.code).toBe("COL");
     expect(groupStandings.find(({ group }) => group === "K")?.rows[1].points).toBe(1);
     expect(groupStandings.find(({ group }) => group === "L")?.rows[0].team.code).toBe("ENG");
     expect(groupStandings.find(({ group }) => group === "L")?.rows[1].team.code).toBe("GHA");
-    expect(matches.filter((match) => match.status === "已结束")).toHaveLength(32);
+    expect(matches.filter((match) => match.status === "已结束")).toHaveLength(44);
   });
 
   it("adds confirmed lineup detail cards for all June 17 Beijing matches", () => {
@@ -248,6 +252,25 @@ describe("2026 World Cup static schedule", () => {
 
   it("adds preview detail cards for all June 21 Beijing matches while lineups remain pending", () => {
     ["match-5403428", "match-5403429", "match-5403430", "match-5403431"].forEach((id) => {
+      expect(genericMatchDetailsById[id]?.statusLabel).toBe("待公布");
+      expect(genericMatchDetailsById[id]?.statusSubtitle).toBe("官方首发待公布");
+      expect(genericMatchDetailsById[id]?.homeWatch).toHaveLength(3);
+      expect(genericMatchDetailsById[id]?.awayWatch).toHaveLength(3);
+      expect(genericMatchDetailsById[id]?.confirmedLineups).toBeUndefined();
+    });
+  });
+
+  it("adds result detail cards for all June 22 and June 23 Beijing matches", () => {
+    [
+      "match-5403432",
+      "match-5403433",
+      "match-5403434",
+      "match-5403435",
+      "match-5403436",
+      "match-5403437",
+      "match-5403438",
+      "match-5403439",
+    ].forEach((id) => {
       expect(genericMatchDetailsById[id]?.statusLabel).toBe("待公布");
       expect(genericMatchDetailsById[id]?.statusSubtitle).toBe("官方首发待公布");
       expect(genericMatchDetailsById[id]?.homeWatch).toHaveLength(3);
