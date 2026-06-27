@@ -189,17 +189,25 @@ describe("2026 World Cup static schedule", () => {
     expect(groupStandings.find(({ group }) => group === "C")?.rows[1].team.code).toBe("MAR");
     expect(groupStandings.find(({ group }) => group === "D")?.rows[1].team.code).toBe("AUS");
     expect(groupStandings.find(({ group }) => group === "D")?.rows[0].team.code).toBe("USA");
-    expect(groupStandings.find(({ group }) => group === "D")?.rows[0].goalDifference).toBe(5);
+    expect(groupStandings.find(({ group }) => group === "D")?.rows[0].goalDifference).toBe(4);
+    expect(groupStandings.find(({ group }) => group === "D")?.rows[1].points).toBe(4);
+    expect(groupStandings.find(({ group }) => group === "D")?.rows[2].team.code).toBe("PAR");
     expect(groupStandings.find(({ group }) => group === "E")?.rows[0].team.code).toBe("GER");
     expect(groupStandings.find(({ group }) => group === "E")?.rows[1].team.code).toBe("CIV");
+    expect(groupStandings.find(({ group }) => group === "E")?.rows[0].points).toBe(6);
+    expect(groupStandings.find(({ group }) => group === "E")?.rows[1].points).toBe(6);
     expect(groupStandings.find(({ group }) => group === "F")?.rows[0].team.code).toBe("NED");
     expect(groupStandings.find(({ group }) => group === "F")?.rows[1].team.code).toBe("JPN");
+    expect(groupStandings.find(({ group }) => group === "F")?.rows[0].points).toBe(7);
+    expect(groupStandings.find(({ group }) => group === "F")?.rows[1].points).toBe(5);
     expect(groupStandings.find(({ group }) => group === "G")?.rows[0].team.code).toBe("EGY");
     expect(groupStandings.find(({ group }) => group === "G")?.rows[1].team.code).toBe("IRN");
     expect(groupStandings.find(({ group }) => group === "H")?.rows[0].team.code).toBe("ESP");
     expect(groupStandings.find(({ group }) => group === "H")?.rows[1].team.code).toBe("URU");
     expect(groupStandings.find(({ group }) => group === "I")?.rows[0].team.code).toBe("FRA");
     expect(groupStandings.find(({ group }) => group === "I")?.rows[1].team.code).toBe("NOR");
+    expect(groupStandings.find(({ group }) => group === "I")?.rows[0].points).toBe(9);
+    expect(groupStandings.find(({ group }) => group === "I")?.rows[1].points).toBe(6);
     expect(groupStandings.find(({ group }) => group === "J")?.rows[0].team.code).toBe("ARG");
     expect(groupStandings.find(({ group }) => group === "J")?.rows[1].team.code).toBe("AUT");
     expect(groupStandings.find(({ group }) => group === "K")?.rows[0].team.code).toBe("COL");
@@ -207,7 +215,7 @@ describe("2026 World Cup static schedule", () => {
     expect(groupStandings.find(({ group }) => group === "K")?.rows[1].points).toBe(4);
     expect(groupStandings.find(({ group }) => group === "L")?.rows[0].team.code).toBe("ENG");
     expect(groupStandings.find(({ group }) => group === "L")?.rows[1].team.code).toBe("GHA");
-    expect(matches.filter((match) => match.status === "已结束")).toHaveLength(54);
+    expect(matches.filter((match) => match.status === "已结束")).toHaveLength(62);
   });
 
   it("adds confirmed lineup detail cards for all June 17 Beijing matches", () => {
@@ -292,6 +300,25 @@ describe("2026 World Cup static schedule", () => {
       "match-5403447",
       "match-5403448",
       "match-5403449",
+    ].forEach((id) => {
+      expect(genericMatchDetailsById[id]?.statusLabel).toBe("待公布");
+      expect(genericMatchDetailsById[id]?.statusSubtitle).toBe("官方首发待公布");
+      expect(genericMatchDetailsById[id]?.homeWatch).toHaveLength(3);
+      expect(genericMatchDetailsById[id]?.awayWatch).toHaveLength(3);
+      expect(genericMatchDetailsById[id]?.confirmedLineups).toBeUndefined();
+    });
+  });
+
+  it("adds result detail cards for all completed June 26 and June 27 Beijing matches", () => {
+    [
+      "match-5403450",
+      "match-5403451",
+      "match-5403452",
+      "match-5403453",
+      "match-5403454",
+      "match-5403455",
+      "match-5403456",
+      "match-5403457",
     ].forEach((id) => {
       expect(genericMatchDetailsById[id]?.statusLabel).toBe("待公布");
       expect(genericMatchDetailsById[id]?.statusSubtitle).toBe("官方首发待公布");
