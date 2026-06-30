@@ -293,4 +293,14 @@ export const lineupsByMatchId: Record<string, MatchLineupBundle> = {
     "两队官方首发尚未发布，当前页面按已公布大名单与常用站位整理为赛前预测阵容；Thomas Partey 已确认缺席多伦多首战。",
   ),
   "match-5403419": tomorrowPredictionBundle(uzbekistanLineup, colombiaLineup),
+  "match-5403475": tomorrowPredictionBundle(
+    englandLineup,
+    drCongoLineup,
+    "两队官方首发尚未公布，当前页面按已公布名单与近期常用站位整理为赛前预测阵容，供北京时间 7 月 2 日观赛参考。",
+  ),
+  "match-5403477": tomorrowPredictionBundle(
+    usaLineup,
+    bosniaLineup,
+    "美国与波黑的官方首发待公布，当前页面先以常用 4-2-3-1 站位展示赛前预测阵容，避免误写为确认首发。",
+  ),
 };

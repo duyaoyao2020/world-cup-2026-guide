@@ -5,6 +5,7 @@ const HomePage = lazy(() => import("./pages/HomePage").then((module) => ({ defau
 const SchedulePage = lazy(() => import("./pages/SchedulePage").then((module) => ({ default: module.SchedulePage })));
 const MatchPage = lazy(() => import("./pages/MatchPage").then((module) => ({ default: module.MatchPage })));
 const StandingsPage = lazy(() => import("./pages/StandingsPage").then((module) => ({ default: module.StandingsPage })));
+const KnockoutPage = lazy(() => import("./pages/KnockoutPage").then((module) => ({ default: module.KnockoutPage })));
 const ContactPage = lazy(() => import("./pages/ContactPage").then((module) => ({ default: module.ContactPage })));
 
 export default function App() {
@@ -14,6 +15,7 @@ export default function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/schedule" element={<SchedulePage />} />
         <Route path="/standings" element={<StandingsPage />} />
+        <Route path="/knockout" element={<KnockoutPage />} />
         <Route path="/match/:matchId" element={<MatchPage />} />
         <Route path="/contact" element={<ContactPage />} />
       </Routes>

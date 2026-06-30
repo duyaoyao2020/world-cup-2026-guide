@@ -1,4 +1,4 @@
-import { ArrowRight, CalendarDays, MapPin, Play, Radio, Trophy } from "lucide-react";
+import { ArrowRight, CalendarDays, GitBranch, MapPin, Play, Radio, Trophy } from "lucide-react";
 import { Link } from "react-router-dom";
 import { AppHeader } from "../components/AppHeader";
 import { matches, todayFocusMatch, todayFocusUsesGoogleInterest, venues } from "../data/schedule";
@@ -33,9 +33,15 @@ export function HomePage() {
             <span><Play size={17} fill="currentColor" /> 进入完整赛程</span>
             <ArrowRight size={18} />
           </Link>
-          <Link className="secondary-cta" to="/standings">
-            小组积分表 <ArrowRight size={16} />
-          </Link>
+          <div className="branch-actions">
+            <Link className="secondary-cta" to="/standings">
+              小组赛 · 积分表 <ArrowRight size={16} />
+            </Link>
+            <Link className="knockout-cta" to="/knockout">
+              <span><GitBranch size={16} /> 淘汰赛</span>
+              <small>签表与赛果</small>
+            </Link>
+          </div>
         </div>
       </section>
 

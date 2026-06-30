@@ -1442,7 +1442,11 @@
       "icon": "https://relottery.ws.126.net/thread/snapshot/20260402/qvpy74U.png"
     },
     "venue": "瓜达拉哈拉体育场",
-    "status": 1
+    "status": 3,
+    "score": {
+      "home": 0,
+      "away": 1
+    }
   },
   {
     "sourceId": 5403459,
@@ -1461,7 +1465,11 @@
       "icon": "https://relottery.ws.126.net/nano_team/snapshot/5_100010584_country.png"
     },
     "venue": "休斯顿体育场",
-    "status": 1
+    "status": 3,
+    "score": {
+      "home": 0,
+      "away": 0
+    }
   },
   {
     "sourceId": 5403460,
@@ -1480,7 +1488,11 @@
       "icon": "https://relottery.ws.126.net/thread/snapshot/20260402/MNlrSMr.png"
     },
     "venue": "不列颠哥伦比亚广场",
-    "status": 1
+    "status": 3,
+    "score": {
+      "home": 1,
+      "away": 5
+    }
   },
   {
     "sourceId": 5403461,
@@ -1499,7 +1511,11 @@
       "icon": "https://relottery.ws.126.net/thread/snapshot/20260402/i1EXaIB.png"
     },
     "venue": "西雅图体育场",
-    "status": 1
+    "status": 3,
+    "score": {
+      "home": 1,
+      "away": 1
+    }
   },
   {
     "sourceId": 5403462,
@@ -1518,7 +1534,11 @@
       "icon": "https://relottery.ws.126.net/thread/snapshot/20260402/H4vGWDk.png"
     },
     "venue": "纽约/新泽西体育场",
-    "status": 1
+    "status": 3,
+    "score": {
+      "home": 0,
+      "away": 2
+    }
   },
   {
     "sourceId": 5403463,
@@ -1537,7 +1557,11 @@
       "icon": "https://relottery.ws.126.net/thread/snapshot/20260402/uiI9lSO.png"
     },
     "venue": "费城体育场",
-    "status": 1
+    "status": 3,
+    "score": {
+      "home": 2,
+      "away": 1
+    }
   },
   {
     "sourceId": 5403464,
@@ -1556,7 +1580,11 @@
       "icon": "https://relottery.ws.126.net/thread/snapshot/20260402/AMNagma.png"
     },
     "venue": "硬石体育场",
-    "status": 1
+    "status": 3,
+    "score": {
+      "home": 0,
+      "away": 0
+    }
   },
   {
     "sourceId": 5403465,
@@ -1575,7 +1603,11 @@
       "icon": "https://relottery.ws.126.net/thread/snapshot/20260402/O0Ua26H.png"
     },
     "venue": "亚特兰大体育场",
-    "status": 1
+    "status": 3,
+    "score": {
+      "home": 3,
+      "away": 1
+    }
   },
   {
     "sourceId": 5403466,
@@ -1594,7 +1626,11 @@
       "icon": "https://relottery.ws.126.net/thread/snapshot/20260402/ubgbEkT.png"
     },
     "venue": "达拉斯体育场",
-    "status": 1
+    "status": 3,
+    "score": {
+      "home": 1,
+      "away": 3
+    }
   },
   {
     "sourceId": 5403467,
@@ -1613,7 +1649,11 @@
       "icon": "https://relottery.ws.126.net/thread/snapshot/20260402/ywaH347.png"
     },
     "venue": "堪萨斯城体育场",
-    "status": 1
+    "status": 3,
+    "score": {
+      "home": 3,
+      "away": 3
+    }
   },
   {
     "sourceId": 5403468,
@@ -1622,15 +1662,19 @@
     "beijingDate": "2026-06-29",
     "stage": 232927,
     "home": {
-      "name": "A2",
+      "name": "南非",
       "icon": "https://relottery.ws.126.net/nano_team/snapshot/soccer/5_59324.png"
     },
     "away": {
-      "name": "B2",
+      "name": "加拿大",
       "icon": "https://relottery.ws.126.net/nano_team/snapshot/soccer/5_59325.png"
     },
     "venue": "洛杉矶体育场",
-    "status": 1
+    "status": 3,
+    "score": {
+      "home": 0,
+      "away": 1
+    }
   },
   {
     "sourceId": 5403469,
@@ -1639,15 +1683,19 @@
     "beijingDate": "2026-06-30",
     "stage": 232927,
     "home": {
-      "name": "C1",
+      "name": "巴西",
       "icon": "https://relottery.ws.126.net/nano_team/snapshot/soccer/5_59328.png"
     },
     "away": {
-      "name": "F2",
+      "name": "日本",
       "icon": "https://relottery.ws.126.net/nano_team/snapshot/soccer/5_59337.png"
     },
     "venue": "休斯顿体育场",
-    "status": 1
+    "status": 3,
+    "score": {
+      "home": 2,
+      "away": 1
+    }
   },
   {
     "sourceId": 5403470,
@@ -1656,15 +1704,23 @@
     "beijingDate": "2026-06-30",
     "stage": 232927,
     "home": {
-      "name": "E1",
+      "name": "德国",
       "icon": "https://relottery.ws.126.net/nano_team/snapshot/soccer/5_59338.png"
     },
     "away": {
-      "name": "A3/B3/C3/D3/F3",
+      "name": "巴拉圭",
       "icon": "https://relottery.ws.126.net/nano_team/snapshot/soccer/5_91455.png"
     },
     "venue": "波士顿体育场",
-    "status": 1
+    "status": 3,
+    "score": {
+      "home": 1,
+      "away": 1
+    },
+    "shootout": {
+      "home": 3,
+      "away": 4
+    }
   },
   {
     "sourceId": 5403471,
@@ -1673,15 +1729,23 @@
     "beijingDate": "2026-06-30",
     "stage": 232927,
     "home": {
-      "name": "F1",
+      "name": "荷兰",
       "icon": "https://relottery.ws.126.net/nano_team/snapshot/soccer/5_59334.png"
     },
     "away": {
-      "name": "C2",
+      "name": "摩洛哥",
       "icon": "https://relottery.ws.126.net/nano_team/snapshot/soccer/5_59327.png"
     },
     "venue": "蒙特雷体育场",
-    "status": 1
+    "status": 3,
+    "score": {
+      "home": 1,
+      "away": 1
+    },
+    "shootout": {
+      "home": 2,
+      "away": 3
+    }
   },
   {
     "sourceId": 5403472,
@@ -1690,15 +1754,19 @@
     "beijingDate": "2026-07-01",
     "stage": 232927,
     "home": {
-      "name": "E2",
+      "name": "科特迪瓦",
       "icon": "https://relottery.ws.126.net/nano_team/snapshot/soccer/5_59333.png"
     },
     "away": {
-      "name": "I2",
+      "name": "挪威",
       "icon": "https://relottery.ws.126.net/nano_team/snapshot/soccer/5_91463.png"
     },
     "venue": "达拉斯体育场",
-    "status": 1
+    "status": 3,
+    "score": {
+      "home": 1,
+      "away": 2
+    }
   },
   {
     "sourceId": 5403473,
@@ -1707,15 +1775,19 @@
     "beijingDate": "2026-07-01",
     "stage": 232927,
     "home": {
-      "name": "I1",
+      "name": "法国",
       "icon": "https://relottery.ws.126.net/nano_team/snapshot/soccer/5_91456.png"
     },
     "away": {
-      "name": "C3/D3/F3/G3/H3",
+      "name": "瑞典",
       "icon": "https://relottery.ws.126.net/nano_team/snapshot/soccer/5_91457.png"
     },
     "venue": "纽约/新泽西体育场",
-    "status": 1
+    "status": 2,
+    "score": {
+      "home": 3,
+      "away": 0
+    }
   },
   {
     "sourceId": 5403474,
@@ -1724,11 +1796,11 @@
     "beijingDate": "2026-07-01",
     "stage": 232927,
     "home": {
-      "name": "A1",
+      "name": "墨西哥",
       "icon": "https://relottery.ws.126.net/nano_team/snapshot/soccer/5_59326.png"
     },
     "away": {
-      "name": "C3/E3/F3/H3/I3",
+      "name": "厄瓜多尔",
       "icon": "https://relottery.ws.126.net/nano_team/snapshot/soccer/5_91464.png"
     },
     "venue": "墨西哥城体育场",
@@ -1741,11 +1813,11 @@
     "beijingDate": "2026-07-02",
     "stage": 232927,
     "home": {
-      "name": "L1",
+      "name": "英格兰",
       "icon": "https://relottery.ws.126.net/nano_team/snapshot/soccer/5_91465.png"
     },
     "away": {
-      "name": "E3/H3/I3/J3/K3",
+      "name": "民主刚果",
       "icon": "https://relottery.ws.126.net/nano_team/snapshot/soccer/5_91466.png"
     },
     "venue": "亚特兰大体育场",
@@ -1758,11 +1830,11 @@
     "beijingDate": "2026-07-02",
     "stage": 232927,
     "home": {
-      "name": "G1",
+      "name": "比利时",
       "icon": "https://relottery.ws.126.net/nano_team/snapshot/soccer/5_77358.png"
     },
     "away": {
-      "name": "A3/E3/H3/I3/J3",
+      "name": "塞内加尔",
       "icon": "https://relottery.ws.126.net/nano_team/snapshot/soccer/5_91462.png"
     },
     "venue": "西雅图体育场",
@@ -1775,11 +1847,11 @@
     "beijingDate": "2026-07-02",
     "stage": 232927,
     "home": {
-      "name": "D1",
+      "name": "美国",
       "icon": "https://relottery.ws.126.net/nano_team/snapshot/soccer/5_59336.png"
     },
     "away": {
-      "name": "B3/E3/F3/I3/J3",
+      "name": "波黑",
       "icon": "https://relottery.ws.126.net/nano_team/snapshot/soccer/5_91461.png"
     },
     "venue": "旧金山湾区体育场",
@@ -1792,11 +1864,11 @@
     "beijingDate": "2026-07-03",
     "stage": 232927,
     "home": {
-      "name": "H1",
+      "name": "西班牙",
       "icon": "https://relottery.ws.126.net/nano_team/snapshot/soccer/5_69743.png"
     },
     "away": {
-      "name": "J2",
+      "name": "奥地利",
       "icon": "https://relottery.ws.126.net/nano_team/snapshot/soccer/5_91460.png"
     },
     "venue": "洛杉矶体育场",
@@ -1809,11 +1881,11 @@
     "beijingDate": "2026-07-03",
     "stage": 232927,
     "home": {
-      "name": "K2",
+      "name": "葡萄牙",
       "icon": "https://relottery.ws.126.net/nano_team/snapshot/soccer/5_91458.png"
     },
     "away": {
-      "name": "L2",
+      "name": "克罗地亚",
       "icon": "https://relottery.ws.126.net/nano_team/snapshot/soccer/5_91459.png"
     },
     "venue": "多伦多体育场",
@@ -1826,11 +1898,11 @@
     "beijingDate": "2026-07-03",
     "stage": 232927,
     "home": {
-      "name": "B1",
+      "name": "瑞士",
       "icon": "https://relottery.ws.126.net/nano_team/snapshot/soccer/5_59330.png"
     },
     "away": {
-      "name": "E3/F3/G3/I3/J3",
+      "name": "阿尔及利",
       "icon": "https://relottery.ws.126.net/nano_team/snapshot/soccer/5_91468.png"
     },
     "venue": "不列颠哥伦比亚广场",
@@ -1843,11 +1915,11 @@
     "beijingDate": "2026-07-04",
     "stage": 232927,
     "home": {
-      "name": "D2",
+      "name": "澳大利亚",
       "icon": "https://relottery.ws.126.net/nano_team/snapshot/soccer/5_59332.png"
     },
     "away": {
-      "name": "G2",
+      "name": "埃及",
       "icon": "https://relottery.ws.126.net/nano_team/snapshot/soccer/5_41560.png"
     },
     "venue": "达拉斯体育场",
@@ -1860,11 +1932,11 @@
     "beijingDate": "2026-07-04",
     "stage": 232927,
     "home": {
-      "name": "J1",
+      "name": "阿根廷",
       "icon": "https://relottery.ws.126.net/nano_team/snapshot/soccer/5_91467.png"
     },
     "away": {
-      "name": "H2",
+      "name": "佛得角",
       "icon": "https://relottery.ws.126.net/nano_team/snapshot/soccer/5_69744.png"
     },
     "venue": "迈阿密体育场",
@@ -1877,11 +1949,11 @@
     "beijingDate": "2026-07-04",
     "stage": 232927,
     "home": {
-      "name": "K1",
+      "name": "哥伦比亚",
       "icon": "https://relottery.ws.126.net/nano_team/snapshot/soccer/5_91469.png"
     },
     "away": {
-      "name": "D3/E3/I3/J3/L3",
+      "name": "加纳",
       "icon": "https://relottery.ws.126.net/nano_team/snapshot/soccer/5_91470.png"
     },
     "venue": "堪萨斯城体育场",

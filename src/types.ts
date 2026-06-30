@@ -44,6 +44,10 @@ export interface Match {
     home: number;
     away: number;
   };
+  shootout?: {
+    home: number;
+    away: number;
+  };
   featured?: boolean;
   showcase?: boolean;
 }

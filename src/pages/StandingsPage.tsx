@@ -1,6 +1,7 @@
 import { Activity, BarChart3, CheckCircle2, ExternalLink, Info, Layers3, Trophy } from "lucide-react";
 import { useState } from "react";
 import { AppHeader } from "../components/AppHeader";
+import { matches } from "../data/schedule";
 import { TeamCrest } from "../components/TeamCrest";
 import { groupStandings } from "../data/standings";
 
@@ -9,7 +10,7 @@ const particles = Array.from({ length: 14 }, (_, index) => index);
 export function StandingsPage() {
   const [activeGroup, setActiveGroup] = useState(groupStandings[0]?.group ?? "A");
   const standing = groupStandings.find(({ group }) => group === activeGroup) ?? groupStandings[0];
-  const completedMatches = groupStandings.reduce((total, group) => total + group.completedMatches, 0);
+  const completedMatches = matches.filter((match) => match.status === "已结束").length;
 
   return (
     <main className="standings-page">

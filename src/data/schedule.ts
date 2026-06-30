@@ -22,6 +22,10 @@ type ReferenceMatch = {
     home: number;
     away: number;
   };
+  shootout?: {
+    home: number;
+    away: number;
+  };
 };
 
 type TeamStyle = Pick<Team, "code" | "flag" | "primary" | "secondary">;
@@ -113,6 +117,18 @@ const statusNames: Record<number, Match["status"]> = {
   3: "已结束",
 };
 
+const isPlaceholderIcon = (icon?: string) => icon?.includes("/snapshot/soccer/") ?? false;
+
+const canonicalIconsByName = (referenceSchedule as ReferenceMatch[])
+  .flatMap((match) => [match.home, match.away])
+  .reduce<Record<string, string>>((icons, team) => {
+    if (!team.icon || isPlaceholderIcon(team.icon)) {
+      return icons;
+    }
+    icons[team.name] ??= team.icon;
+    return icons;
+  }, {});
+
 const createTeam = ({ name, icon }: ReferenceTeam): Team => {
   const style = teamStyles[name] ?? {
     code: name.match(/^[A-L][1-3]$/) ? name : "TBD",
@@ -120,12 +136,13 @@ const createTeam = ({ name, icon }: ReferenceTeam): Team => {
     primary: "#344651",
     secondary: "#9aa8ae",
   };
+  const resolvedIcon = !icon || isPlaceholderIcon(icon) ? canonicalIconsByName[name] ?? icon : icon;
 
   return {
     ...style,
     name,
     shortName: name.length > 7 ? `${name.slice(0, 7)}…` : name,
-    icon,
+    icon: resolvedIcon,
   };
 };
 
@@ -166,6 +183,8 @@ export const matches: Match[] = (referenceSchedule as ReferenceMatch[]).map((ref
     "英格兰-克罗地亚",
     "加纳-巴拿马",
     "乌兹别克-哥伦比亚",
+    "英格兰-民主刚果",
+    "美国-波黑",
   ]);
   const showcase = featured || showcasePairs.has(`${reference.home.name}-${reference.away.name}`);
 
@@ -182,6 +201,7 @@ export const matches: Match[] = (referenceSchedule as ReferenceMatch[]).map((ref
     beijingDate: reference.beijingDate,
     status: statusNames[reference.status],
     score: reference.score,
+    shootout: reference.shootout,
     featured,
     showcase,
   };
@@ -198,6 +218,7 @@ const dailySearchFocusMatchIds: Record<string, string> = {
 export const getDailyFocusMatch = (beijingDate: string) => {
   const matchesOnDate = matches.filter((match) => match.beijingDate === beijingDate);
   return matches.find((match) => match.id === dailySearchFocusMatchIds[beijingDate])
+    ?? matchesOnDate.find((match) => match.status !== "已结束")
     ?? matchesOnDate.find((match) => match.showcase)
     ?? matchesOnDate[0]
     ?? featuredMatch;

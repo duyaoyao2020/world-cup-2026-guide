@@ -46,6 +46,7 @@ const englishTeamNames: Record<string, string> = {
 export function MatchPage() {
   const { matchId } = useParams();
   const match = matches.find((item) => item.id === matchId) ?? matches[0];
+  const detail = genericMatchDetailsById[match.id];
   const lineupBundle = lineupsByMatchId[match.id];
   const homeLineup = lineupBundle?.home;
   const awayLineup = lineupBundle?.away;
@@ -60,6 +61,7 @@ export function MatchPage() {
     ? "当前 3D 阵容保留赛前演示或预测站位，页面已同步终场比分；如需核对官方首发，请以 FIFA Match Centre 与球队赛后记录为准。"
     : lineupBundle?.note ?? "球员信息与阵型用于交互展示，比赛日请以官方公布首发为准。";
   const score = match.score ? `${match.score.home} : ${match.score.away}` : "VS";
+  const shootoutLabel = match.shootout ? `点球 ${match.shootout.home} : ${match.shootout.away}` : undefined;
 
   useEffect(() => {
     const onKey = (event: KeyboardEvent) => {
@@ -120,7 +122,10 @@ export function MatchPage() {
           <div className="versus">
             <span>{formatDate(match.kickoffUtc)}</span>
             <strong>{score}</strong>
-            <em>{match.status === "已结束" ? "全场" : `${formatTime(match.kickoffUtc)} 北京时间`}</em>
+            <em>
+              {match.status === "已结束" ? "全场" : `${formatTime(match.kickoffUtc)} 北京时间`}
+              {shootoutLabel && <small>{shootoutLabel}</small>}
+            </em>
           </div>
           <div className="scoreboard-team scoreboard-team--away">
             <TeamCrest team={match.away} large />
@@ -174,6 +179,32 @@ export function MatchPage() {
           </div>
         )}
       </section>
+      {detail && !detail.confirmedLineups && (
+        <section className="match-brief">
+          <div className="generic-preview">
+            <article>
+              <small>PREVIEW</small>
+              <h2>{detail.headline}</h2>
+              <p>{detail.summary}</p>
+            </article>
+            <article>
+              <small>LINEUP STATUS</small>
+              <h2>{detail.statusLabel}</h2>
+              <p>{detail.note}</p>
+            </article>
+          </div>
+          <div className="generic-watchlist">
+            <article>
+              <small>{match.home.name} 关注名单</small>
+              <div>{detail.homeWatch.map((name) => <span key={name}>{name}</span>)}</div>
+            </article>
+            <article>
+              <small>{match.away.name} 关注名单</small>
+              <div>{detail.awayWatch.map((name) => <span key={name}>{name}</span>)}</div>
+            </article>
+          </div>
+        </section>
+      )}
       <div className="demo-note"><Info size={14} /> {lineupNote}</div>
     </main>
   );
@@ -182,6 +213,7 @@ export function MatchPage() {
 function GenericMatch({ match }: { match: (typeof matches)[number] }) {
   const detail = genericMatchDetailsById[match.id];
   const endedMatch = match.status === "已结束";
+  const shootoutLabel = match.shootout ? `点球 ${match.shootout.home} : ${match.shootout.away}` : undefined;
   const detailLabel = detail
     ? endedMatch && !detail.confirmedLineups ? "已结束" : detail.statusLabel
     : endedMatch ? "已结束" : undefined;
@@ -212,7 +244,7 @@ function GenericMatch({ match }: { match: (typeof matches)[number] }) {
         <div className="generic-callout">
           <Sparkles size={18} />
           <div>
-            <b>{detailLabel && detailSubtitle ? `${detailLabel} · ${detailSubtitle}` : match.status === "已结束" ? "当前页面未收录官方首发" : "比赛阵容将在赛前更新"}</b>
+            <b>{detailLabel && detailSubtitle ? `${detailLabel} · ${detailSubtitle}${shootoutLabel ? ` · ${shootoutLabel}` : ""}` : match.status === "已结束" ? "当前页面未收录官方首发" : "比赛阵容将在赛前更新"}</b>
             <span>{detailNote ?? (match.status === "已结束" ? "当前页面已同步赛果与场馆信息。" : "当前页面展示已确认的赛程与场馆信息。")}</span>
           </div>
         </div>

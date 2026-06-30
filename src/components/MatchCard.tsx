@@ -6,6 +6,7 @@ import { TeamCrest } from "./TeamCrest";
 
 export function MatchCard({ match }: { match: Match }) {
   const score = match.score ? `${match.score.home} : ${match.score.away}` : "VS";
+  const shootout = match.shootout ? `点球 ${match.shootout.home} : ${match.shootout.away}` : undefined;
   const statusClass = match.status === "已结束" ? "is-finished" : match.status === "进行中" ? "is-live" : "is-upcoming";
 
   return (
@@ -22,6 +23,7 @@ export function MatchCard({ match }: { match: Match }) {
       <div className="match-row-score">
         <strong>{score}</strong>
         <span className={`match-status ${statusClass}`}>{match.status}</span>
+        {shootout && <small>{shootout}</small>}
         {match.showcase && <em>3D 阵容</em>}
       </div>
       <div className="match-row-team match-row-team--away">
