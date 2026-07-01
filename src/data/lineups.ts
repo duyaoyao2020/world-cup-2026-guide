@@ -156,6 +156,46 @@ export const mexicoLineup: Lineup = {
   ],
 };
 
+export const mexicoEcuadorLineup: Lineup = {
+  team: teams.MEX,
+  formation: "4-1-2-3",
+  coach: "哈维尔·阿吉雷",
+  kit: { shirt: "#087555", shorts: "#f3f5f4", number: "#ffffff" },
+  players: [
+    player("mex-11b", "劳尔·兰赫尔", "Raúl Rangel", 1, "门将", "GK", 26, "190cm", "瓜达拉哈拉", ["高球控制", "出击果断"], 50, 91),
+    player("mex-2", "赫苏斯·加利亚多", "Jesús Gallardo", 23, "左后卫", "LB", 31, "177cm", "托卢卡", ["高速前插", "边路覆盖"], 16, 72),
+    player("mex-3", "约翰·巴斯克斯", "Johan Vásquez", 5, "中后卫", "CB", 27, "184cm", "热那亚", ["左脚出球", "预判拦截"], 39, 77),
+    player("mex-4", "塞萨尔·蒙特斯", "César Montes", 3, "中后卫", "CB", 29, "195cm", "莫斯科火车头", ["制空能力", "正面防守"], 61, 77),
+    player("mex-5", "豪尔赫·桑切斯", "Jorge Sánchez", 2, "右后卫", "RB", 28, "175cm", "蓝十字", ["边路推进", "积极压迫"], 84, 72),
+    player("mex-14", "埃里克·利拉", "Érik Lira", 6, "后腰", "DM", 26, "174cm", "蓝十字", ["防线保护", "短传衔接"], 50, 60),
+    player("mex-12", "路易斯·罗莫", "Luis Romo", 7, "中场", "CM", 31, "182cm", "瓜达拉哈拉", ["后插上", "对抗硬度"], 31, 51),
+    player("mex-13", "希尔韦托·莫拉", "Gilberto Mora", 19, "中场", "CM", 17, "168cm", "蒂华纳", ["持球摆脱", "肋部接应"], 69, 51),
+    player("mex-9", "胡利安·基尼奥内斯", "Julián Quiñones", 16, "左边锋", "LW", 29, "178cm", "卡迪西亚", ["强力突破", "禁区冲击"], 18, 27),
+    player("mex-15", "劳尔·希门尼斯", "Raúl Jiménez", 9, "中锋", "ST", 35, "190cm", "富勒姆", ["背身做球", "门前终结"], 50, 17),
+    player("mex-16", "罗伯托·阿尔瓦拉多", "Roberto Alvarado", 25, "右边锋", "RW", 27, "176cm", "瓜达拉哈拉", ["回撤串联", "右路推进"], 82, 27),
+  ],
+};
+
+export const ecuadorLineup: Lineup = {
+  team: teams.ECU,
+  formation: "4-4-2",
+  coach: "塞瓦斯蒂安·贝卡塞塞",
+  kit: { shirt: "#f3d23e", shorts: "#172f67", number: "#172f67" },
+  players: [
+    player("ecu-1", "埃尔南·加林德斯", "Hernán Galíndez", 1, "门将", "GK", 39, "187cm", "飓风", ["门线反应", "高球处理"], 50, 91),
+    player("ecu-3", "皮耶罗·因卡皮耶", "Piero Hincapié", 3, "左后卫", "LB", 24, "183cm", "勒沃库森", ["左路推进", "补位速度"], 16, 72),
+    player("ecu-6", "威廉·帕乔", "Willian Pacho", 6, "中后卫", "CB", 24, "188cm", "巴黎圣日耳曼", ["正面封堵", "向前出球"], 39, 77),
+    player("ecu-4", "霍埃尔·奥尔多涅斯", "Joel Ordóñez", 4, "中后卫", "CB", 22, "188cm", "布鲁日", ["高空对抗", "贴身防守"], 61, 77),
+    player("ecu-21b", "阿兰·佛朗哥", "Alan Franco", 21, "右后卫", "RB", 27, "176cm", "米内罗竞技", ["补防覆盖", "强硬对抗"], 84, 72),
+    player("ecu-20", "尼尔松·安古洛", "Nilson Angulo", 20, "左边前卫", "LM", 22, "186cm", "安德莱赫特", ["速度冲击", "反击纵深"], 18, 38),
+    player("ecu-23", "莫伊塞斯·凯塞多", "Moisés Caicedo", 23, "中场", "CM", 24, "178cm", "切尔西", ["扫荡拦截", "纵向带球"], 40, 53),
+    player("ecu-15", "佩德罗·维特", "Pedro Vite", 15, "中场", "CM", 24, "171cm", "温哥华白浪", ["转身摆脱", "直塞穿透"], 60, 53),
+    player("ecu-19", "贡萨洛·普拉塔", "Gonzalo Plata", 19, "右边前卫", "RM", 25, "178cm", "弗拉门戈", ["单兵突破", "边路变速"], 82, 38),
+    player("ecu-13", "恩内尔·瓦伦西亚", "Enner Valencia", 13, "前锋", "ST", 36, "177cm", "巴西国际", ["斜插抢点", "经验处理"], 40, 17),
+    player("ecu-9", "约翰·耶博阿·萨莫拉", "John Yeboah Zamora", 9, "前锋", "ST", 25, "170cm", "威尼斯", ["肋部穿插", "一对一突破"], 60, 17),
+  ],
+};
+
 export const southAfricaLineup: Lineup = {
   team: teams.RSA,
   formation: "4-2-3-1",
@@ -259,7 +299,7 @@ export const paraguayLineup: Lineup = {
 export interface MatchLineupBundle {
   home: Lineup;
   away: Lineup;
-  label?: "演示阵容" | "预测阵容" | "待公布";
+  label?: "演示阵容" | "预测阵容" | "待公布" | "官方首发";
   subtitle?: string;
   note?: string;
 }
@@ -293,6 +333,13 @@ export const lineupsByMatchId: Record<string, MatchLineupBundle> = {
     "两队官方首发尚未发布，当前页面按已公布大名单与常用站位整理为赛前预测阵容；Thomas Partey 已确认缺席多伦多首战。",
   ),
   "match-5403419": tomorrowPredictionBundle(uzbekistanLineup, colombiaLineup),
+  "match-5403474": {
+    home: mexicoEcuadorLineup,
+    away: ecuadorLineup,
+    label: "官方首发",
+    subtitle: "阵型已确认",
+    note: "首发名单与阵型据 FIFA《Tactical Line-up – Round of 32 – Mexico v. Ecuador》整理；当前 3D 阵型对应北京时间 2026年7月1日官方公布的开场首发。",
+  },
   "match-5403475": tomorrowPredictionBundle(
     englandLineup,
     drCongoLineup,

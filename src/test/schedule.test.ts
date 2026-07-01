@@ -176,6 +176,15 @@ describe("2026 World Cup static schedule", () => {
     });
   });
 
+  it("provides the confirmed official lineup showcase for Mexico versus Ecuador", () => {
+    const match = matches.find((item) => item.id === "match-5403474");
+    expect([match?.home.code, match?.away.code, match?.showcase]).toEqual(["MEX", "ECU", true]);
+    expect(lineupsByMatchId["match-5403474"]?.label).toBe("官方首发");
+    expect(lineupsByMatchId["match-5403474"]?.subtitle).toBe("阵型已确认");
+    expect(lineupsByMatchId["match-5403474"]?.home.players).toHaveLength(11);
+    expect(lineupsByMatchId["match-5403474"]?.away.players).toHaveLength(11);
+  });
+
   it("provides complete clickable player details and local avatar coverage", () => {
     const players = [...koreaLineup.players, ...czechLineup.players];
     players.forEach((player) => {
@@ -187,7 +196,7 @@ describe("2026 World Cup static schedule", () => {
       expect(player.club).toBeTruthy();
       expect(player.traits.length).toBeGreaterThan(0);
     });
-    expect(Object.keys(localAvatarSources)).toHaveLength(155);
+    expect(Object.keys(localAvatarSources)).toHaveLength(170);
     expect(players.filter((player) => player.avatarCredit === "本地头像库")).toHaveLength(17);
   });
 
@@ -381,7 +390,6 @@ describe("2026 World Cup static schedule", () => {
       "match-5403471",
       "match-5403472",
       "match-5403473",
-      "match-5403474",
       "match-5403475",
       "match-5403476",
       "match-5403477",
@@ -393,5 +401,8 @@ describe("2026 World Cup static schedule", () => {
     expect(genericMatchDetailsById["match-5403475"]?.statusLabel).toBe("预测阵容");
     expect(genericMatchDetailsById["match-5403476"]?.statusLabel).toBe("待公布");
     expect(genericMatchDetailsById["match-5403477"]?.statusLabel).toBe("预测阵容");
+    expect(genericMatchDetailsById["match-5403474"]?.statusLabel).toBe("官方首发");
+    expect(genericMatchDetailsById["match-5403474"]?.confirmedLineups?.homeXI).toHaveLength(11);
+    expect(genericMatchDetailsById["match-5403474"]?.confirmedLineups?.awayXI).toHaveLength(11);
   });
 });
