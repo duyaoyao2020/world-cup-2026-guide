@@ -65,9 +65,8 @@ describe("2026 World Cup static schedule", () => {
 
   it("falls back to the first non-finished match when a Beijing date has no curated focus", () => {
     const focusMatch = getDailyFocusMatch("2026-07-01");
-    expect(focusMatch.id).toBe("match-5403473");
-    expect(focusMatch.status).toBe("进行中");
-    expect(focusMatch.score).toEqual({ home: 3, away: 0 });
+    expect(focusMatch.id).toBe("match-5403474");
+    expect(focusMatch.status).toBe("未开始");
   });
 
   it("matches the reference fixture order and stage totals", () => {
@@ -185,6 +184,15 @@ describe("2026 World Cup static schedule", () => {
     expect(lineupsByMatchId["match-5403474"]?.away.players).toHaveLength(11);
   });
 
+  it("provides the confirmed official lineup showcase for France versus Sweden", () => {
+    const match = matches.find((item) => item.id === "match-5403473");
+    expect([match?.home.code, match?.away.code, match?.showcase, match?.status]).toEqual(["FRA", "SWE", true, "已结束"]);
+    expect(lineupsByMatchId["match-5403473"]?.label).toBe("官方首发");
+    expect(lineupsByMatchId["match-5403473"]?.subtitle).toBe("阵型已确认");
+    expect(lineupsByMatchId["match-5403473"]?.home.players).toHaveLength(11);
+    expect(lineupsByMatchId["match-5403473"]?.away.players).toHaveLength(11);
+  });
+
   it("provides complete clickable player details and local avatar coverage", () => {
     const players = [...koreaLineup.players, ...czechLineup.players];
     players.forEach((player) => {
@@ -196,7 +204,7 @@ describe("2026 World Cup static schedule", () => {
       expect(player.club).toBeTruthy();
       expect(player.traits.length).toBeGreaterThan(0);
     });
-    expect(Object.keys(localAvatarSources)).toHaveLength(170);
+    expect(Object.keys(localAvatarSources)).toHaveLength(191);
     expect(players.filter((player) => player.avatarCredit === "本地头像库")).toHaveLength(17);
   });
 
@@ -250,7 +258,7 @@ describe("2026 World Cup static schedule", () => {
     expect(groupStandings.find(({ group }) => group === "L")?.rows[0].points).toBe(7);
     expect(groupStandings.find(({ group }) => group === "L")?.rows[1].team.code).toBe("CRO");
     expect(groupStandings.find(({ group }) => group === "L")?.rows[1].points).toBe(6);
-    expect(matches.filter((match) => match.status === "已结束")).toHaveLength(77);
+    expect(matches.filter((match) => match.status === "已结束")).toHaveLength(78);
   });
 
   it("replaces knockout placeholders with confirmed pairings and shootout data", () => {
@@ -389,7 +397,6 @@ describe("2026 World Cup static schedule", () => {
       "match-5403470",
       "match-5403471",
       "match-5403472",
-      "match-5403473",
       "match-5403475",
       "match-5403476",
       "match-5403477",
@@ -401,6 +408,9 @@ describe("2026 World Cup static schedule", () => {
     expect(genericMatchDetailsById["match-5403475"]?.statusLabel).toBe("预测阵容");
     expect(genericMatchDetailsById["match-5403476"]?.statusLabel).toBe("待公布");
     expect(genericMatchDetailsById["match-5403477"]?.statusLabel).toBe("预测阵容");
+    expect(genericMatchDetailsById["match-5403473"]?.statusLabel).toBe("官方首发");
+    expect(genericMatchDetailsById["match-5403473"]?.confirmedLineups?.homeXI).toHaveLength(11);
+    expect(genericMatchDetailsById["match-5403473"]?.confirmedLineups?.awayXI).toHaveLength(11);
     expect(genericMatchDetailsById["match-5403474"]?.statusLabel).toBe("官方首发");
     expect(genericMatchDetailsById["match-5403474"]?.confirmedLineups?.homeXI).toHaveLength(11);
     expect(genericMatchDetailsById["match-5403474"]?.confirmedLineups?.awayXI).toHaveLength(11);

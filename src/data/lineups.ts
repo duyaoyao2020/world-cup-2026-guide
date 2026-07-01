@@ -196,6 +196,46 @@ export const ecuadorLineup: Lineup = {
   ],
 };
 
+export const franceSwedenLineup: Lineup = {
+  team: teams.FRA,
+  formation: "4-2-3-1",
+  coach: "迪迪埃·德尚",
+  kit: { shirt: "#1b2f6b", shorts: "#ffffff", number: "#f4c63d" },
+  players: [
+    player("fra-1", "迈克·迈尼昂", "Mike Maignan", 16, "门将", "GK", 31, "191cm", "AC米兰", ["门线反应", "脚下出球"], 50, 91),
+    player("fra-2", "卢卡斯·迪涅", "Lucas Digne", 3, "左后卫", "LB", 33, "178cm", "阿斯顿维拉", ["边路传中", "前插稳定"], 16, 72),
+    player("fra-3", "威廉·萨利巴", "William Saliba", 17, "中后卫", "CB", 25, "193cm", "阿森纳", ["对抗强硬", "纵向出球"], 39, 77),
+    player("fra-4", "达约·于帕梅卡诺", "Dayot Upamecano", 4, "中后卫", "CB", 27, "186cm", "拜仁慕尼黑", ["回追速度", "正面封堵"], 61, 77),
+    player("fra-5", "朱尔·孔德", "Jules Koundé", 5, "右后卫", "RB", 27, "180cm", "巴塞罗那", ["一对一防守", "肋部推进"], 84, 72),
+    player("fra-6", "奥雷利安·楚阿梅尼", "Aurélien Tchouaméni", 8, "后腰", "DM", 26, "187cm", "皇家马德里", ["中场扫荡", "转移调度"], 40, 57),
+    player("fra-7", "阿德里安·拉比奥", "Adrien Rabiot", 14, "中场", "CM", 31, "188cm", "马赛", ["持球推进", "后插上"], 60, 57),
+    player("fra-8", "布拉德利·巴尔科拉", "Bradley Barcola", 20, "左边锋", "LW", 23, "186cm", "巴黎圣日耳曼", ["高速突破", "反击纵深"], 18, 34),
+    player("fra-9", "迈克尔·奥利塞", "Michael Olise", 11, "前腰", "AM", 24, "184cm", "拜仁慕尼黑", ["左脚创造", "肋部串联"], 50, 38),
+    player("fra-10", "奥斯曼·登贝莱", "Ousmane Dembélé", 7, "右边锋", "RW", 29, "178cm", "巴黎圣日耳曼", ["双足变向", "边路爆点"], 82, 34),
+    player("fra-11", "基利安·姆巴佩", "Kylian Mbappé", 10, "中锋", "ST", 27, "178cm", "皇家马德里", ["纵深冲刺", "门前终结"], 50, 15),
+  ],
+};
+
+export const swedenFranceLineup: Lineup = {
+  team: teams.SWE,
+  formation: "3-4-3",
+  coach: "格雷厄姆·波特",
+  kit: { shirt: "#1e57a6", shorts: "#f1cb34", number: "#f7f7f7" },
+  players: [
+    player("swe-1", "雅各布·维德尔·泽特斯特伦", "Jacob Widell Zetterström", 1, "门将", "GK", 28, "197cm", "德比郡", ["高空控制", "门前覆盖"], 50, 91),
+    player("swe-2", "古斯塔夫·拉格比耶尔克", "Gustaf Lagerbielke", 14, "右中卫", "RCB", 26, "193cm", "布拉加", ["制空能力", "贴身卡位"], 26, 76),
+    player("swe-3", "维克托·林德勒夫", "Victor Lindelöf", 4, "中后卫", "CB", 32, "187cm", "阿斯顿维拉", ["经验调度", "防线指挥"], 50, 79),
+    player("swe-4", "加布里埃尔·古德蒙德松", "Gabriel Gudmundsson", 6, "左中卫", "LCB", 27, "180cm", "利兹联", ["左脚推进", "补位积极"], 74, 76),
+    player("swe-5", "丹尼尔·斯文松", "Daniel Svensson", 24, "左翼卫", "LWB", 24, "183cm", "多特蒙德", ["大范围跑动", "边线往返"], 14, 52),
+    player("swe-6", "埃利奥特·斯特劳德", "Elliot Stroud", 17, "右翼卫", "RWB", 24, "180cm", "米亚尔比", ["持球推进", "反击冲刺"], 86, 52),
+    player("swe-7", "卢卡斯·贝里瓦尔", "Lucas Bergvall", 15, "中场", "CM", 20, "187cm", "托特纳姆热刺", ["向前带球", "二点接应"], 40, 55),
+    player("swe-8", "亚辛·阿亚里", "Yasin Ayari", 18, "中场", "CM", 22, "172cm", "布莱顿", ["转身摆脱", "中路串联"], 60, 55),
+    player("swe-9", "亚历山大·伊萨克", "Alexander Isak", 9, "左边锋", "LW", 27, "192cm", "利物浦", ["斜向盘带", "禁区终结"], 18, 28),
+    player("swe-10", "维克托·约克雷斯", "Viktor Gyökeres", 10, "中锋", "ST", 28, "189cm", "阿森纳", ["支点背身", "连续射门"], 50, 16),
+    player("swe-11", "安东尼·埃兰加", "Anthony Elanga", 11, "右边锋", "RW", 24, "178cm", "纽卡斯尔联", ["高速爆破", "纵向冲击"], 82, 28),
+  ],
+};
+
 export const southAfricaLineup: Lineup = {
   team: teams.RSA,
   formation: "4-2-3-1",
@@ -333,6 +373,13 @@ export const lineupsByMatchId: Record<string, MatchLineupBundle> = {
     "两队官方首发尚未发布，当前页面按已公布大名单与常用站位整理为赛前预测阵容；Thomas Partey 已确认缺席多伦多首战。",
   ),
   "match-5403419": tomorrowPredictionBundle(uzbekistanLineup, colombiaLineup),
+  "match-5403473": {
+    home: franceSwedenLineup,
+    away: swedenFranceLineup,
+    label: "官方首发",
+    subtitle: "阵型已确认",
+    note: "法国 vs 瑞典首发据 The Guardian 开赛前 lineup post 与赛后报道交叉整理；当前 3D 阵型对应北京时间 2026年7月1日这场 32 强赛的实际开场 XI。",
+  },
   "match-5403474": {
     home: mexicoEcuadorLineup,
     away: ecuadorLineup,

@@ -183,6 +183,7 @@ export const matches: Match[] = (referenceSchedule as ReferenceMatch[]).map((ref
     "英格兰-克罗地亚",
     "加纳-巴拿马",
     "乌兹别克-哥伦比亚",
+    "法国-瑞典",
     "墨西哥-厄瓜多尔",
     "英格兰-民主刚果",
     "美国-波黑",

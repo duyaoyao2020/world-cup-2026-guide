@@ -55,9 +55,10 @@ export function MatchPage() {
   const playerCardRef = useRef<HTMLDivElement>(null);
   const playerClickRef = useRef(false);
   const endedMatch = match.status === "已结束";
-  const lineupLabel = endedMatch ? "演示阵容" : lineupBundle?.label ?? "演示阵容";
-  const lineupSubtitle = endedMatch ? "非官方首发回放" : lineupBundle?.subtitle ?? "非官方实时首发";
-  const lineupNote = endedMatch
+  const hasConfirmedLineup = lineupBundle?.label === "官方首发" || Boolean(detail?.confirmedLineups);
+  const lineupLabel = endedMatch && !hasConfirmedLineup ? "演示阵容" : lineupBundle?.label ?? "演示阵容";
+  const lineupSubtitle = endedMatch && !hasConfirmedLineup ? "非官方首发回放" : lineupBundle?.subtitle ?? "非官方实时首发";
+  const lineupNote = endedMatch && !hasConfirmedLineup
     ? "当前 3D 阵容保留赛前演示或预测站位，页面已同步终场比分；如需核对官方首发，请以 FIFA Match Centre 与球队赛后记录为准。"
     : lineupBundle?.note ?? "球员信息与阵型用于交互展示，比赛日请以官方公布首发为准。";
   const score = match.score ? `${match.score.home} : ${match.score.away}` : "VS";
